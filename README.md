@@ -1,0 +1,2 @@
+# edyblo
+Edybloプロジェクト
