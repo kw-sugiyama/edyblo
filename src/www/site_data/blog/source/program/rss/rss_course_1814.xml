@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾BEST ONE（ベストワン）　〜水戸市の学習塾・個別指導塾〜</title>
+    <link>http://jukutown.com/dummy-bestone/</link>
+    <copyright>学習塾 BEST ONE（ベストワン）</copyright>
+    <description>水戸市の学習塾・個別指導塾『学習塾BEST ONE（ベストワン）』です。小学生・中学生を対象に、受験指導・テスト対策・内申点対策を行っています。</description>
+    <item>
+      <title>中学生本科コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-bestone/course-detail-11160/</link>
+      <guid>http://jukutown.com/dummy-bestone/course-detail-11160/</guid>
+      <description>だれもがヒーロー、ヒロインになれる最強学習法正しい学習法を身につければ短期間であなたのお子さまの成績は上がる！！</description>
+      <pubDate>Wed, 07 Nov 2018 22:26:02 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生本科コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-bestone/course-detail-11161/</link>
+      <guid>http://jukutown.com/dummy-bestone/course-detail-11161/</guid>
+      <description>ベストワンが目指す「高校合格への道」</description>
+      <pubDate>Wed, 07 Nov 2018 17:40:43 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

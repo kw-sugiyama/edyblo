@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://jukutown.com/sample03/course-detail-2897/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 25 Dec 2009 15:18:20 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://jukutown.com/sample03/course-detail-2875/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 24 Dec 2009 16:41:11 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://jukutown.com/sample03/course-detail-2874/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 24 Dec 2009 16:33:31 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://jukutown.com/sample03/course-detail-2873/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 24 Dec 2009 16:16:17 +0900</lastmod>
+    </url>
+</urlset>

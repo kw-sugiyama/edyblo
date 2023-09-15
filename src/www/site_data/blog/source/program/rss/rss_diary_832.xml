@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>早稲田育英ゼミナール　金沢武蔵教室</title>
+    <link>http://kanazawamusashi.waseiku.com/</link>
+    <copyright>早稲田育英ゼミナール金沢武蔵教室</copyright>
+    <description></description>
+    <item>
+      <title>春期講習会のおしらせ</title>
+      <link>http://kanazawamusashi.waseiku.com/blog-22645/</link>
+      <guid>http://kanazawamusashi.waseiku.com/blog-22645/</guid>
+      <description>３月１９日より春期講習会開始いたします。</description>
+      <pubDate>Fri, 04 Mar 2011 15:52:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>開校いたしました！</title>
+      <link>http://kanazawamusashi.waseiku.com/blog-13762/</link>
+      <guid>http://kanazawamusashi.waseiku.com/blog-13762/</guid>
+      <description>7月21日、金沢武蔵教室開校いたしました。よろしくお願いいたします。</description>
+      <pubDate>Wed, 21 Jul 2010 18:20:43 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページを開設しました！　</title>
+      <link>http://kanazawamusashi.waseiku.com/blog-11673/</link>
+      <guid>http://kanazawamusashi.waseiku.com/blog-11673/</guid>
+      <description>金沢武蔵教室専用のホームページを開設しました！講習会のお知らせや、先生の日記など、役立つ情報を随時更新してきます！ぜひご覧くださいね！</description>
+      <pubDate>Wed, 02 Jun 2010 16:32:02 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

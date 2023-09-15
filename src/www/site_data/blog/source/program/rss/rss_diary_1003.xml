@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>≪キッズラボ≫〜帯広市の小学生のための理科実験専門教室〜</title>
+    <link>http://jukutown.com/kidslabo-obihiro/</link>
+    <copyright>キッズラボ帯広校</copyright>
+    <description>北海道帯広市の理科実験教室【キッズラボ　帯広校】のホームページになります。小学生で塾をお探しの方はこちらから。</description>
+    <item>
+      <title>ＨＰ作り</title>
+      <link>http://jukutown.com/kidslabo-obihiro/blog-19990/</link>
+      <guid>http://jukutown.com/kidslabo-obihiro/blog-19990/</guid>
+      <description>初めてホームページを作っています。まだ、空欄の箇所が多くありますが、ご了承ください。</description>
+      <pubDate>Wed, 05 Jan 2011 23:50:27 +0900</pubDate>
+    </item>
+    <item>
+      <title>資料請求は可能です。</title>
+      <link>http://jukutown.com/kidslabo-obihiro/blog-19936/</link>
+      <guid>http://jukutown.com/kidslabo-obihiro/blog-19936/</guid>
+      <description>ＨＰは工事中ですが、資料請求やお問い合わせは当ＨＰから行えます。</description>
+      <pubDate>Tue, 04 Jan 2011 19:15:06 +0900</pubDate>
+    </item>
+    <item>
+      <title>ＨＰ工事中</title>
+      <link>http://jukutown.com/kidslabo-obihiro/blog-19522/</link>
+      <guid>http://jukutown.com/kidslabo-obihiro/blog-19522/</guid>
+      <description>ただ今、ＨＰ工事中です。</description>
+      <pubDate>Tue, 04 Jan 2011 17:07:51 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【サンプルアカデミー　○○教室】　〜○○市の学習塾・個別指導塾〜</title>
+    <link>http://jukutown.com/sample-academy/</link>
+    <copyright>サンプルアカデミー○○教室</copyright>
+    <description>○○県○○市○○の学習塾・進学塾・個別指導塾の『サンプルアカデミー　○○教室』のホームページになります。</description>
+    <item>
+      <title>国私立中学受験コース　:開始:終了　</title>
+      <link>http://jukutown.com/sample-academy/course-detail-4724/</link>
+      <guid>http://jukutown.com/sample-academy/course-detail-4724/</guid>
+      <description>知識をどう応用に結び付けられるかがポイントです！！当アカデミーでは単に知識を詰め込むだけではなく、「自分で考える」ことを身に付ける教育にも力を入れています。受験で差をつけるなら私たちにお任せください。</description>
+      <pubDate>Fri, 13 Aug 2010 12:49:05 +0900</pubDate>
+    </item>
+    <item>
+      <title>公立・私立高校進学コース　:開始:終了　</title>
+      <link>http://jukutown.com/sample-academy/course-detail-4725/</link>
+      <guid>http://jukutown.com/sample-academy/course-detail-4725/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導を行います！入試で重要視される内申点のアップを目指します。繰り返し行う模擬テストで一人一人の志望校合格を目指します。受験で差をつけるなら私たちにお任せください。</description>
+      <pubDate>Fri, 13 Aug 2010 12:09:27 +0900</pubDate>
+    </item>
+    <item>
+      <title>国公私立大学受験コース　:開始:終了　</title>
+      <link>http://jukutown.com/sample-academy/course-detail-4726/</link>
+      <guid>http://jukutown.com/sample-academy/course-detail-4726/</guid>
+      <description>大学受験に向けて、基礎力を養成し、応用力へとつなげています。高1・2の基本内容を十分に理解でていないと、応用力が要求される大学受験には対応でません。繰り返し行う模擬テストで一人一人の志望校合格を目指します。受験で差をつけるなら私たちにお任せください。</description>
+      <pubDate>Fri, 13 Aug 2010 12:08:37 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

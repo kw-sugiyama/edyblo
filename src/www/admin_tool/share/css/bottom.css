@@ -1,0 +1,16 @@
+@import url(./base.css);
+
+
+body{
+	font-size: 75%;
+	line-heigth: 1.5;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+#bottom{
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	background : url(./images/bottom_line.gif) repeat-x;
+}

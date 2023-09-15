@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>松本学院の教室ご案内</title>
+    <link>http://jukutown.com/matsugaku/</link>
+    <copyright>松本学院</copyright>
+    <description>株式会社エディースタッフが提供する塾専用ホームページ作成サービス「エディブロ」のサンプルページです。学習塾・進学塾・簡単・HP制作・ASP</description>
+    <item>
+      <title>高校進学コース　20:00開始21:00終了　火・木</title>
+      <link>http://jukutown.com/matsugaku/course-detail-1202/</link>
+      <guid>http://jukutown.com/matsugaku/course-detail-1202/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導。重要視される内申点の更なるアップ。繰り返し行う模擬テストで合格への最短ルートを発見。</description>
+      <pubDate>Wed, 27 May 2009 19:33:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>私立中学受験コース　17:00開始18:30終了　随時</title>
+      <link>http://jukutown.com/matsugaku/course-detail-1203/</link>
+      <guid>http://jukutown.com/matsugaku/course-detail-1203/</guid>
+      <description>中学受験を目指すならこちら。</description>
+      <pubDate>Wed, 27 May 2009 19:33:37 +0900</pubDate>
+    </item>
+    <item>
+      <title>難関私立大学受験コース　17:00開始21:00終了　</title>
+      <link>http://jukutown.com/matsugaku/course-detail-1204/</link>
+      <guid>http://jukutown.com/matsugaku/course-detail-1204/</guid>
+      <description>おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</description>
+      <pubDate>Wed, 27 May 2009 19:33:18 +0900</pubDate>
+    </item>
+    <item>
+      <title>難関高校受験コース　18:00開始19:00終了　平日</title>
+      <link>http://jukutown.com/matsugaku/course-detail-1205/</link>
+      <guid>http://jukutown.com/matsugaku/course-detail-1205/</guid>
+      <description>難関高校を目指すなら</description>
+      <pubDate>Wed, 27 May 2009 19:32:52 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

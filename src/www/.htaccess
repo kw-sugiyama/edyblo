@@ -1,0 +1,288 @@
+#############################################################
+
+# php setting - site_data
+
+#############################################################
+
+
+# base setting
+
+php_flag register_globals off
+php_flag magic_quotes_gpc on
+php_flag display_errors on
+php_flag magic_quotes_sybase off
+
+
+# mbstring setting
+
+php_value mbstring.language Japanese
+php_value mbstring.internal_encoding EUC-JP
+php_value mbstring.http_input pass
+php_flag  mbstring.encoding_translation on
+php_value mbstring.substitute_character none
+php_value mbstring.detect_order ASCII,EUC-JP,JIS,UTF-8,SJIS
+php_value mbstring.func_overload 0
+
+
+# session setting
+
+php_value session.name "estate_blog_site_sess"
+php_flag  session.use_only_cookies on
+php_value session.cache_limiter "nocache"
+
+
+#############################################################
+
+# basic setting
+
+#############################################################
+#AuthUserFile /home/jukutown.com/www/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName "Slash Area"
+#AuthType Basic
+
+#require valid-user
+
+#<Files ~ "^.(htpasswd|htaccess)$">
+#    deny from all
+#</Files> 
+
+
+############################################################
+
+# re-direct
+
+###########################################################
+
+#redirect permanent /dev/slash/estate/www/slash/ http://219.163.62.35/dev/slash/estate/www/click/ 
+
+
+
+#############################################################
+
+# mod_rewrite setting - site_data
+
+#############################################################
+
+RewriteEngine On
+RewriteBase   /
+
+
+#############################################################
+# maintenance setting 
+# slash 114.178.175.231
+# click 61.12.248.145
+#############################################################
+#RewriteCond %{REMOTE_ADDR} !114.178.175.231
+#RewriteCond %{REMOTE_ADDR} !61.12.248.145 
+#RewriteCond %{REQUEST_FILENAME} !503.php
+#RewriteRule ^.*$ site_data/portal/source/program/503.php [L]
+
+
+RewriteCond   %{REQUEST_FILENAME} !-f
+RewriteCond   %{REQUEST_FILENAME} !-d
+#RewriteCond $1 !^(BingSiteAuth\.xml)
+
+########################################################################################################
+# portal setting
+
+# maintenance
+#RewriteRule   ^client_tool/$                                       maintenance.html%{QUERY_STRING} [L]
+#RewriteRule   ^client_tool/(.*)$                                   maintenance.html%{QUERY_STRING} [L]
+
+# sitemap.xml
+RewriteRule   ^BingSiteAuth.xml$                                         BingSiteAuth.xml%{QUERY_STRING} [L]
+
+# sitemap.xml
+RewriteRule   ^sitemap.xml$                                         site_data/portal/source/program/rss/sitemap.xml%{QUERY_STRING} [L]
+
+# search result
+#RewriteRule   ^phpinfo/$                                            site_data/portal/source/program/phpinfo.php%{QUERY_STRING} [L]
+
+# 日記RSS
+RewriteRule   ^diary-rss/([a-z]{1}.*)$                              site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+RewriteRule   ^diary-rss/$                                          site_data/portal/source/program/rss/rss_diary.xml?%{QUERY_STRING} [L]
+
+# static page
+RewriteRule   ^kiyaku/$                                             site_data/portal/source/program/portal_tpl_control.php?tpl_flg=kiyaku%{QUERY_STRING} [L]
+RewriteRule   ^kiyaku/([a-z]{1}.*)$                                 site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+RewriteRule   ^sitemap/$                                            site_data/portal/source/program/portal_tpl_control.php?tpl_flg=sitemap%{QUERY_STRING} [L]
+RewriteRule   ^sitemap/([a-z]{1}.*)$                                site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+RewriteRule   ^privacy/$                                            site_data/portal/source/program/portal_tpl_control.php?tpl_flg=privacy%{QUERY_STRING} [L]
+RewriteRule   ^privacy/([a-z]{1}.*)$                                site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+RewriteRule   ^com/$                                                site_data/portal/source/program/portal_tpl_control.php?tpl_flg=com%{QUERY_STRING} [L]
+RewriteRule   ^com/([a-z]{1}.*)$                                    site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+RewriteRule   ^inquiry/$                                            site_data/portal/source/program/portal_tpl_control.php?tpl_flg=inquiry%{QUERY_STRING} [L]
+RewriteRule   ^inquiry/([a-z]{1}.*)$                                site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+
+# diary
+#RewriteRule   ^diary/$                                              site_data/portal/source/program/portal_diary.php?%{QUERY_STRING} [L]
+#RewriteRule   ^diary/([a-z]{1}.*)$                                  site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+RewriteRule   ^diary-([0-9]+)\.html$                                site_data/portal/source/program/portal_diary.php?p=$1&%{QUERY_STRING} [L]
+
+# campaign
+#RewriteRule   ^campaign/$                                           site_data/portal/source/program/portal_campaign.php?%{QUERY_STRING} [L]
+#RewriteRule   ^campaign/([a-z]{1}.*)$                               site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+RewriteRule   ^campaign-([0-9]+)\.html$                             site_data/portal/source/program/portal_campaign.php?p=$1&%{QUERY_STRING} [L]
+
+# inquiry
+RewriteRule   ^hp_inquiry/index.html$                               site_data/portal/source/program/portal_hp_inquiry.php?%{QUERY_STRING} [L]
+RewriteRule   ^hp_inquiry/confirm.html$                             site_data/portal/source/program/portal_hp_inquiry.php?form_flg=INDEX&%{QUERY_STRING} [L]
+RewriteRule   ^hp_inquiry/commit.html$                              site_data/portal/source/program/portal_hp_inquiry.php?form_flg=CONFIRM&%{QUERY_STRING} [L]
+RewriteRule   ^hp_inquiry/([a-z]{1}.*)$                             site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+
+# inquiry#RewriteRule
+RewriteRule   ^juku_inquiry/index.html$                             site_data/portal/source/program/portal_juku_inquiry.php?%{QUERY_STRING} [L]
+RewriteRule   ^juku_inquiry/confirm.html$                           site_data/portal/source/program/portal_juku_inquiry.php?form_flg=INDEX&%{QUERY_STRING} [L]
+RewriteRule   ^juku_inquiry/commit.html$                            site_data/portal/source/program/portal_juku_inquiry.php?form_flg=CONFIRM&%{QUERY_STRING} [L]
+RewriteRule   ^juku_inquiry/([a-z]{1}.*)$                           site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+
+# search result
+RewriteRule   ^psearch-result/page-([0-9]+)\.html$                  site_data/portal/source/program/portal_juku_list.php?p=$1&%{QUERY_STRING} [L]
+RewriteRule   ^psearch-result/([a-z]{1}.*)$                         site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+
+# search map pages
+#RewriteRule   ^psearch-map/$                                        site_data/portal/source/program/portal_search_map.php?%{QUERY_STRING} [L]
+#RewriteRule   ^psearch-map/([a-z]{1}.*)$                            site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+
+# search pages
+#RewriteRule   ^psearch-com-([a-z]+)/([a-z]{1}.*)$                   site_data/portal/source/program/$2?page_flg=$1&%{QUERY_STRING} [L]
+#RewriteRule   ^psearch-com-([a-z]+)/$                               site_data/portal/source/program/portal_search_com.php?page_flg=$1&%{QUERY_STRING} [L]
+
+# search pages
+RewriteRule   ^psearch-([a-z]+)/([a-z]{1}.*)$                       site_data/portal/source/program/$2?page_flg=$1&%{QUERY_STRING} [L]
+RewriteRule   ^psearch-([a-z]+)/$                                   site_data/portal/source/program/portal_search.php?page_flg=$1&%{QUERY_STRING} [L]
+
+# company pages
+#RewriteRule   ^pcompany-list/page-([0-9]+)\.html$                   site_data/portal/source/program/portal_company_list.php?p=$1&%{QUERY_STRING} [L]
+#RewriteRule   ^pcompany-list/([a-z]{1}.*)$                          site_data/portal/source/program/$1?%{QUERY_STRING} [L]
+
+# searchbox
+RewriteRule   ^portal_city_select.php$                              site_data/portal/source/program/portal_city_select.php?%{QUERY_STRING} [L]
+
+# img_thumbnail
+RewriteRule   ^img_thumbnail.php$                                   site_data/portal/source/program/img_thumbnail.php?%{QUERY_STRING} [L]
+
+
+# index
+RewriteRule   ^share/(.*)$                                          site_data/portal/source/program/share/$1?%{QUERY_STRING} [L]
+RewriteRule   ^$                                                    site_data/portal/source/program/portal_index.php?%{QUERY_STRING} [L]
+
+#####################################################################################################################
+
+# blog setting
+
+# MapTest
+#RewriteRule   ^([a-z0-9-]+)/MapTest.php$                    site_data/blog/source/program/MapTest.php?%{QUERY_STRING} [L]
+
+#フリーページ
+RewriteRule   ^([a-z0-9-]+)/free-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$3?cl=$1&drid=$2&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/free-([0-9]+)/$                       site_data/blog/source/program/free.php?cl=$1&drid=$2&%{QUERY_STRING} [L]
+
+# 日記RSS
+RewriteRule   ^([a-z0-9-]+)/diary-rss-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$3?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/diary-rss-([0-9]+)/$                       site_data/blog/source/program/rss/rss_diary_$2.xml?cl=$1&%{QUERY_STRING} [L]
+
+# コースRSS
+RewriteRule   ^([a-z0-9-]+)/course-rss-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$3?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/course-rss-([0-9]+)/$                       site_data/blog/source/program/rss/rss_course_$2.xml?cl=$1&%{QUERY_STRING} [L]
+
+# コース＋日記RSS
+RewriteRule   ^([a-z0-9-]+)/rss-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$3?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/rss-([0-9]+)/$                       site_data/blog/source/program/rss/rss_$2.xml?cl=$1&%{QUERY_STRING} [L]
+
+# 日記詳細
+RewriteRule   ^([a-z0-9-]+)/blog-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$3?cl=$1&drid=$2&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/blog-([0-9]+)/$                       site_data/blog/source/program/blog.php?cl=$1&drid=$2&%{QUERY_STRING} [L]
+
+# キャンペーン詳細
+RewriteRule   ^([a-z0-9-]+)/campaign-detail-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$3?cl=$1&cpid=$2&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/campaign-detail-([0-9]+)/$                       site_data/blog/source/program/campaigndetail.php?cl=$1&cpid=$2&%{QUERY_STRING} [L]
+
+# コース詳細
+RewriteRule   ^([a-z0-9-]+)/course-detail-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$3?cl=$1&csid=$2&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/course-detail-([0-9]+)/$                       site_data/blog/source/program/coursedetail.php?cl=$1&csid=$2&%{QUERY_STRING} [L]
+
+# 入塾までの流れ
+RewriteRule   ^([a-z0-9-]+)/flow/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/flow/$                       site_data/blog/source/program/flow.php?cl=$1&%{QUERY_STRING} [L]
+
+# キャンペーンお申し込みフォーム
+RewriteRule   ^([a-z0-9-]+)/campaign-apply/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/campaign-apply/$                       site_data/blog/source/program/campaignapply.php?cl=$1&%{QUERY_STRING} [L]
+
+# キャンペーンお申し込み確認ページ
+RewriteRule   ^([a-z0-9-]+)/campaign-apply-confirm/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/campaign-apply-confirm/$                       site_data/blog/source/program/campaignapplyconfirm.php?cl=$1&%{QUERY_STRING} [L]
+
+# キャンペーンお問い合わせフォーム
+RewriteRule   ^([a-z0-9-]+)/campaign-inq/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/campaign-inq/$                       site_data/blog/source/program/campaigninq.php?cl=$1&%{QUERY_STRING} [L]
+
+# キャンペーンお問い合わせ確認ページ
+RewriteRule   ^([a-z0-9-]+)/campaign-inq-confirm/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/campaign-inq-confirm/$                       site_data/blog/source/program/campconfirm.php?cl=$1&%{QUERY_STRING} [L]
+
+# コースお問い合わせフォーム
+RewriteRule   ^([a-z0-9-]+)/course-inq/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/course-inq/$                       site_data/blog/source/program/courseinq.php?cl=$1&%{QUERY_STRING} [L]
+
+# コースお問い合わせ確認ページ
+RewriteRule   ^([a-z0-9-]+)/course-inq-confirm/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/course-inq-confirm/$                       site_data/blog/source/program/courseinqconfirm.php?cl=$1&%{QUERY_STRING} [L]
+
+# コース資料請求フォーム
+RewriteRule   ^([a-z0-9-]+)/course-req/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/course-req/$                       site_data/blog/source/program/coursereq.php?cl=$1&%{QUERY_STRING} [L]
+
+# コース資料請求確認ページ
+RewriteRule   ^([a-z0-9-]+)/course-req-confirm/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/course-req-confirm/$                       site_data/blog/source/program/coursereqconfirm.php?cl=$1&%{QUERY_STRING} [L]
+
+# 資料請求フォーム
+RewriteRule   ^([a-z0-9-]+)/req/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/req/$                       site_data/blog/source/program/req.php?cl=$1&%{QUERY_STRING} [L]
+
+# 資料請求確認ページ
+RewriteRule   ^([a-z0-9-]+)/req-confirm/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/req-confirm/$                       site_data/blog/source/program/reqconfirm.php?cl=$1&%{QUERY_STRING} [L]
+
+# お問い合わせフォーム
+RewriteRule   ^([a-z0-9-]+)/inquire/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/inquire/$                       site_data/blog/source/program/inquire.php?cl=$1&%{QUERY_STRING} [L]
+
+# お問い合わせ確認ページ
+RewriteRule   ^([a-z0-9-]+)/inq-confirm/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/inq-confirm/$                       site_data/blog/source/program/inqconfirm.php?cl=$1&%{QUERY_STRING} [L]
+
+# 各種サンキューページ
+RewriteRule   ^([a-z0-9-]+)/complete/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/complete/$                       site_data/blog/source/program/complete.php?cl=$1&%{QUERY_STRING} [L]
+
+# 教室案内
+RewriteRule   ^([a-z0-9-]+)/school/([a-z]{1}.*)$           site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/school/$                       site_data/blog/source/program/school.php?cl=$1&%{QUERY_STRING} [L]
+
+# コース一覧
+RewriteRule   ^([a-z0-9-]+)/course-list/p-([0-9]+)/cs-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$4?cl=$1&page=$2&csid=$3&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/course-list/p-([0-9]+)/cs-([0-9]+)/$                       site_data/blog/source/program/courselist.php?cl=$1&page=$2&csid=$3&%{QUERY_STRING} [L]
+
+# キャンペーン一覧
+RewriteRule   ^([a-z0-9-]+)/campain-list/p-([0-9]+)/cp-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$4?cl=$1&page=$2&cpid=$3&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/campain-list/p-([0-9]+)/cp-([0-9]+)/$                       site_data/blog/source/program/campaignlist.php?cl=$1&page=$2&cpid=$3&%{QUERY_STRING} [L]
+
+# 日記一覧
+RewriteRule   ^([a-z0-9-]+)/diary-list/p-([0-9]+)/dr-([0-9]+)/([a-z]{1}.*)$           site_data/blog/source/program/$4?cl=$1&page=$2&drid=$3&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/diary-list/p-([0-9]+)/dr-([0-9]+)/$                       site_data/blog/source/program/bloglist.php?cl=$1&page=$2&drid=$3&%{QUERY_STRING} [L]
+
+# 個人情報保護方針
+RewriteRule   ^([a-z0-9-]+)/kojin/([a-z]{1}.*)$             site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/kojin/$                         site_data/blog/source/program/privacy.php?cl=$1&%{QUERY_STRING} [L]
+
+# Q&A
+RewriteRule   ^([a-z0-9-]+)/qa/([a-z]{1}.*)$             site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/qa/$                         site_data/blog/source/program/QA.php?cl=$1&%{QUERY_STRING} [L]
+
+# index
+RewriteRule   ^([a-z0-9-]+)/(.*)$                                         site_data/blog/source/program/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/$                                             site_data/blog/source/program/index.php?cl=$1 [L]

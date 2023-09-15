@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>miki未来塾【小野教室】へようこそ！</title>
+    <link>http://jukutown.com/miki-mirai/</link>
+    <copyright>miki未来塾</copyright>
+    <description></description>
+    <item>
+      <title>新しくHPを開設しました！</title>
+      <link>http://jukutown.com/miki-mirai/blog-795/</link>
+      <guid>http://jukutown.com/miki-mirai/blog-795/</guid>
+      <description>新しいホームページを開設致しました。随時更新していきますので、是非皆さんご覧下さい。</description>
+      <pubDate>Tue, 28 Apr 2009 21:01:23 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

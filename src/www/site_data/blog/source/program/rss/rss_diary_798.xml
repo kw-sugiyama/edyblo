@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>目指せ合格！　山田学園　〜安城市の学習塾・個別指導塾・そろばん教室〜</title>
+    <link>http://jukutown.com/yamadagakuen/</link>
+    <copyright>山田学園</copyright>
+    <description>安城市大東町と新明町の学習塾・進学塾・個別指導塾の『山田学園』のホームページです。</description>
+    <item>
+      <title>更新しました</title>
+      <link>http://jukutown.com/yamadagakuen/blog-153058/</link>
+      <guid>http://jukutown.com/yamadagakuen/blog-153058/</guid>
+      <description>授業内容、月謝など現状に合わせ更新しました</description>
+      <pubDate>Mon, 12 Jun 2023 11:09:21 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページをリニューアルしました！</title>
+      <link>http://jukutown.com/yamadagakuen/blog-45484/</link>
+      <guid>http://jukutown.com/yamadagakuen/blog-45484/</guid>
+      <description>ついにホームページを新しくしました。教室からのお知らせなど更新しますので、ぜひチェックしてくださいね！</description>
+      <pubDate>Wed, 13 Jun 2012 17:11:55 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

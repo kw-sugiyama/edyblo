@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【学習塾ペガサス　那珂教室】　〜博多区那珂の個別指導塾〜</title>
+    <link>http://jukutown.com/dummy-pegasus/</link>
+    <copyright>学習塾ペガサス那珂教室</copyright>
+    <description>博多区那珂にある個別学習塾の「ペガサス　那珂教室」。これまでにない新しい学習スタイルと、本当に子ども達のことを考えた学習方法を体験していただけます</description>
+    <item>
+      <title>小学生対象コース　:開始:終了　自由選択制</title>
+      <link>http://jukutown.com/dummy-pegasus/course-detail-3746/</link>
+      <guid>http://jukutown.com/dummy-pegasus/course-detail-3746/</guid>
+      <description>受講科目・時間・曜日の選択は自由です。お子様の生活スタイル、希望に合わせたコース選択が可能です。◇小学生／数学・国語・英語・理科・社会（5科目）</description>
+      <pubDate>Mon, 14 Sep 2015 19:22:39 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生対象コース　:開始:終了　自由選択制</title>
+      <link>http://jukutown.com/dummy-pegasus/course-detail-3747/</link>
+      <guid>http://jukutown.com/dummy-pegasus/course-detail-3747/</guid>
+      <description>受講科目・時間・曜日の選択は自由です。お子様の生活スタイル、希望に合わせたコース選択が可能です。◇中学生／数学・英語・国語・理科・社会（5科目）</description>
+      <pubDate>Mon, 14 Sep 2015 19:21:41 +0900</pubDate>
+    </item>
+    <item>
+      <title>ペガサスの学習方法　:開始:終了　自由選択制</title>
+      <link>http://jukutown.com/dummy-pegasus/course-detail-3732/</link>
+      <guid>http://jukutown.com/dummy-pegasus/course-detail-3732/</guid>
+      <description>完全個別指導のペガサスだから実現でる。学力アップはもちろん、自立学習の習慣が身に付ます！</description>
+      <pubDate>Mon, 19 Apr 2010 16:46:49 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

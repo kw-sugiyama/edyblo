@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>GENECA（ジェネカ）　天王寺校</title>
+    <link>http://jukutown.com/geneca-tennoji/</link>
+    <copyright>GENECA（ジェネカ）天王寺校</copyright>
+    <description></description>
+    <item>
+      <title>天体観測日程変更のお知らせ</title>
+      <link>http://jukutown.com/geneca-tennoji/blog-2638/</link>
+      <guid>http://jukutown.com/geneca-tennoji/blog-2638/</guid>
+      <description>７月２９日に予定していました天体観測の企画は天候不順のため８月３０日（日）に延期となりました。</description>
+      <pubDate>Mon, 24 Aug 2009 20:02:09 +0900</pubDate>
+    </item>
+    <item>
+      <title>７月の日程</title>
+      <link>http://jukutown.com/geneca-tennoji/blog-2637/</link>
+      <guid>http://jukutown.com/geneca-tennoji/blog-2637/</guid>
+      <description>７月２１日（火）より国立天文台・皆既日食の情報（外部リンク）</description>
+      <pubDate>Mon, 24 Aug 2009 13:24:06 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

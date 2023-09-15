@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://tachibana.waseiku.com/course-detail-9001/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 07 Oct 2015 11:18:30 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://tachibana.waseiku.com/course-detail-9002/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 07 Oct 2015 11:10:25 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://tachibana.waseiku.com/course-detail-8806/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 26 Oct 2013 11:48:15 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://tachibana.waseiku.com/course-detail-8809/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 26 Oct 2013 11:47:46 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://tachibana.waseiku.com/course-detail-8811/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 08 Aug 2013 18:44:44 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://tachibana.waseiku.com/course-detail-8810/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 08 Aug 2013 18:44:32 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://tachibana.waseiku.com/course-detail-8808/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 08 Aug 2013 18:37:22 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://tachibana.waseiku.com/course-detail-8807/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 08 Aug 2013 18:33:24 +0900</lastmod>
+    </url>
+</urlset>

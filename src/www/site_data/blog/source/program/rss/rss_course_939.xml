@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【日静学園　旭校】　〜新ひだか町静内の学習塾・個別指導塾〜</title>
+    <link>http://jukutown.com/dummy-nisseigakuen/</link>
+    <copyright>日静学園</copyright>
+    <description></description>
+    <item>
+      <title>小学生　英語コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-nisseigakuen/course-detail-4884/</link>
+      <guid>http://jukutown.com/dummy-nisseigakuen/course-detail-4884/</guid>
+      <description>【小学生　英語コース】〜指導方針〜会話、リーダー、ワークブック、ヌリ絵など堀な教材を使って指導を行っています。能力に応じて中学進級もあります。</description>
+      <pubDate>Fri, 17 Sep 2010 18:59:38 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生　基礎コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-nisseigakuen/course-detail-4887/</link>
+      <guid>http://jukutown.com/dummy-nisseigakuen/course-detail-4887/</guid>
+      <description>【中学生　基礎コース】〜指導方針〜指導のペースを速めずに、わかり易く指導を行っています。英語・数学を中心に補習も行います。</description>
+      <pubDate>Fri, 17 Sep 2010 18:59:23 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生　特進コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-nisseigakuen/course-detail-4888/</link>
+      <guid>http://jukutown.com/dummy-nisseigakuen/course-detail-4888/</guid>
+      <description>学年10番以内をめざします。英語・数学を中心に、期末学力テスト90点以上を目標としています。</description>
+      <pubDate>Fri, 17 Sep 2010 18:40:39 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生　算数コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-nisseigakuen/course-detail-4885/</link>
+      <guid>http://jukutown.com/dummy-nisseigakuen/course-detail-4885/</guid>
+      <description>基礎学習と文章問題の克服、能力別指導を行います。</description>
+      <pubDate>Fri, 17 Sep 2010 18:30:16 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生　特進コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-nisseigakuen/course-detail-4886/</link>
+      <guid>http://jukutown.com/dummy-nisseigakuen/course-detail-4886/</guid>
+      <description>英語・算数を中心に中学級の学力を養います。</description>
+      <pubDate>Fri, 17 Sep 2010 18:30:05 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

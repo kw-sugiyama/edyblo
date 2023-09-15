@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>想論館　関校　　　　　　　　　　　　　　＠関市</title>
+    <link>http://jukutown.com/kani/</link>
+    <copyright>想論館関校 　　　＠関市</copyright>
+    <description>関市の学習塾　【想論館　学区】のホームページはこちら。からも通塾生多数！</description>
+    <item>
+      <title>中学生コース　19:00開始21:40終了　水・金</title>
+      <link>http://jukutown.com/kani/course-detail-6323/</link>
+      <guid>http://jukutown.com/kani/course-detail-6323/</guid>
+      <description></description>
+      <pubDate>Fri, 11 May 2012 19:29:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学部コース　17:00開始18:30終了　水・金</title>
+      <link>http://jukutown.com/kani/course-detail-6320/</link>
+      <guid>http://jukutown.com/kani/course-detail-6320/</guid>
+      <description>小学部個別指導クラスは「のびのびじゃんぷ」を使用し、一人ひとりの学力に合わせた指導を目的とするコースです。</description>
+      <pubDate>Sat, 28 Apr 2012 00:14:16 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+@import url(./base.css);
+
+
+body{
+	font-size: 100%;
+	font-family: "MS P¥´¥·¥Ã¥¯","¥Ò¥é¥®¥Î³Ñ¥´ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+	line-heigth: 1.5;
+	color: #333333;
+	background-color: #FFFFFF;
+	margin:15px;
+	padding:0px;
+}
+
+em {
+	font-weight:normal;
+	color:#FF0000;
+	padding:5px; 
+}
+
+#wrapper{
+	text-align:center;
+}
+
+#login{
+	width:600px;
+}
+
+#login table {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	width: 100%;
+}
+
+#login td {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 10px;
+	font-size:13px;
+}
+
+#login th {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 6px solid #CCCCCC;
+	border-right: none;
+	background-color: #4949FF;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding: 10px;	
+	width: 150px;
+	font-size:13px;
+}
+
+#login th.must{
+	border-left-color: #FF0000;
+}
+
+.btn_nosize{
+	color:#FFFFFF;
+	background-color:#4949FF;
+}
+.border{
+	border:3px double #CCCCCC;
+	background:#FFFFFF url(./images/input_bg.gif) left top repeat-x;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾シューレ 江南校・岩塚校</title>
+    <link>http://schule-ed-g.com/</link>
+    <copyright>学習塾シューレ</copyright>
+    <description>学習塾シューレは 平成元年愛知県江南市に地元密着型の学習塾として創設されました。名古屋市中村区には新校舎・シューレ岩塚校を開設致しました。</description>
+    <item>
+      <title>シューレの塾長と行く北京の旅</title>
+      <link>http://schule-ed-g.com/blog-21525/</link>
+      <guid>http://schule-ed-g.com/blog-21525/</guid>
+      <description>学習塾シューレでは、塾長と行く北京の旅を企画しました。今の中国を見る絶好の機会です。あなたも是非参加してはいかがですか?日時　　３月２７日〜３月２９日詳しくは、お問い合わせください。</description>
+      <pubDate>Thu, 10 Feb 2011 00:47:46 +0900</pubDate>
+    </item>
+    <item>
+      <title>岩塚校で新コース開講予定1</title>
+      <link>http://schule-ed-g.com/blog-21524/</link>
+      <guid>http://schule-ed-g.com/blog-21524/</guid>
+      <description>作文教室（プレゼンをやってみよう）小・中学生対象</description>
+      <pubDate>Thu, 10 Feb 2011 00:52:39 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

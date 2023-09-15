@@ -1,0 +1,19 @@
+@import url(./base.css);
+
+th.titlebar {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	padding: 0px;
+	font-size:20px;
+	background-color: ##00FF99;
+	text-align:left;
+}
+
+td.menu {
+	font-size:20px;
+	background-color: #CCFFCC;
+	text-align:left;
+	vertical-align:top
+}

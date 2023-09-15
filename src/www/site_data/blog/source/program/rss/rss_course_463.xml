@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>進学塾　ＬＩＭＩＸ（リミックス）</title>
+    <link>http://limix-sts.com/</link>
+    <copyright>LIMIX　リミックス</copyright>
+    <description></description>
+    <item>
+      <title>中学生コース　18:00開始21:30終了　火曜日〜金曜日</title>
+      <link>http://limix-sts.com/course-detail-2401/</link>
+      <guid>http://limix-sts.com/course-detail-2401/</guid>
+      <description>中学生は、論理的思考を最も必要とする教科である「数学」に力を入れています。全教科とも学校より早いカリュラムで授業を進行しています。定期テスト対策も無料で行っています。</description>
+      <pubDate>Mon, 26 Jan 2015 22:29:19 +0900</pubDate>
+    </item>
+    <item>
+      <title>各種検定に向けて　14:00開始17:30終了　土曜日</title>
+      <link>http://limix-sts.com/course-detail-2436/</link>
+      <guid>http://limix-sts.com/course-detail-2436/</guid>
+      <description>LIMIXは検定の勉強も応援しています。英検は単科講座を設けております。</description>
+      <pubDate>Mon, 26 Jan 2015 22:23:35 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース　16:00開始18:20終了　火曜日〜金曜日</title>
+      <link>http://limix-sts.com/course-detail-2400/</link>
+      <guid>http://limix-sts.com/course-detail-2400/</guid>
+      <description>　小学生コースでは、学校の授業にてトップクラスの成績を取るための指導をしています。　小学校３、４年生は週１回、小学校５、６年生は週２回授業があり、小学校６年生は英語が必修になります。</description>
+      <pubDate>Mon, 26 Jan 2015 22:23:10 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

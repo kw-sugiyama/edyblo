@@ -1,0 +1,47 @@
+/*================================================
+	最寄沿線・駅情報テーブル作成スクリプト
+================================================*/
+
+DROP TABLE T_ENSEN;
+
+CREATE TABLE T_ENSEN (
+	ES_ID		serial	not null primary key,
+	ES_CD		integer,
+	ES_TYPE		integer,
+	ES_DISPNO	integer,
+	ES_PREFCD	integer,
+	ES_LINE		text,
+	ES_LINECD	integer,
+	ES_STA		text,
+	ES_STACD	integer,
+	ES_WALK		integer,
+	ES_BUS		integer,
+	ES_BIKO		text,
+	ES_ADMINID	integer,
+	ES_INSDATE	timestamp,
+	ES_UPDDATE	timestamp,
+	ES_DELDATE	timestamp,
+	ES_YOBI1	text,
+	ES_YOBI2	text,
+	ES_YOBI3	text,
+	ES_YOBI4	text,
+	ES_YOBI5	text
+);
+
+REVOKE all ON T_ENSEN FROM public;
+
+CREATE INDEX ES_IDX_01 ON T_ENSEN USING btree( ES_ID );
+CREATE INDEX ES_IDX_02 ON T_ENSEN USING btree( ES_CD );
+CREATE INDEX ES_IDX_03 ON T_ENSEN USING btree( ES_TYPE );
+CREATE INDEX ES_IDX_04 ON T_ENSEN USING btree( ES_DISPNO );
+CREATE INDEX ES_IDX_05 ON T_ENSEN USING btree( ES_PREFCD );
+CREATE INDEX ES_IDX_06 ON T_ENSEN USING btree( ES_LINE );
+CREATE INDEX ES_IDX_07 ON T_ENSEN USING btree( ES_LINECD );
+CREATE INDEX ES_IDX_08 ON T_ENSEN USING btree( ES_STA );
+CREATE INDEX ES_IDX_09 ON T_ENSEN USING btree( ES_STACD );
+CREATE INDEX ES_IDX_10 ON T_ENSEN USING btree( ES_WALK );
+CREATE INDEX ES_IDX_11 ON T_ENSEN USING btree( ES_BUS );
+CREATE INDEX ES_IDX_12 ON T_ENSEN USING btree( ES_ADMINID );
+CREATE INDEX ES_IDX_13 ON T_ENSEN USING btree( ES_INSDATE );
+CREATE INDEX ES_IDX_14 ON T_ENSEN USING btree( ES_UPDDATE );
+CREATE INDEX ES_IDX_15 ON T_ENSEN USING btree( ES_DELDATE );

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@import "common.css";
+@import "container.css";
+@import "header.css";
+@import "globalmenu.css";
+@import "main.css";
+/*@import "mainbox.css";*/
+@import "footer.css";
+@import "parts.css";
+
+
+html {
+	background-image:none;
+	background-color: #fefaee;
+	}
+	
+body {
+	background-image:none;
+	}
+
+#header{
+	display:none;
+	}
+
+#globalmenuwrapper{
+	display:none;
+	}
+
+#mainright{
+	display:none;
+	}
+
+#footerwrapper{
+	display:none;
+	}

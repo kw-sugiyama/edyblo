@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【トライアングル】　〜荒川区西日暮里の学習塾・個別指導塾〜</title>
+    <link>http://jukutown.com/triangle/</link>
+    <copyright>ザ トライアングル西日暮里校</copyright>
+    <description>荒川区西日暮里の学習塾・進学塾・個別指導塾の「トライアングル」のホームページになります。西日暮里で塾をお探しの方はこちらから。</description>
+    <item>
+      <title>家庭教師コース　:開始:終了　</title>
+      <link>http://jukutown.com/triangle/course-detail-7049/</link>
+      <guid>http://jukutown.com/triangle/course-detail-7049/</guid>
+      <description>通塾が難しい方には、家庭教師派遣も行っています。詳しくはお問い合わせください。</description>
+      <pubDate>Tue, 24 Apr 2012 18:05:44 +0900</pubDate>
+    </item>
+    <item>
+      <title>定期テスト対策コース　15:00開始21:30終了　月〜土</title>
+      <link>http://jukutown.com/triangle/course-detail-7048/</link>
+      <guid>http://jukutown.com/triangle/course-detail-7048/</guid>
+      <description>普段忙しくて塾には通えない、もしくは予備校に行ってるけど定期テストが不安、という方のための定期テスト前だけの特別コース！回数払いでる、とても通いやすいコースです。</description>
+      <pubDate>Tue, 24 Apr 2012 18:02:34 +0900</pubDate>
+    </item>
+    <item>
+      <title>受験対策コース　15:00開始21:30終了　月〜土</title>
+      <link>http://jukutown.com/triangle/course-detail-7047/</link>
+      <guid>http://jukutown.com/triangle/course-detail-7047/</guid>
+      <description>学校の定期テスト対策とは異なった、受験用のテクニックを東大卒業生他講師陣がめ細かに指導。予備校の一斉授業との違いを活かして、一人一人に合わせた年間カリュラムを考え、受験まで全力でサポートします。</description>
+      <pubDate>Tue, 24 Apr 2012 17:58:30 +0900</pubDate>
+    </item>
+    <item>
+      <title>学校補習コース　15:00開始21:30終了　月〜金</title>
+      <link>http://jukutown.com/triangle/course-detail-4761/</link>
+      <guid>http://jukutown.com/triangle/course-detail-4761/</guid>
+      <description>各学校採用の教科書に準拠した教材を使い、予習からフォロー、定期テスト対策までを一人一人の理解度に合わせて行います。</description>
+      <pubDate>Tue, 24 Apr 2012 17:50:24 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

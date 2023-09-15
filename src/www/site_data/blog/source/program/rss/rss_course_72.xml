@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>教室基本情報</title>
+    <link>http://jukutown.com/kanda/</link>
+    <copyright>神田サンプル塾秋葉原教室</copyright>
+    <description>こちらは塾専用ホームページ作成サービス「エディブロ」のサンプルページです。神田サンプル塾・秋葉原教室は架空の塾です。</description>
+    <item>
+      <title>高校進学コース　19:00開始21:00終了　金曜</title>
+      <link>http://jukutown.com/kanda/course-detail-79/</link>
+      <guid>http://jukutown.com/kanda/course-detail-79/</guid>
+      <description>中学３年生の方を対象とした高校進学対策のためのコースです。基礎から応用までわかりやすく説明。難関校合格へ導ます。</description>
+      <pubDate>Wed, 16 Jul 2008 21:26:14 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校受験準備コース　19:00開始21:00終了　月曜・水曜</title>
+      <link>http://jukutown.com/kanda/course-detail-78/</link>
+      <guid>http://jukutown.com/kanda/course-detail-78/</guid>
+      <description>高校受験に向けて、中学１・２年のうちから基礎を身に付けておましょう。</description>
+      <pubDate>Wed, 16 Jul 2008 21:21:44 +0900</pubDate>
+    </item>
+    <item>
+      <title>私立中学受験コース　17:00開始18:50終了　火曜・木曜</title>
+      <link>http://jukutown.com/kanda/course-detail-77/</link>
+      <guid>http://jukutown.com/kanda/course-detail-77/</guid>
+      <description>小学６年生を対象とした、私立中学受験のためのコースです。経験堀な講師陣が、懇切丁寧に指導致します。お気軽にお問い合わせください。</description>
+      <pubDate>Wed, 16 Jul 2008 20:48:43 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

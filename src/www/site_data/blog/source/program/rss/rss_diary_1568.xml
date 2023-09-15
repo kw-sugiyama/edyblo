@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>矢野塾</title>
+    <link>http://jukutown.com/dummy-yanojuku/</link>
+    <copyright>矢野塾</copyright>
+    <description>塾生募集中。矢野塾では現在、塾生を募集しております。お気軽にお問い合わせください。</description>
+    <item>
+      <title>ますます寒くなりましたね</title>
+      <link>http://jukutown.com/dummy-yanojuku/blog-72517/</link>
+      <guid>http://jukutown.com/dummy-yanojuku/blog-72517/</guid>
+      <description>テストテストテストテストテスト</description>
+      <pubDate>Thu, 06 Feb 2014 16:34:24 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

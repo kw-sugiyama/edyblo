@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>CGパーソナル【鷺沼教室】</title>
+    <link>http://jukutown.com/cgp-saginuma/</link>
+    <copyright>CGパーソナル鷺沼教室</copyright>
+    <description>神奈川に根さし半世紀。中,高,大受験のプロ集団。CGパーソナル『鷺沼教室』のホームページです。川崎市宮前区で学習塾・進学塾・個別塾をお探しの方はご覧ください。</description>
+    <item>
+      <title>最新受験情報について</title>
+      <link>http://jukutown.com/cgp-saginuma/blog-123/</link>
+      <guid>http://jukutown.com/cgp-saginuma/blog-123/</guid>
+      <description>中学・高校・大学の入試最前線をお知らせします。・中学受験をお考えの方はぜひご覧ください！【大学受験情報】</description>
+      <pubDate>Fri, 24 Oct 2008 13:39:10 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

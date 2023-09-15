@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾「無門館」のご案内</title>
+    <link>http://jukutown.com/mumonkan/</link>
+    <copyright>学習塾　無門館</copyright>
+    <description></description>
+    <item>
+      <title>世の中成績がすべてじゃないけれど…</title>
+      <link>http://jukutown.com/mumonkan/blog-618/</link>
+      <guid>http://jukutown.com/mumonkan/blog-618/</guid>
+      <description> 特に試験というのは、ただ単に良い点数をとるのが目的でなく、「失敗」してもまた立ち上がって前に進む、ねばり強い自分をつくるための訓練だと思います。社会に出ても負けない自分であるために…先生は、生徒を正しい方向へ導くナビゲーター。一人ひとりとコミュニケーションを図りながら、「自ら学ぶ力」を応援していきたいと思っています。</description>
+      <pubDate>Thu, 24 Jun 2010 17:44:54 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース　15:00開始19:00終了　月〜金</title>
+      <link>http://jukutown.com/mumonkan/course-detail-901/</link>
+      <guid>http://jukutown.com/mumonkan/course-detail-901/</guid>
+      <description>補習から中学受験まで、目的に合わせた指導を行なっています。</description>
+      <pubDate>Mon, 27 Apr 2009 23:25:50 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース（個別指導）　17:00開始19:00終了　月〜金（週2回）</title>
+      <link>http://jukutown.com/mumonkan/course-detail-905/</link>
+      <guid>http://jukutown.com/mumonkan/course-detail-905/</guid>
+      <description>生徒によって得意な教科、不得意な教科があります。個別指導コースでは、一人ひとりの学習レベル・進度に合わせてきめ細やかな指導を実施しています。</description>
+      <pubDate>Fri, 08 May 2009 14:42:48 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース（集団指導）　19:00開始21:30終了　月〜金</title>
+      <link>http://jukutown.com/mumonkan/course-detail-903/</link>
+      <guid>http://jukutown.com/mumonkan/course-detail-903/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導。重要視される内申点の更なるアップ。繰り返し行う模擬テストで合格への最短ルートを発見します！</description>
+      <pubDate>Sat, 09 May 2009 11:46:00 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

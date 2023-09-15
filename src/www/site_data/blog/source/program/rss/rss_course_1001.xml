@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾シューレ 江南校・岩塚校</title>
+    <link>http://jukutown.com/schule-ed-g/</link>
+    <copyright>学習塾シューレ</copyright>
+    <description>学習塾シューレは 平成元年愛知県江南市に地元密着型の学習塾として創設されました。名古屋市中村区には新校舎・シューレ岩塚校を開設致しました。</description>
+    <item>
+      <title>【岩塚校】 私立中学入試クラス（小４・５・６）　:開始:終了　下飢照</title>
+      <link>http://jukutown.com/schule-ed-g/course-detail-5289/</link>
+      <guid>http://jukutown.com/schule-ed-g/course-detail-5289/</guid>
+      <description>中位校から上位校の合格を目標に、週単位のカリュラムで受験を突破でるように指導しています。私立中学受験専用の教材を使い、各単元のトレーニングを繰り返すことによって徹底理解と定着度の確認をしています。また、ｅトレで単元の達成度をチェックし、不合格（75％未満）の場合はリターンテストでわかるまで、でるまでもう何度も復習させます。</description>
+      <pubDate>Thu, 06 Jan 2011 13:22:55 +0900</pubDate>
+    </item>
+    <item>
+      <title>【江南校】 小学生の部　:開始:終了　小４：（土）　小５：（木）　小６：（金）</title>
+      <link>http://jukutown.com/schule-ed-g/course-detail-5328/</link>
+      <guid>http://jukutown.com/schule-ed-g/course-detail-5328/</guid>
+      <description>教科書準拠のワークを使い、教科書内容の徹底理解と応用力の養成を目指します。また、ｅトレで学習達成度をチェックし、不合格（75％未満）の場合は、リターンテストでわかるまで、でるまで何度も復習させます。</description>
+      <pubDate>Thu, 06 Jan 2011 13:22:41 +0900</pubDate>
+    </item>
+    <item>
+      <title>【岩塚校・江南校】 中学生の部　19:00開始22:30終了　下飢照</title>
+      <link>http://jukutown.com/schule-ed-g/course-detail-5290/</link>
+      <guid>http://jukutown.com/schule-ed-g/course-detail-5290/</guid>
+      <description>教科書準拠のワークを使い、教科書内容の徹底理解と応用力の養成を目指します。また、ｅトレで学習達成度をチェックし、不合格（75％未満）の場合は、リターンテストでわかるまで、でるまで何度も復習させます。</description>
+      <pubDate>Thu, 06 Jan 2011 13:20:27 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

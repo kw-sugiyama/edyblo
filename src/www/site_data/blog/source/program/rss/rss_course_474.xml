@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>岐阜市岩崎の学習塾『慶応寺子屋塾』のご案内</title>
+    <link>http://jukutown.com/k-terakoya/</link>
+    <copyright>慶応寺子屋塾</copyright>
+    <description>岐阜市岩崎の学習塾・進学塾・個別指導塾の【慶応寺子屋塾】のホームページです。岐阜市岩崎で塾をお探しの方はこちらから。</description>
+    <item>
+      <title>小学生コース　16:00開始17:30終了　月・水・木・土曜日</title>
+      <link>http://jukutown.com/k-terakoya/course-detail-2444/</link>
+      <guid>http://jukutown.com/k-terakoya/course-detail-2444/</guid>
+      <description>本当の勉強の仕方を学びましょう。毎日コツコツ努力する姿勢を身に付けましょう。</description>
+      <pubDate>Thu, 10 Feb 2011 16:27:37 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　18:00開始22:00終了　</title>
+      <link>http://jukutown.com/k-terakoya/course-detail-2462/</link>
+      <guid>http://jukutown.com/k-terakoya/course-detail-2462/</guid>
+      <description>お子様の学力に応じた独自の学習スタイルにより、子供自身の自学力を高めることを目標とするカリュラムを組んでおります。</description>
+      <pubDate>Thu, 10 Feb 2011 16:27:20 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校生のための自習室　:開始:終了　</title>
+      <link>http://jukutown.com/k-terakoya/course-detail-3901/</link>
+      <guid>http://jukutown.com/k-terakoya/course-detail-3901/</guid>
+      <description>当塾では、大学受験を控えた高校生の方のために自習室を用意しております。生徒さんのレベルに応じて、講師から指導をします。岐大工学部の学生が、苦手な方も多い理数を中心に分からないところの質問に答えてくれますので、理学部、工学部を志望している高校生の方に最適です。</description>
+      <pubDate>Sun, 16 May 2010 15:28:26 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

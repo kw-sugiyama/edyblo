@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>サンプルアカデミー【大津教室】の教室ご案内　〜大津市の学習塾〜</title>
+    <link>http://otsu.jukutown.com/</link>
+    <copyright>サンプルアカデミー大津教室</copyright>
+    <description>サンプルアカデミー【大津教室】のホームページです。滋賀県大津市で学習塾・進学塾をお探しの方は必見！</description>
+    <item>
+      <title>おゆみ野の学習塾</title>
+      <link>http://otsu.jukutown.com/blog-34419/</link>
+      <guid>http://otsu.jukutown.com/blog-34419/</guid>
+      <description>おゆみ野南にある個別指導の進学塾を紹介します。おゆみ野南の学習塾　with</description>
+      <pubDate>Fri, 21 Oct 2011 15:01:35 +0900</pubDate>
+    </item>
+    <item>
+      <title>新ホームページを開設致しました </title>
+      <link>http://otsu.jukutown.com/blog-2430/</link>
+      <guid>http://otsu.jukutown.com/blog-2430/</guid>
+      <description>新しいホームページを開設致しました。随時更新していきますので、是非皆さんご覧下さい。</description>
+      <pubDate>Fri, 07 Aug 2009 22:00:31 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

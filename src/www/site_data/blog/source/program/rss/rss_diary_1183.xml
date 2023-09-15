@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>元気いっぱい、もりもり勉強、がんばるきみの未来は明るい。</title>
+    <link>http://jukutown.com/dummy-miraigakkan/</link>
+    <copyright>未来学館</copyright>
+    <description></description>
+    <item>
+      <title>お知らせサンプル</title>
+      <link>http://jukutown.com/dummy-miraigakkan/blog-34702/</link>
+      <guid>http://jukutown.com/dummy-miraigakkan/blog-34702/</guid>
+      <description>お知らせのサンプルです。エディブロLiteでは、このようなお知らせを週に一回まで掲載することができます。</description>
+      <pubDate>Fri, 28 Oct 2011 13:43:50 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ソフィア英数セミナー</title>
+    <link>http://jukutown.com/dummy-sophia-seminar/</link>
+    <copyright>ソフィア英数セミナー</copyright>
+    <description>ソフィア英数セミナーは横浜市保土ケ谷区宮田町の学習塾です。子供の将来を共に「本気」で考える塾。</description>
+    <item>
+      <title>（仮）お知らせ</title>
+      <link>http://jukutown.com/dummy-sophia-seminar/blog-51400/</link>
+      <guid>http://jukutown.com/dummy-sophia-seminar/blog-51400/</guid>
+      <description>お知らせ記事を簡単に掲載できます。お知らせ記事を簡単に掲載できます。お知らせ記事を簡単に掲載できます。</description>
+      <pubDate>Fri, 12 Oct 2012 20:05:37 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

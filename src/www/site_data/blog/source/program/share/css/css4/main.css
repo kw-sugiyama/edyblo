@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/***********************************************/
+/* main                                        */
+/***********************************************/
+
+#main{
+	width:800px;
+	margin-left:13px;
+	clear: both;
+}
+
+#mainleft{
+	background-color:#e8ddc2;
+	width:210px;
+	float:left;
+}
+
+
+#mainright{
+	width:590px;
+	float:right;
+}
+
+/***********************************************/
+/* mainleft                                    */
+/***********************************************/
+
+.imasugu a{
+    background-position:0px 0px;
+	display:block;
+	width:196px;
+	height:58px;
+	background-image:url(images/navi_moushikomi_4.gif);
+	margin-top:17px;
+	margin-left:7px;
+	margin-bottom:10px;
+}
+
+.imasugu a:hover{
+    background-position:0px -58px;
+}
+
+.subnavi{
+	list-style:none;
+	font-size: 12px;
+	}
+.subnavititle {
+	color: #FFFFFF;
+	line-height:2.5;
+	clear: both;
+	width:196px;
+	height:30px;
+	margin-left:7px;
+	text-align:center;
+	background-image: url(images/navi_top_4.gif);
+	background-repeat:no-repeat;
+	font-weight: bold;
+}
+.subnavimiddle {
+	font-weight: bold;
+	padding-left:30px;
+	width:166px;
+	height:30px;
+	margin-left:7px;
+	background-image: url(images/navi_middle_4.gif);
+	background-repeat:no-repeat;
+}
+.subnavibottom {
+	font-weight: bold;
+	padding-left:30px;
+	width:166px;
+	height:30px;
+	margin-left:7px;
+	background-image:url(images/navi_bottom_4.gif);
+	background-repeat:no-repeat;
+	margin-bottom:10px;
+}
+
+.subnavi a{
+		color: #666666;
+		text-decoration:none;
+		line-height:2.5
+}
+.subnavi a:hover {
+		color: #FF6600;
+		text-decoration:none;
+		line-height:2.5
+}
+
+.ulbookmark{
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}
+.libookmark{
+	display:inline
+	}
+
+.freespace{
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}

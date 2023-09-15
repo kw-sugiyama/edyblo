@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>エース学習塾</title>
+    <link>http://jukutown.com/dummy-jukuace/</link>
+    <copyright>エース進学塾</copyright>
+    <description></description>
+    <item>
+      <title>新しい学年の準備をしよう♪</title>
+      <link>http://jukutown.com/dummy-jukuace/blog-74504/</link>
+      <guid>http://jukutown.com/dummy-jukuace/blog-74504/</guid>
+      <description>新しい学年の準備は始めましたか？…</description>
+      <pubDate>Wed, 26 Mar 2014 22:42:10 +0900</pubDate>
+    </item>
+    <item>
+      <title>もうすぐ新学期＊</title>
+      <link>http://jukutown.com/dummy-jukuace/blog-74500/</link>
+      <guid>http://jukutown.com/dummy-jukuace/blog-74500/</guid>
+      <description>もうすぐで新学期ですね。</description>
+      <pubDate>Wed, 26 Mar 2014 22:41:03 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

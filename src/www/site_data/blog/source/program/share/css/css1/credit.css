@@ -1,0 +1,16 @@
+@charset "utf-8";
+/***********************************************/
+/* credit                                     */
+/***********************************************/
+
+#credit{
+	text-align:right;
+	padding-top: 3px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+#credit a{
+	color:#333333;
+	text-decoration:underline;
+}

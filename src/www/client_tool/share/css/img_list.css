@@ -1,0 +1,132 @@
+@import url(./base.css);
+
+/*登録*/
+#table_ins {
+	font-size:13px;
+	width:auto;
+}
+#table_ins .td_title{
+	color:#FFFFFF;
+	background:#20B2AA;
+	text-align:center;
+	width:100px;
+}
+#table_ins .td_val01{
+	color:#000000;
+	background-color:#FFFFCC;
+	width:220px;
+}
+#table_ins .td_val02{
+	color:#000000;
+	background-color:#FFFFCC;
+	width:220px;
+}
+#table_ins .td_val03{
+	color:#000000;
+	background-color:#FFFFCC;
+	width:120px;
+}
+
+/*登録*/
+#table_search {
+	font-size:13px;
+	width:auto;
+}
+#table_search .td_title{
+	color:#FFFFFF;
+	background:#157FAF;
+	text-align:center;
+	width:100px;
+}
+#table_search .td_search01{
+	color:#000000;
+	background-color:#C6DFFF;
+	width:220px;
+}
+#table_search .td_search02{
+	color:#000000;
+	background-color:#C6DFFF;
+	width:220px;
+}
+#table_search .td_search03{
+	color:#000000;
+	background-color:#C6DFFF;
+	width:120px;
+}
+#search_btn {
+	background-color:#157FAF;
+}
+
+/*ボタン画像*/
+.button {
+	width: 100px;
+	height: 25px;
+	background: url(images/button_silver.gif) no-repeat right bottom;
+	border:0px
+	//solid 枠線の色;
+//	background-color:背景色
+}
+
+.title{
+	color: #F6C944;
+	font-size: 13px;
+	font-weight:bold;
+	margin-left:5px;
+}
+.sub_title{
+	color: blue;
+	font-size: 13px;
+	font-weight:bold;
+	margin-left:5px;
+}
+.alert{
+	color: red;
+	font-size: 15px;
+	font-weight:bold;
+	margin-left:5px;
+}
+
+/*ソート用リンク*/
+.sort_link{
+	color: #000000;
+	font-size: 13px;
+	font-weight:bold;
+	margin-left:3px;
+}
+.sort_link a{
+	color: #FF0000;
+	font-size: 13px;
+	font-weight:bold;
+	margin-left:3px;
+}
+.sort_link_td{
+	height : 40px;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+
+/*表示/非表示 フォントカラー*/
+.disp_color_true{
+	color : blue;
+}
+
+.disp_color_false{
+	color : red;
+}
+
+
+li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+.li_img {
+	display:inline-block;
+	*display:inline;	/*IE hack*/
+	margin:0 12px 12px 0;
+	overflow:hidden;
+	position:relative;
+	vertical-align:top;
+}

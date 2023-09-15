@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>サンプル学習塾　○○教室</title>
+    <link>http://wisdom-saito.com/</link>
+    <copyright>サンプル学習塾○○教室</copyright>
+    <description></description>
+    <item>
+      <title>小学生コース　:開始:終了　</title>
+      <link>http://wisdom-saito.com/course-detail-4727/</link>
+      <guid>http://wisdom-saito.com/course-detail-4727/</guid>
+      <description>■小学生コースの特徴基本的な学習習慣の確立を目指すために、一人ひとりの力に応じため細かな指導をめざします。※クラス別の指導内容については、下拠ご覧下さい。</description>
+      <pubDate>Thu, 17 Feb 2011 19:51:05 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

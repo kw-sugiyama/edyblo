@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ムトウ学院　市川妙典教室</title>
+    <link>http://jukutown.com/dummy-muto/</link>
+    <copyright>サンプル進学塾（練習用）</copyright>
+    <description>難関校を目指すならムトウ学院</description>
+    <item>
+      <title>私立高受験集中コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-muto/course-detail-5915/</link>
+      <guid>http://jukutown.com/dummy-muto/course-detail-5915/</guid>
+      <description>私立高校入試の独特な問題に対応でるように、授業を通して様々な問題にチャレンジしていただます。みなさんに問題を解いてもらった後、講師が丁寧に解説します。第一志望の高校が私立の生徒にはおススメのコースです！！</description>
+      <pubDate>Tue, 19 Apr 2011 18:46:56 +0900</pubDate>
+    </item>
+    <item>
+      <title>特進コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-muto/course-detail-5912/</link>
+      <guid>http://jukutown.com/dummy-muto/course-detail-5912/</guid>
+      <description>学年成績トップの方の成績保持と共に『トップの中のトップ』の養成を目指すコースです。皆さんが日本トップレベルの高校に合格でるように責任を持ってサポートしてまいります。共にがんばりましょう！！</description>
+      <pubDate>Tue, 19 Apr 2011 16:26:53 +0900</pubDate>
+    </item>
+    <item>
+      <title>標準コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-muto/course-detail-5913/</link>
+      <guid>http://jukutown.com/dummy-muto/course-detail-5913/</guid>
+      <description>学年中盤のレベルから難関校を目指す生徒のためのコースです。基礎を固め次第、応用力を身につけさせる授業を展開していく予定です。</description>
+      <pubDate>Tue, 19 Apr 2011 16:26:02 +0900</pubDate>
+    </item>
+    <item>
+      <title>基礎コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-muto/course-detail-5914/</link>
+      <guid>http://jukutown.com/dummy-muto/course-detail-5914/</guid>
+      <description>基礎固めをしっかり行いたい方歓迎します。</description>
+      <pubDate>Tue, 19 Apr 2011 16:17:05 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

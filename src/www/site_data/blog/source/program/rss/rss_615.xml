@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ガウディア　薬師台教室　【新規開校：3月1日】</title>
+    <link>http://yakushidai.gaudia-web.com/</link>
+    <copyright>ガウディア薬師台教室</copyright>
+    <description>小学生を対象にした新しい学習教室『ガウディア』薬師台教室のホームページです。</description>
+    <item>
+      <title>国語のカリキュラム　:開始:終了　</title>
+      <link>http://yakushidai.gaudia-web.com/course-detail-3372/</link>
+      <guid>http://yakushidai.gaudia-web.com/course-detail-3372/</guid>
+      <description>■ 低学年から「文法・語彙」の基礎を固め長文読解で活用していきます。■ 多くの物語や説明文に触れ、場面設定や情景を想像しながら学習します。■ イラストをふんだんに使い、楽しく学習できます。</description>
+      <pubDate>Wed, 24 Feb 2010 18:06:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>算数のカリキュラム　:開始:終了　</title>
+      <link>http://yakushidai.gaudia-web.com/course-detail-3371/</link>
+      <guid>http://yakushidai.gaudia-web.com/course-detail-3371/</guid>
+      <description>■ 計算だけではなく、図形やグラフなど、小学校の学習項目をほぼ網羅しています。■ 多くの文章題に触れ、場面設定や読解力を養います。■ 計算方法だけでなく、たし算やひき算とは何かといった概念から学習します。</description>
+      <pubDate>Wed, 24 Feb 2010 18:02:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>gaudia学習プログラム　:開始:終了　平日２回</title>
+      <link>http://yakushidai.gaudia-web.com/course-detail-3370/</link>
+      <guid>http://yakushidai.gaudia-web.com/course-detail-3370/</guid>
+      <description>ガウディアの学習プログラムは、「導入問題」→「基礎問題」→「発展問題」というプロセスを通して、3つの力が身につくよう設計されています。1.理解する力＝問題の意味を読み取る2.発見する力＝解答するために必要なポイントに気づく3.表現する力＝正解までの道筋を組み立て、答えを導き出すこの学習プロセスを繰り返すことにより、得た知識や情報を活用できる力＝使える力が身につくのです。</description>
+      <pubDate>Wed, 24 Feb 2010 17:58:57 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

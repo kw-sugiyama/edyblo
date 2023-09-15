@@ -1,0 +1,49 @@
+<?
+$ua = $_SERVER['HTTP_USER_AGENT'];
+if (!(ereg("Windows",$ua) && ereg("MSIE",$ua)) || ereg("MSIE 7",$ua)) {
+	echo '<?xml version="1.0" encoding="EUC-JP"?>'."\n";
+}
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+  <head>
+    <title>塾ブログ - エラー</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+    <style type="text/css">
+    <!--
+      A{ color: black}
+      A:hover { color: red }
+    //-->
+    </style>
+  <style>
+  <!--
+  .default {color: #666666;}
+  a:link{color:#666666;}
+  a:visited{color:#999999;}
+  a:hover{color:#FFFFFF;background-color:#666666;}
+  -->
+  </style>
+<?=$param_meta_robots?>
+  </head>
+  <body>
+    <!--<div align="center">-->
+      <table width="400" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+         <td>
+            <br />
+            <br />
+            <div align="center">
+              <!--<form name="error_back" method="post" action="<?=$_buffGoto?>" target="_self">-->
+              <form name="error_back" method="post" action="./" target="_self">
+                <p><font size="1" color="#FF6600"><?=$buffViewString?></font></p>
+                <p><font size="1" color="#FF6600"><?=$_arrOther["ath_comment"]?></font></p>
+                <p></p>
+                <input type="submit" value="戻る" />
+              </form>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+  </body>
+</html>

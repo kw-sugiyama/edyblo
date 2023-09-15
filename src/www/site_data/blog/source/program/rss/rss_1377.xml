@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>本気で夢を叶えるための個別指導</title>
+    <link>http://kobekobetsu.com/</link>
+    <copyright>個別指導スタディアシスト兵庫中央教室</copyright>
+    <description></description>
+    <item>
+      <title>小学生コース　16:00開始21:50終了　月曜日〜金曜日</title>
+      <link>http://kobekobetsu.com/course-detail-7866/</link>
+      <guid>http://kobekobetsu.com/course-detail-7866/</guid>
+      <description>小学生のうちに、毎日勉強する習慣を作ることが最重要！知的好奇心をくすぐる工夫も。</description>
+      <pubDate>Wed, 01 Apr 2015 21:50:40 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　16:00開始21:50終了　月曜日〜金曜日</title>
+      <link>http://kobekobetsu.com/course-detail-9769/</link>
+      <guid>http://kobekobetsu.com/course-detail-9769/</guid>
+      <description>定期考査で結果を出し、上位公立高校を目指す！</description>
+      <pubDate>Wed, 01 Apr 2015 21:50:24 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校生コース　16:00開始21:50終了　</title>
+      <link>http://kobekobetsu.com/course-detail-9770/</link>
+      <guid>http://kobekobetsu.com/course-detail-9770/</guid>
+      <description>志望大学合格から逆算した効率的なカリキュラムで合格を目指す！</description>
+      <pubDate>Wed, 01 Apr 2015 21:47:56 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページを作成中</title>
+      <link>http://kobekobetsu.com/diary-detail-57369/</link>
+      <guid>http://kobekobetsu.com/diary-detail-57369/</guid>
+      <description>神戸市の個別指導塾スタディアシストのホームページを本格的に作成中です。</description>
+      <pubDate>Sun, 17 Feb 2013 00:31:43 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

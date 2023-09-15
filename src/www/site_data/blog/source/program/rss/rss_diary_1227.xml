@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ANRY学習館</title>
+    <link>http://jukutown.com/dummy-anry/</link>
+    <copyright>ANRY学習館</copyright>
+    <description></description>
+    <item>
+      <title>小学３年生のみなさんへ</title>
+      <link>http://jukutown.com/dummy-anry/blog-39774/</link>
+      <guid>http://jukutown.com/dummy-anry/blog-39774/</guid>
+      <description>もうすぐ小学校でソロバンがはじまります。当ＡＮＲＹに通うお子様が小学校でのソロバンにさきがけ、教科書の内容を学習できるよう、１月の授業より授業終了前１０分間ワークシートをとりいれます。</description>
+      <pubDate>Mon, 06 Feb 2012 21:24:31 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

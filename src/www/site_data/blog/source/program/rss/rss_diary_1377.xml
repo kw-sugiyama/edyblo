@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>u</title>
+    <link>http://kobekobetsu.com/</link>
+    <copyright>個別指導スタディアシスト　@神戸市</copyright>
+    <description></description>
+    <item>
+      <title>ホームページを作成中</title>
+      <link>http://kobekobetsu.com/blog-57369/</link>
+      <guid>http://kobekobetsu.com/blog-57369/</guid>
+      <description>神戸市の個別指導塾スタディアシストのホームページを本格的に作成中です。</description>
+      <pubDate>Sun, 17 Feb 2013 00:31:43 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

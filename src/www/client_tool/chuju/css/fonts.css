@@ -1,0 +1,36 @@
+/*
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.2.2
+*/
+
+/*----- modified by k-kondo @ 070821 -----*/
+
+
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ * 
+ */
+body {
+	font:13px arial, verdana, "ＭＳ Ｐゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
+	* font-size: 81.25%; /*for IE6,IE7*/
+	}
+table {
+	font-size:inherit;
+	}
+
+/**
+ * 99% for safari; 100% is too large
+ */
+select, input, textarea { font:99% arial, verdana, "ＭＳ Ｐゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, sans-serif; }
+
+/**
+ * Bump up !IE to get to 13px equivalent
+ */
+pre, code {
+	font:115% monospace;
+	* font-size:100%;
+	}
+

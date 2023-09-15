@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://kohana-academy.com/course-detail-6854/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 08 Feb 2016 13:42:55 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-6852/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 07 Feb 2016 20:46:17 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-6853/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 07 Feb 2016 20:38:14 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-5545/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 07 Mar 2012 15:50:43 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-5546/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 07 Mar 2012 15:50:22 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-5544/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 07 Mar 2012 15:49:55 +0900</lastmod>
+    </url>
+</urlset>

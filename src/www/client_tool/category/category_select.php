@@ -1,0 +1,110 @@
+<?
+/******************************************************************************
+<< 不動産ブログ　Ver.1.O.0 >>
+	Name: master_list.php
+	Version: 1.0.0
+	Function: カテゴリ種別選択
+	Author: Click inc
+	Date of creation: 2007/3
+	History of modification:
+
+	Copyright (C)2007 Click, inc. All Rights Reserverd.
+******************************************************************************/
+
+/*----------------------------------------------------------
+  必要ファイル呼び出し
+----------------------------------------------------------*/
+require_once ( "../ini_sets_2.php" );
+require_once ( SYS_PATH."dbif/dbcom_DBconnectClass.php" );
+require_once ( SYS_PATH."dbif/basedb_ClientClass.php" );
+require_once ( SYS_PATH."dbif/basedb_CategoryClass.php" );
+require_once ( SYS_PATH."common/base_common.php" );
+require_once ( SYS_PATH."common/sys_common.php" );
+include_once ( SYS_PATH."common/error.class.php" );
+require_once ( SYS_PATH."configs/param_base.conf" );
+
+/*----------------------------------------------------------
+        エラークラス - インスタンス
+----------------------------------------------------------*/
+$obj_error = new DispErrMessage();
+
+
+/*----------------------------------------------------------
+  セッション登録開始
+----------------------------------------------------------*/
+session_start();
+
+
+/*----------------------------------------------------------
+  ＤＢ接続
+----------------------------------------------------------*/
+require_once( SYS_PATH."common/db_connect.php" );
+
+
+/*----------------------------------------------------------
+  ログイン情報チェック
+----------------------------------------------------------*/
+require_once("../login_chk.php");
+
+
+/*----------------------------------------------------------
+  ＤＢ接続
+----------------------------------------------------------*/
+require_once( SYS_PATH."common/db_connect.php" );
+
+
+/*----------------------------------------------------------
+  ＨＴＭＬ生成
+----------------------------------------------------------*/
+print <<<EOF
+<HTML>
+<HEAD>
+    <META http-equiv="Content-Type" content="text/html;charset=EUC-JP" />
+    <META http-equiv="Content-Style-Type" content="text/css" />
+    <META http-equiv="Content-Script-Type" content="text/javascript" />
+    <LINK rel="stylesheet" type="text/css" href="../share/css/category.css" />
+    <SCRIPT type="text/javascript" src="../share/js/category.js"></SCRIPT>
+    <NOSCRIPT><META http-equiv="Refresh" content="1;URL=../jserror.html"></NOSCRIPT>
+</HEAD>
+<BODY>
+    <IMG src="../share/images/cate_kind_title.gif" alt="カテゴリー種別選択" />
+    <HR color="#96BC69" />
+  <DIV id="category">
+    <DIV id="line_01">
+      <DIV id="title">■カテゴリ種別選択</DIV>
+      <FORM name="goNew" method="POST" action="./category_main.php" target="_self">
+        <INPUT type="submit" value="教室案内情報登録" class="btn" style="width:150px"/>
+        <INPUT type="hidden" name="cg_type" value="1" />
+      </FORM>
+    </DIV>
+  </DIV>
+  <DIV id="category">
+    <DIV id="line_01">
+      <FORM name="goNew" method="POST" action="./category_main.php" target="_self">
+        <INPUT type="submit" value="入塾の流れ情報登録" class="btn" style="width:150px">
+        <INPUT type="hidden" name="cg_type" value="2" />
+      </FORM>
+    </DIV>
+  </DIV>
+  <DIV id="category">
+    <DIV id="line_01">
+      <FORM name="goNew" method="POST" action="./category_main.php" target="_self">
+        <INPUT type="submit" value="よくある質問情報登録" class="btn" style="width:150px">
+        <INPUT type="hidden" name="cg_type" value="4" />
+      </FORM>
+    </DIV>
+  </DIV>
+<!--
+  <DIV id="category">
+    <DIV id="line_01">
+      <FORM name="goNew" method="POST" action="./category_main.php" target="_self">
+        <INPUT type="submit" value="日記カテゴリ" class="btn" style="width:150px">
+        <INPUT type="hidden" name="cg_type" value="5" />
+      </FORM>
+    </DIV>
+  </DIV>
+//-->
+</BODY>
+</HTML>
+EOF;
+?>

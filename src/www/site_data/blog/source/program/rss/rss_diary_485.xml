@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ＡＩＭ学習セミナー【千葉学習塾協同組合加盟塾】　　</title>
+    <link>http://jukutown.com/aim/</link>
+    <copyright>AIM（エイム）学習セミナー</copyright>
+    <description>こんにちは、ＡＩＭ学習セミナーです！ＡＩＭ学習セミナーは千葉学習塾協同組合の加盟塾です。</description>
+    <item>
+      <title>リニューアルオープン！</title>
+      <link>http://jukutown.com/aim/blog-4203/</link>
+      <guid>http://jukutown.com/aim/blog-4203/</guid>
+      <description>新しいページを、リューアルオープンしました！</description>
+      <pubDate>Wed, 28 Oct 2009 18:48:01 +0900</pubDate>
+    </item>
+    <item>
+      <title>授業料／諸経費のご案内</title>
+      <link>http://jukutown.com/aim/blog-4219/</link>
+      <guid>http://jukutown.com/aim/blog-4219/</guid>
+      <description>詳細はこちらをご覧下さい！。</description>
+      <pubDate>Wed, 28 Oct 2009 14:31:38 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

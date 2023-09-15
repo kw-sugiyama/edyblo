@@ -1,0 +1,73 @@
+@import url(./base.css);
+
+#title {
+	width: 600px;
+	background-color: #2B2BFF;
+	color: #FFFFFF;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+
+#line{
+	width:300px;
+}
+
+#line table {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	width: 100%;
+}
+
+#line td {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 10px;
+	font-size:13px;
+}
+
+#line td em{
+	font-weight:normal;
+	font-size:12px;
+	color:#FF0000;
+	padding:5px;
+}
+
+#line th {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 5px solid #CCCCCC;
+	border-right: none;
+	background-color: #2B2BFF;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding: 3px 3px 3px 1px;
+	width: 150px;
+	font-size:13px;
+}
+
+#line th.must{
+	border-left-color: #FF0000;
+}
+
+#line .inptxt{
+	width: 250px;
+}
+
+#line td.layout{
+	text-align: left;
+	padding: 0 0 0 5px;
+}
+
+.btn_nosize{
+	color:#FFFFFF;
+	background-color:#2B2BFF;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>早稲田学習塾</title>
+    <link>http://jukutown.com/dummy-wasegaku/</link>
+    <copyright>早稲田学習塾</copyright>
+    <description></description>
+    <item>
+      <title>新学期</title>
+      <link>http://jukutown.com/dummy-wasegaku/blog-74664/</link>
+      <guid>http://jukutown.com/dummy-wasegaku/blog-74664/</guid>
+      <description>明日から新学期が始まります！準備は始めました？…</description>
+      <pubDate>Mon, 31 Mar 2014 14:15:15 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

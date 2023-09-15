@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【エース塾　青森校】のご案内</title>
+    <link>http://jukutown.com/ace-juku/</link>
+    <copyright>エース塾　青森校</copyright>
+    <description></description>
+    <item>
+      <title>夏期講習の記事をアップしました！</title>
+      <link>http://jukutown.com/ace-juku/blog-12015/</link>
+      <guid>http://jukutown.com/ace-juku/blog-12015/</guid>
+      <description>夏期講習のご案内をアップしました。夏期講習は、学校の授業が無い分、今まで習ったことの総復習ができます。だから苦手な単元を克服する大チャンスです！夏期講習を有効に利用し、目標に近づこう！！詳しくは、トップページの「夏期講習のお知らせ」をご覧ください。</description>
+      <pubDate>Wed, 09 Jun 2010 20:12:53 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページを開設しました！</title>
+      <link>http://jukutown.com/ace-juku/blog-6928/</link>
+      <guid>http://jukutown.com/ace-juku/blog-6928/</guid>
+      <description>新しいホームページを開設致しました。随時更新していきますので、是非皆さんご覧下さい。</description>
+      <pubDate>Wed, 13 Jan 2010 22:20:51 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

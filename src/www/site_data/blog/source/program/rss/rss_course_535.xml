@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>サンプル進学塾 △△教室</title>
+    <link>http://jukutown.com/sample04/</link>
+    <copyright>サンプル進学塾△△教室</copyright>
+    <description></description>
+    <item>
+      <title>先生1人対生徒1人の個別指導　:開始:終了　自由に選択でます。</title>
+      <link>http://jukutown.com/sample04/course-detail-2889/</link>
+      <guid>http://jukutown.com/sample04/course-detail-2889/</guid>
+      <description>部活動や習い事も頑張りたい！でも、勉強もしっかり頑張りたい！そんなあなたにおすすめのコースです。時間や教科など自由に決められますので、無理なく通えます。あなたのペースに合わせます。</description>
+      <pubDate>Thu, 24 Dec 2009 21:47:49 +0900</pubDate>
+    </item>
+    <item>
+      <title>難関私立大学受験コース　17:00開始21:00終了　月曜日〜金曜日</title>
+      <link>http://jukutown.com/sample04/course-detail-2888/</link>
+      <guid>http://jukutown.com/sample04/course-detail-2888/</guid>
+      <description>難関私立大学合格を目指すコースです。教材も学校別にあり、それに合わせたものを選んで使います。</description>
+      <pubDate>Thu, 24 Dec 2009 20:01:03 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校進学コース　19:00開始20:00終了　火・木</title>
+      <link>http://jukutown.com/sample04/course-detail-2887/</link>
+      <guid>http://jukutown.com/sample04/course-detail-2887/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導。重要視される内申点の更なるアップ。繰り返し行う模擬テストで合格への最短ルートを発見。</description>
+      <pubDate>Thu, 24 Dec 2009 19:58:06 +0900</pubDate>
+    </item>
+    <item>
+      <title>私立中学受験コース　17:00開始18:20終了　学年・教科により異なります</title>
+      <link>http://jukutown.com/sample04/course-detail-2886/</link>
+      <guid>http://jukutown.com/sample04/course-detail-2886/</guid>
+      <description>もう知識だけで闘える時代ではありません!!ここ近年、時代背景の変化と共に、中学受験に出題される問題の傾向も毎年変化しています。こうした変化にいち早く注目し、単に知識を詰め込むだけではなく、「自分で考える」ことを身に付ける教育にも力を入れています。</description>
+      <pubDate>Thu, 24 Dec 2009 19:55:02 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

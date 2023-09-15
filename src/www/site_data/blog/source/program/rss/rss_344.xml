@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>個別学習　スクール・マハロハ</title>
+    <link>http://jukutown.com/mahaloha/</link>
+    <copyright>スクールMAHALOHA</copyright>
+    <description>school MAHAROHA(スクールマハロハ）のホームページです。江戸川区瑞江駅周辺で学習塾・進学塾・個別指導塾をお探しの方は必見。</description>
+    <item>
+      <title>高校進学コース　:開始:終了　</title>
+      <link>http://jukutown.com/mahaloha/course-detail-1812/</link>
+      <guid>http://jukutown.com/mahaloha/course-detail-1812/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導。重要視される内申点の更なるアップ。繰り返し行う模擬テストで合格への最短ルートを発見。</description>
+      <pubDate>Fri, 17 Jul 2009 15:40:06 +0900</pubDate>
+    </item>
+    <item>
+      <title>私立中学受験コース　:開始:終了　</title>
+      <link>http://jukutown.com/mahaloha/course-detail-1811/</link>
+      <guid>http://jukutown.com/mahaloha/course-detail-1811/</guid>
+      <description>もう知識だけで闘える時代ではありません!!少子化とは言えども、増える一方の中学受験率。ここ近年、時代背景の変化と共に、中学受験に出題される問題の傾向も毎年変化しています。こうした変化にいち早く注目し、単に知識を詰め込むだけではなく、「自分で考える」ことを身に付ける教育にも力を入れています。</description>
+      <pubDate>Fri, 17 Jul 2009 15:39:30 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページを開設しました。</title>
+      <link>http://jukutown.com/mahaloha/diary-detail-1284/</link>
+      <guid>http://jukutown.com/mahaloha/diary-detail-1284/</guid>
+      <description>ホームページを開設しました！随時更新していくので、ぜひご覧ください！！</description>
+      <pubDate>Wed, 08 Jul 2009 23:17:51 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

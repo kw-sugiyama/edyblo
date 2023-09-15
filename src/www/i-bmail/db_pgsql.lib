@@ -1,0 +1,75 @@
+<?PHP
+
+    $dbconnstr = "dbname=$db_name host=$db_server_name user=$db_user_name password=$db_password";
+    $conn = pg_connect( $dbconnstr );
+
+    function db_close() {
+	global $conn;
+	pg_close($conn);
+    }
+
+    function getSign() {
+        global $conn, $username;
+	$nothing='';
+	$query = "select sig from imp_pref where username = '$username'";
+	$result = pg_exec ( $conn, $query );
+	if (pg_numrows($result) == 0) {
+		return $nothing;
+	} else {
+		return pg_result ( $result, 0, "sig" );
+	}
+    }
+
+    function addSign( $sign, $new_flg ){
+        global $conn, $username,$internal_encoding;
+	if ( $new_flg == 1 ) {
+	    $query = "insert into imp_pref (username, sig) values ( '$username', '$sign' )";
+	} else {
+	    $query = "update imp_pref set sig = '$sign' where username = '$username'";
+	}
+	$result = @pg_exec ( $conn, $query );
+    }
+
+    function getAddressList() {
+        global $conn, $username;
+
+	$query = "select address, fullname from imp_addr where username = '$username'";
+	$result = @pg_exec ( $conn, $query );
+	$rows = pg_numrows ( $result );
+
+	$list = array();
+	for ( $i = 0; $i < $rows; $i++ ) {
+	    $mail_add = pg_result ( $result, $i, "address" ); 
+	    $name = pg_result ( $result, $i, "fullname" );
+	    $list[$i] = array( $mail_add, $name );
+	}
+
+	return $list;
+    }
+
+    function addAddressBook( $mail_add, $name, $select_mail, $new_flg ){
+        global $conn, $username;
+	if ( $new_flg == 1 ) {
+	    $query = "insert into imp_addr ( username, address, fullname ) values ( '$username', '$mail_add', '$name' ) ";
+	} else {
+	    $query = "update imp_addr set address = '$mail_add', fullname = '$name' where username = '$username' and address = '$select_mail'";
+	}
+	$result = @pg_exec ( $conn, $query );
+    }
+
+    function delAddressBook( $select_mail ){
+        global $conn, $username;
+
+	$query = "delete from imp_addr where username ='$username' and address = '$select_mail'";
+	$result = @pg_exec ( $conn, $query );
+    }
+
+    function getFullnameFromAB( $select_mail ){
+        global $conn, $username;
+
+	$query = "select address, fullname from imp_addr where username = '$username' and address = '$select_mail'";
+	$result = @pg_exec ( $conn, $query );
+
+	return pg_result( $result, 0, "fullname" );
+    }
+?>

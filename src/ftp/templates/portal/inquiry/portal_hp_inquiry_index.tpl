@@ -1,0 +1,131 @@
+<?php require_once( SYS_PATH."templates/portal/portal_header.tpl" ); ?>
+
+<body>
+
+<?php require_once( SYS_PATH."templates/portal/portal_container.tpl" ); ?>
+
+<div id="main"><!--main start-->
+<div id="mainleft"><!--mainleft start-->
+
+<p class="topicpath"><strong><a href="/">HOME</a></strong><span class="paddinglr1">&gt;</span><strong><a href="/inquiry/">お問合せ</a></strong><span class="paddinglr1">&gt;</span><strong>塾タウンについて</strong></p><!--topic path-->
+
+<h3>お問合せ　塾タウンについて</h3><!--search start-->
+<form name="hp_inquiry_input" method="POST" action="<?=$param_base_blog_addr_url?>/hp_inquiry/confirm.html" target="_self">
+	<div class="box7">
+		<div class="box8">
+			<p class="paddingb1">※お問合せ時の注意点 <br>
+			・お問合せの内容については、可能な限り具体的に状況等ご入力下さい。<br>
+			・返答を希望される方は、必ずメールアドレスもあわせてご入力下さい。
+			<br>
+			・返答を希望された方で、お問合せ後、１週間経っても返答がない場合は、<br>
+			　メールアドレスの入力漏れ、もしくは入力ミスの可能性がございます。
+			<br>
+			上記の場合、大変お手数ですが再度お問合せ下さいますようお願い致します。</p>
+
+			<table>
+			<tr>
+				<td class="tdform-a">
+					<p>メールアドレス</p>
+				</td>
+				<td class="tdform-b">
+					<p><input type="text" name="email" value="<?=$_POST['email']?>" ><span class="marginlr2 red small">必須</span></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="tdform-a">
+					<p>件名</p>
+				</td>
+				<td class="tdform-b">
+					<p><input type="text" name="subject" value="<?=$_POST['subject']?>" ><span class="marginlr2 red small">必須</span></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="tdform-a">
+					<p>本文</p>
+				</td>
+				<td class="tdform-b">
+					<textarea name="contents" cols="35" rows="10"><?=$_POST['contents']?></textarea>
+				</td>
+			</tr>
+			</table>
+
+			<table class="margint5">
+			<tr>
+				<td class="paddinglr2 bggray">
+					<p><em>個人情報の取扱いについて</em></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="bordergray">
+					<p class="center">
+					<textarea name="textarea" cols="50" rows="10" style="font-size:small">
+1. 個人情報の取得
+当社は、個人情報を適正な手段により取得いたします。当社は、このウェブサイトのコンテンツをご利用される利用者から、その利用の際に、個人情報を取得することがあります。
+
+2. 個人情報の利用目的
+当社は、個人情報を以下の目的で利用します。
+個人情報保護法その他の関連する法令により認められる事由がある場合を除き、ご本人の同意がない限り、この利用目的を超えて個人情報を利用することはありません。
+・商材、レポートその他の当社事業関連または付帯するサービスの情報、年賀状等の挨拶状のご案内
+・お問い合せへの対応
+・その他、上記の利用目的に付随する目的
+
+3. 個人情報の第三者への提供 
+当社は、個人情報の第三者への提供については、個人情報保護法その他の関連する法令を遵守いたします。 
+
+4. 個人情報の安全管理
+当社は、個人情報を適切に管理し、個人情報の漏洩、滅失、毀損等に対する予防措置を講じます。
+
+5. 個人情報の利用目的の通知、開示、訂正、利用停止等の求め
+当社は、個人情報について、開示、訂正・追加・削除、利用停止・消去、第三者への提供の停止または利用目的の通知に、そのご本人からのお申出があった場合には、お申出をいただいた方がご本人であることを確認のうえ、個人情報保護法の定めに従い、誠実かつ速やかに対応します。
+
+なお、お申出が個人情報保護法の定める要件をみたさない場合、または、個人情報保護法その他の法令により、開示等を拒絶することが認められる事由がある場合には、お申出をお断りすることがございますので、あらかじめご了承ください。
+
+6. お問い合せ窓口
+開示等のお申出、ご意見、ご質問、苦情、その他の個人情報の取扱いに関するお問い合せは、下記ご連絡先にて受け付け致します。
+
+住所: 〒160-0023 東京都新宿区西新宿7-11-3 平田ビル2F
+電子メール：info@jukutown.com
+(受付時間：平日12：00〜20：00) 
+
+7. 継続的改善
+当社は、個人情報の取扱いに関する運用状況を適宜見直し、継続的な改善に努め、必要に応じて、プライバシーポリシーを変更することがあります。
+
+
+【免責事項】 
+当社は情報提供会社における個人情報の利用に関して責任を負わないものとします。</textarea>
+			 	</p></td>
+			</tr>
+			</table>
+
+		</div>
+	</div><!--search end-->
+
+	<div class="submit1">
+	  <label>
+	 <input type="image" src="share/css/css1/images/button05.gif" alt="送信" onclick="return hp_inquiry_check(this.form)"></label>
+	</div>
+	<INPUT type="hidden" name="form_flg" value="INDEX" >
+</form>
+
+<!--to pagetop start--> 
+<?php require_once( SYS_PATH."templates/portal/portal_main_footer.tpl" ); ?>
+<!--to pagetop end--> 
+
+</div><!--mainleft end-->
+
+<div id="mainright"><!--mainright start-->
+<?php require_once( SYS_PATH."templates/portal/portal_right_menu.tpl" ); ?>
+</div><!--mainright end-->    
+        
+</div><!--main end-->    
+
+<div id="footerwrapper"><!--footerwrapper start-->
+
+</div><!--footerwrapper end-->
+<?php require_once( SYS_PATH."edy/portal_footer.tpl" ); ?>
+</div><!--container end-->
+
+<?php require_once( SYS_PATH."templates/portal/portal_analytics.tpl" ); ?>
+
+</body>
+</html>

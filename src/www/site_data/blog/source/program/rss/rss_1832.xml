@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>見出し-教室紹介 （トップ画像上）</title>
+    <link>http://jukutown.com/dummy-nagashima/</link>
+    <copyright>塾名教室名</copyright>
+    <description>ディスクリプション-エディブロ非表示（検索エンジン結果テキスト）</description>
+    <item>
+      <title>あいうえお</title>
+      <link>http://jukutown.com/dummy-nagashima/blog-136832/</link>
+      <guid>http://jukutown.com/dummy-nagashima/blog-136832/</guid>
+      <description>あいうえおかきくけこさしすせそ&lt;img src=&quot;http://jukutown.com//cl_img/img_list/1832/30600.jpg&quot; alt=&quot;資料画像_サイズ変更後&quot; title=&quot;資料画像_サイズ変更後&quot; width=&quot;535&quot; height=&quot;772&quot;/&gt;</description>
+      <pubDate>Thu, 04 Jun 2020 15:12:30 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

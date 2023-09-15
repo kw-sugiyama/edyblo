@@ -1,0 +1,31 @@
+@import url(./base.css);
+
+
+body{
+	font-size: 75%;
+	line-heigth: 1.5;
+	color: #4848FF;
+	background-color: #4848FF;
+}
+
+#top{
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	background : url(./images/admin_tool_top_back.gif) repeat-x;
+}
+
+#top .logo{
+	text-align: center;
+	vertical-align: middle;
+	width: 160px;
+}
+
+#top .title{
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	font-color: #FF0000;
+	text-align: left;
+	vertical-align: middle;
+}

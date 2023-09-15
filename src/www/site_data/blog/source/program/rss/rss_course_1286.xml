@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>育ゼミ　久喜本校　〜久喜市の学習塾・個別指導塾〜</title>
+    <link>http://ikuzemi.com/</link>
+    <copyright>育ゼミ久喜本校</copyright>
+    <description></description>
+    <item>
+      <title>幼稚園児コース　:開始:終了　</title>
+      <link>http://ikuzemi.com/course-detail-7250/</link>
+      <guid>http://ikuzemi.com/course-detail-7250/</guid>
+      <description>■お預かり教室</description>
+      <pubDate>Wed, 25 Jul 2012 15:21:59 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース　:開始:終了　</title>
+      <link>http://ikuzemi.com/course-detail-7251/</link>
+      <guid>http://ikuzemi.com/course-detail-7251/</guid>
+      <description>■勉強の習慣作りコース■公立難関高校チャレンジコース■中学受験科（小４〜）※小３までは、お預かり教室可。</description>
+      <pubDate>Tue, 17 Jul 2012 22:13:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　:開始:終了　</title>
+      <link>http://ikuzemi.com/course-detail-7252/</link>
+      <guid>http://ikuzemi.com/course-detail-7252/</guid>
+      <description>■基礎充実コース■難関公立高校チャレンジコース■私立単願コース■私立難関校受験コース（併願）</description>
+      <pubDate>Tue, 17 Jul 2012 16:52:27 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校生コース　:開始:終了　</title>
+      <link>http://ikuzemi.com/course-detail-7253/</link>
+      <guid>http://ikuzemi.com/course-detail-7253/</guid>
+      <description>■大学入試コース■指定校推薦コース■AO・自己推薦コース</description>
+      <pubDate>Tue, 17 Jul 2012 16:51:24 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

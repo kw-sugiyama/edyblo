@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾　スィンク　船橋本校</title>
+    <link>http://jukutown.com/think-hunabashi/</link>
+    <copyright>スィンク船橋本校</copyright>
+    <description></description>
+    <item>
+      <title>小学生のコース　16:00開始19:10終了　月曜日〜土曜日</title>
+      <link>http://jukutown.com/think-hunabashi/course-detail-546/</link>
+      <guid>http://jukutown.com/think-hunabashi/course-detail-546/</guid>
+      <description>学校でわからなかった問題や自分で挑戦している問題で解からないところがありましたら、そちらも「わかるまで」指導させていただます。 </description>
+      <pubDate>Wed, 11 Mar 2009 16:24:39 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生のコース　18:00開始21:40終了　月曜日〜土曜日</title>
+      <link>http://jukutown.com/think-hunabashi/course-detail-547/</link>
+      <guid>http://jukutown.com/think-hunabashi/course-detail-547/</guid>
+      <description>公立高校入試や難関私立高校入試を意識し、ハイレベルな問題も取り扱います。中学生も小学生同様に解からないところがあれば、「わかるまで」指導させていただます。</description>
+      <pubDate>Wed, 11 Mar 2009 15:41:59 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

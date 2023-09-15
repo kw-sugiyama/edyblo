@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>あさひ塾 可部教室</title>
+    <link>http://jukutown.com/asahi/</link>
+    <copyright>あさひ塾可部教室</copyright>
+    <description></description>
+    <item>
+      <title>５月の休校日について</title>
+      <link>http://jukutown.com/asahi/blog-854/</link>
+      <guid>http://jukutown.com/asahi/blog-854/</guid>
+      <description>５月の休校日は以下の通りです。○○日　休校○○日　休校○○日　休校○○日　休校○○日　休校○○日　休校</description>
+      <pubDate>Wed, 06 May 2009 12:45:58 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

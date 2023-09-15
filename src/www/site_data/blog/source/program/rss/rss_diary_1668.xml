@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>向学館ゼミナール　〜富田林市の学習塾・個別指導塾〜</title>
+    <link>http://jukutown.com/kougaku/</link>
+    <copyright>向学館ゼミナール</copyright>
+    <description>富田林市の学習塾・個別指導塾【向学館ゼミナール】のホームページです。</description>
+    <item>
+      <title>まだ定員に達していない学年があります。</title>
+      <link>http://jukutown.com/kougaku/blog-87804/</link>
+      <guid>http://jukutown.com/kougaku/blog-87804/</guid>
+      <description>新中１・新中３は定員に達したため、募集を終了させていただきました。小学生・新中２はまだ募集中です。</description>
+      <pubDate>Thu, 09 Apr 2015 21:28:03 +0900</pubDate>
+    </item>
+    <item>
+      <title>新年度生募集中です。</title>
+      <link>http://jukutown.com/kougaku/blog-87331/</link>
+      <guid>http://jukutown.com/kougaku/blog-87331/</guid>
+      <description>向学館ゼミナールでは、新年度生を募集しています。まずはお気軽にお問い合わせください。※定員になりましたら、募集締め切りとなります。お早目にお問い合わせください。</description>
+      <pubDate>Thu, 09 Apr 2015 21:24:45 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

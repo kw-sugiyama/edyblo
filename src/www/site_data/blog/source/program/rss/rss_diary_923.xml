@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>サンプル進学塾 新宿教室　（エディブロ）</title>
+    <link>http://jukutown.com/sample3/</link>
+    <copyright>サンプル進学塾３新宿教室</copyright>
+    <description></description>
+    <item>
+      <title>新ホームページを開設致しました</title>
+      <link>http://jukutown.com/sample3/blog-15602/</link>
+      <guid>http://jukutown.com/sample3/blog-15602/</guid>
+      <description>新しいホームページを開設致しました。随時更新していきますので、是非皆さんご覧下さい。</description>
+      <pubDate>Mon, 13 Sep 2010 12:27:27 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

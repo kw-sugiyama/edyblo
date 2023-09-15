@@ -1,0 +1,250 @@
+#############################################################
+
+# php setting - site_data
+
+#############################################################
+
+
+# base setting
+
+php_flag register_globals off
+php_flag magic_quotes_gpc on
+php_flag display_errors on
+php_flag magic_quotes_sybase off
+
+
+# mbstring setting
+
+php_value mbstring.language Japanese
+php_value mbstring.internal_encoding EUC-JP
+php_value mbstring.http_input pass
+php_flag  mbstring.encoding_translation on
+php_value mbstring.substitute_character none
+php_value mbstring.detect_order ASCII,EUC-JP,JIS,UTF-8,SJIS
+php_value mbstring.func_overload 0
+
+
+# session setting
+
+php_value session.name "estate_blog_site_sess"
+php_flag  session.use_only_cookies on
+php_value session.cache_limiter "nocache"
+
+
+#############################################################
+
+# basic setting
+
+#############################################################
+#AuthUserFile /home/jukutown.com/www/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName "Slash Area"
+#AuthType Basic
+
+#require valid-user
+
+#<Files ~ "^.(htpasswd|htaccess)$">
+#    deny from all
+#</Files> 
+
+
+############################################################
+
+# re-direct
+
+###########################################################
+
+#redirect permanent /dev/slash/estate/www/slash/ http://219.163.62.35/dev/slash/estate/www/click/ 
+
+
+
+#############################################################
+
+# mod_rewrite setting - site_data
+
+#############################################################
+
+RewriteEngine On
+RewriteBase   /
+RewriteCond   %{REQUEST_FILENAME} !-f
+RewriteCond   %{REQUEST_FILENAME} !-d
+
+
+########################################################################################################
+# portal setting
+
+# maintenance
+#RewriteRule   ^client_tool/$                                       maintenance.html%{QUERY_STRING} [L]
+#RewriteRule   ^client_tool/(.*)$                                   maintenance.html%{QUERY_STRING} [L]
+
+# sitemap.xml
+#RewriteRule   ^sitemap.xml$                                         sitemap.xml%{QUERY_STRING} [L]
+
+# search result
+#RewriteRule   ^phpinfo/$                                                              program/phpinfo.php%{QUERY_STRING} [L]
+
+# search result
+#RewriteRule   ^kiyaku/$                                                               program/portal_tpl_control.php?tpl_flg=kiyaku%{QUERY_STRING} [L]
+#RewriteRule   ^kiyaku/([a-z]{1}.*)$                                                   program/waseiku-nishikani?%{QUERY_STRING} [L]
+#RewriteRule   ^sitemap/$                                                              program/portal_tpl_control.php?tpl_flg=sitemap%{QUERY_STRING} [L]
+#RewriteRule   ^sitemap/([a-z]{1}.*)$                                                  program/waseiku-nishikani?%{QUERY_STRING} [L]
+#RewriteRule   ^privacy/$                                                              program/portal_tpl_control.php?tpl_flg=privacy%{QUERY_STRING} [L]
+#RewriteRule   ^privacy/([a-z]{1}.*)$                                                  program/waseiku-nishikani?%{QUERY_STRING} [L]
+#RewriteRule   ^com-pro/$                                                              program/portal_tpl_control.php?tpl_flg=com-pro%{QUERY_STRING} [L]
+#RewriteRule   ^com-pro/([a-z]{1}.*)$                                                  program/waseiku-nishikani?%{QUERY_STRING} [L]
+#RewriteRule   ^forcom/$                                                               program/portal_tpl_control.php?tpl_flg=forcom%{QUERY_STRING} [L]
+#RewriteRule   ^forcom/([a-z]{1}.*)$                                                   program/waseiku-nishikani?%{QUERY_STRING} [L]
+
+# diary
+#RewriteRule   ^diary/$                                                                program/portal_diary.php?%{QUERY_STRING} [L]
+#RewriteRule   ^diary/([a-z]{1}.*)$                                                    program/waseiku-nishikani?%{QUERY_STRING} [L]
+
+# inquiry
+#RewriteRule   ^inquiry/([a-z]{1}.*)$                                                  program/waseiku-nishikani?%{QUERY_STRING} [L]
+#RewriteRule   ^inquiry/$                                                              program/portal_inquiry.php?%{QUERY_STRING} [L]
+
+# search result
+#RewriteRule   ^psearch-result/page-([0-9]+)\.html$                                    program/portal_build_list.php?p=waseiku-nishikani&%{QUERY_STRING} [L]
+#RewriteRule   ^psearch-result/([a-z]{1}.*)$                                           program/waseiku-nishikani?%{QUERY_STRING} [L]
+
+# search map pages
+#RewriteRule   ^psearch-map/$                                                          program/portal_search_map.php?%{QUERY_STRING} [L]
+#RewriteRule   ^psearch-map/([a-z]{1}.*)$                                              program/waseiku-nishikani?%{QUERY_STRING} [L]
+
+# search pages
+#RewriteRule   ^psearch-com-([a-z]+)/([a-z]{1}.*)$                                     program/$1?page_flg=waseiku-nishikani&%{QUERY_STRING} [L]
+#RewriteRule   ^psearch-com-([a-z]+)/$                                                 program/portal_search_com.php?page_flg=waseiku-nishikani&%{QUERY_STRING} [L]
+
+# search pages
+#RewriteRule   ^psearch-([a-z]+)/([a-z]{1}.*)$                                         program/$1?page_flg=waseiku-nishikani&%{QUERY_STRING} [L]
+#RewriteRule   ^psearch-([a-z]+)/$                                                     program/portal_search.php?page_flg=waseiku-nishikani&%{QUERY_STRING} [L]
+
+# company pages
+#RewriteRule   ^pcompany-list/page-([0-9]+)\.html$                                     program/portal_company_list.php?p=waseiku-nishikani&%{QUERY_STRING} [L]
+#RewriteRule   ^pcompany-list/([a-z]{1}.*)$                                            program/waseiku-nishikani?%{QUERY_STRING} [L]
+
+# index
+#RewriteRule   ^share/(.*)$                                                            program/share/waseiku-nishikani?%{QUERY_STRING} [L]
+#RewriteRule   ^$                                                                      program/portal_index.php?%{QUERY_STRING} [L]
+
+#####################################################################################################################
+
+# blog setting
+
+# MapTest
+#RewriteRule  ^MapTest.php$                                               program/MapTest.php?%{QUERY_STRING} [L]
+
+# 日記RSS
+RewriteRule   ^diary-rss-([0-9]+)/([a-z]{1}.*)$                           program/$2?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^diary-rss-([0-9]+)/$                                       program/rss/rss_diary_$1.xml?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# コースRSS
+RewriteRule   ^course-rss-([0-9]+)/([a-z]{1}.*)$                          program/$2?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^course-rss-([0-9]+)/$                                      program/rss/rss_course_$1.xml?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# コース＋日記RSS
+RewriteRule   ^rss-([0-9]+)/([a-z]{1}.*)$                                 program/$2?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^rss-([0-9]+)/$                                             program/rss/rss_$1.xml?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# 日記詳細
+RewriteRule   ^blog-([0-9]+)/([a-z]{1}.*)$                                program/$2?cl=waseiku-nishikani&dd=1&drid=$1&%{QUERY_STRING} [L]
+RewriteRule   ^blog-([0-9]+)/$                                            program/blog.php?cl=waseiku-nishikani&dd=1&drid=$1&%{QUERY_STRING} [L]
+
+# キャンペーン詳細
+RewriteRule   ^campaign-detail-([0-9]+)/([a-z]{1}.*)$                     program/$2?cl=waseiku-nishikani&dd=1&cpid=$1&%{QUERY_STRING} [L]
+RewriteRule   ^campaign-detail-([0-9]+)/$                                 program/campaigndetail.php?cl=waseiku-nishikani&dd=1&cpid=$1&%{QUERY_STRING} [L]
+
+# コース詳細
+RewriteRule   ^course-detail-([0-9]+)/([a-z]{1}.*)$                       program/$2?cl=waseiku-nishikani&dd=1&csid=$1&%{QUERY_STRING} [L]
+RewriteRule   ^course-detail-([0-9]+)/$                                   program/coursedetail.php?cl=waseiku-nishikani&dd=1&csid=$1&%{QUERY_STRING} [L]
+
+# 入塾までの流れ
+RewriteRule   ^flow/([a-z]{1}.*)$                                         program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^flow/$                                                     program/flow.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# キャンペーンお申し込みフォーム
+RewriteRule   ^campaign-apply/([a-z]{1}.*)$                               program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^campaign-apply/$                                           program/campaignapply.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# キャンペーンお申し込み確認ページ
+RewriteRule   ^campaign-apply-confirm/([a-z]{1}.*)$                       program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^campaign-apply-confirm/$                                   program/campaignapplyconfirm.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# キャンペーンお問い合わせフォーム
+RewriteRule   ^campaign-inq/([a-z]{1}.*)$                                 program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^campaign-inq/$                                             program/campaigninq.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# キャンペーンお問い合わせ確認ページ
+RewriteRule   ^campaign-inq-confirm/([a-z]{1}.*)$                         program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^campaign-inq-confirm/$                                     program/campconfirm.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# コースお問い合わせフォーム
+RewriteRule   ^course-inq/([a-z]{1}.*)$                                   program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^course-inq/$                                               program/courseinq.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# コースお問い合わせ確認ページ
+RewriteRule   ^course-inq-confirm/([a-z]{1}.*)$                           program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^course-inq-confirm/$                                       program/courseinqconfirm.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# コース資料請求フォーム
+RewriteRule   ^course-req/([a-z]{1}.*)$                                   program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^course-req/$                                               program/coursereq.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# コース資料請求確認ページ
+RewriteRule   ^course-req-confirm/([a-z]{1}.*)$                           program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^course-req-confirm/$                                       program/coursereqconfirm.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# 資料請求フォーム
+RewriteRule   ^req/([a-z]{1}.*)$                                          program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^req/$                                                      program/req.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# 資料請求確認ページ
+RewriteRule   ^req-confirm/([a-z]{1}.*)$                                  program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^req-confirm/$                                              program/reqconfirm.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# お問い合わせフォーム
+RewriteRule   ^inquire/([a-z]{1}.*)$                                      program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^inquire/$                                                  program/inquire.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# お問い合わせ確認ページ
+RewriteRule   ^inq-confirm/([a-z]{1}.*)$                                  program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^inq-confirm/$                                              program/inqconfirm.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# 各種サンキューページ
+RewriteRule   ^complete/([a-z]{1}.*)$                                     program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^complete/$                                                 program/complete.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# 教室案内
+RewriteRule   ^school/([a-z]{1}.*)$                                       program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^school/$                                                   program/school.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# コース一覧
+RewriteRule   ^course-list/p-([0-9]+)/cs-([0-9]+)/([a-z]{1}.*)$           program/$3?cl=waseiku-nishikani&dd=1&page=$1&csid=$2&%{QUERY_STRING} [L]
+RewriteRule   ^course-list/p-([0-9]+)/cs-([0-9]+)/$                       program/courselist.php?cl=waseiku-nishikani&dd=1&page=$1&csid=$2&%{QUERY_STRING} [L]
+
+# キャンペーン一覧
+RewriteRule   ^campain-list/p-([0-9]+)/cp-([0-9]+)/([a-z]{1}.*)$          program/$3?cl=waseiku-nishikani&dd=1&page=$1&cpid=$2&%{QUERY_STRING} [L]
+RewriteRule   ^campain-list/p-([0-9]+)/cp-([0-9]+)/$                      program/campaignlist.php?cl=waseiku-nishikani&dd=1&page=$1&cpid=$2&%{QUERY_STRING} [L]
+
+# 日記一覧
+RewriteRule   ^diary-list/p-([0-9]+)/dr-([0-9]+)/([a-z]{1}.*)$            program/$3?cl=waseiku-nishikani&dd=1&page=$1&drid=$2&%{QUERY_STRING} [L]
+RewriteRule   ^diary-list/p-([0-9]+)/dr-([0-9]+)/$                        program/bloglist.php?cl=waseiku-nishikani&dd=1&page=$1&drid=$2&%{QUERY_STRING} [L]
+
+# 個人情報保護方針
+RewriteRule   ^kojin/([a-z]{1}.*)$                                        program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^kojin/$                                                    program/privacy.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# Q&A
+RewriteRule   ^qa/([a-z]{1}.*)$                                           program/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^qa/$                                                       program/QA.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+
+# index
+RewriteRule   ^img_thumbnail.php$                                         program/img_thumbnail.php?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^cl_img/(.*)$                                               program/cl_img/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^share/(.*)$                                                program/share/$1?cl=waseiku-nishikani&dd=1&%{QUERY_STRING} [L]
+RewriteRule   ^$                                                          program/index.php?cl=waseiku-nishikani&dd=1 [L]
+
+# フリーページ
+RewriteRule   ^free-([0-9]+)/([a-z]{1}.*)$                                program/$2?cl=waseiku-nishikani&dd=1&drid=$1&%{QUERY_STRING} [L]
+RewriteRule   ^free-([0-9]+)/$                                            program/free.php?cl=waseiku-nishikani&dd=1&drid=$1&%{QUERY_STRING} [L]
+

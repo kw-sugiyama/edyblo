@@ -1,0 +1,28 @@
+<?PHP
+    /* ログインチェック */
+    $connstr = '{' . $server . ':' . $port . '}';
+    $imap = false;
+    $user_id=$user_id."@".$server;
+    @$imap = imap_open($connstr, $user_id, $passwd);
+    if ($imap == false) {
+        header("Location:/i-bmail/entry.pl");
+        exit;
+    }
+
+    /* 共有変数の設定 */
+     $X_Mailer = 'Browser Mail';
+     $internal_encoding = SJIS;
+     $pwstr = "sess=$sess";
+
+    $username = $user_id;
+    $mail_addr = $user_id;
+
+    /* ＤＢドライバの設定 */
+    if ( $use_db ){
+        $db_include = "db_".$database_driver.".lib";
+        if (! is_readable($db_include)) {
+	    $use_db = false;
+	    $db_include = "db_dummy.lib";
+        }
+    }
+?>

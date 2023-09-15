@@ -1,0 +1,112 @@
+body{
+	font-size:12px;
+	color:333333;
+}
+/*¥Ü¥¿¥óÁõ¾þ*/
+.btn{
+	width:100px;
+	color:#FFFFFF;
+	background-color:#F69B1A;
+}
+.btn_nosize{
+	color:#FFFFFF;
+	background-color:#F69B1A;
+}
+
+/*tdÁõ¾þ*/
+.td_cl{
+	width:110px;
+	height:15px;
+	color:#FFFFFF;
+	font-size:13px;
+	background:#F69B1A;
+	text-align:center;
+}
+.td_cl2{
+	width:70px;
+	height:15px;
+	color:#FFFFFF;
+	font-size:13px;
+	background:#F69B1A;
+	text-align:center;
+}
+.td_cl3{
+	width:300px;
+	height:15px;
+	color:#FFFFFF;
+	font-size:13px;
+	background:#F69B1A;
+	text-align:center;
+}
+.td_cl_nosize{
+	color:#FFFFFF;
+	font-size:13px;
+	background-color:#F69B1A;
+	text-align:center;
+}
+.td_cl_nosize_2{
+	color:#FFFFFF;
+	font-size:13px;
+	background:#339933;
+	text-align:center;
+}
+/*td ÇØ·Ê*/
+.td{
+                background:#EEEEEE;
+                font-size:13px;
+}
+
+.td_cm{
+	background:#FFFFCC;
+	text-align:left;
+	vertical-align:middle;
+	font-size: 12px;
+}
+/*divÁõ¾þ*/
+.border{
+	border-style:solid;
+	border-bottom-width:1px;
+	border-color:#3333FF;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-left-width:10px;
+}
+/*pulldownÇÛÃÖ*/
+.pull{
+	position:absolute;
+	top:55px;
+	left:300px;
+}
+/*pulldown¤Î¥á¥Ã¥»¡¼¥¸*/
+.pull_mes{
+	position:absolute;
+	top:35;
+	left:300px;
+	color:#FF0000;
+}
+
+a:link {
+	color: #333333;
+}
+
+a:visited {
+	color: #333333;
+}
+
+a:active {
+	color: #333333;
+}
+
+a:hover {
+	color: #FF0000;
+}
+
+a{
+	color:#333333;
+}
+
+.comment{
+	color: #FF0000;
+	font-size: 10px;
+}
+

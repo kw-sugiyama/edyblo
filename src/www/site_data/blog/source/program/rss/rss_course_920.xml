@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>CAI文光教室　〜深川市の学習塾です〜</title>
+    <link>http://cai-bunko.com/</link>
+    <copyright>CAI文光教室</copyright>
+    <description>北海道深川市の学習塾・進学塾の【CAI文光教室】のホームページになります。深川市文光町で塾をお探しの方はこちらから。</description>
+    <item>
+      <title>中学生コース 主要５教科　:開始:終了　</title>
+      <link>http://cai-bunko.com/course-detail-4853/</link>
+      <guid>http://cai-bunko.com/course-detail-4853/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導。重要視される内申点の更なるアップ。繰り返し行うプリントで合格への最短ルートを発見。</description>
+      <pubDate>Sun, 31 Oct 2010 17:47:40 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース（６年生）　:開始:終了　</title>
+      <link>http://cai-bunko.com/course-detail-4851/</link>
+      <guid>http://cai-bunko.com/course-detail-4851/</guid>
+      <description>小学６年生は中学生になってつまづかないよう、英語と数学の基礎をわかるまで何度でもやります。算数は分数さえ出来れば合格です！国語は、はじめての文章を読んで解答してもらいます。これをとおして長文になれていただます。っと、問題を作成する人の気持ちまでわかるようになりますよ。</description>
+      <pubDate>Wed, 20 Oct 2010 15:56:50 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校生コース　:開始:終了　</title>
+      <link>http://cai-bunko.com/course-detail-4854/</link>
+      <guid>http://cai-bunko.com/course-detail-4854/</guid>
+      <description></description>
+      <pubDate>Tue, 14 Sep 2010 14:48:35 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

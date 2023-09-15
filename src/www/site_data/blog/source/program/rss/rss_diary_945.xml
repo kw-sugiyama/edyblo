@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【英進学院】　〜江戸川区南篠崎町の学習塾・個別指導塾〜</title>
+    <link>http://eishingakuin.com/</link>
+    <copyright>英進学院瑞枝校</copyright>
+    <description>江戸川区南篠崎町の学習塾・進学塾・個別指導塾の英進学院のホームページになります。江戸川区南篠崎で塾をお探しの方はこちらから。</description>
+    <item>
+      <title>各種検定のお知らせ</title>
+      <link>http://eishingakuin.com/blog-18863/</link>
+      <guid>http://eishingakuin.com/blog-18863/</guid>
+      <description>各種検定に関しましては、左のカテゴリをクリックしてください！</description>
+      <pubDate>Wed, 08 Dec 2010 19:28:59 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページを開設しました！</title>
+      <link>http://eishingakuin.com/blog-16305/</link>
+      <guid>http://eishingakuin.com/blog-16305/</guid>
+      <description>教室専用のホームページを開設しました。ここから教室からのお知らせや各種イベント情報を発信していきます。是非、ご覧ください！！</description>
+      <pubDate>Fri, 10 Dec 2010 18:09:41 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

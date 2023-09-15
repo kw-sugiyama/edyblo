@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>進学塾アイズ　【三田教室】</title>
+    <link>http://jukutown.com/aiz-sanda/</link>
+    <copyright>進学塾アイズ三田教室</copyright>
+    <description></description>
+    <item>
+      <title>公立高校準拠コース　:開始:終了　</title>
+      <link>http://jukutown.com/aiz-sanda/course-detail-3123/</link>
+      <guid>http://jukutown.com/aiz-sanda/course-detail-3123/</guid>
+      <description>ハイスクールアイズは、「地域密着型」の予備校であり、高校別コースを設置し、各高校の進度に合わせたカリュラムを組んでいます。その結果、生徒たちは無理なく、効率よく理解を深めることがでます。</description>
+      <pubDate>Mon, 08 Feb 2010 23:56:51 +0900</pubDate>
+    </item>
+    <item>
+      <title>クラス指導部　【練成コース】　:開始:終了　</title>
+      <link>http://jukutown.com/aiz-sanda/course-detail-2970/</link>
+      <guid>http://jukutown.com/aiz-sanda/course-detail-2970/</guid>
+      <description>効果的な学習方法と規則正しい学習習慣を身につけてもらいます。基礎を万全にして、応用力を鍛えるコースです。それぞれの学年ごと単元ごとの学習目標を着実に達成していくことで、公立中学に進学してからも余裕を持って公立・私立トップ高へ合格でる実力を早期に養成します。</description>
+      <pubDate>Tue, 19 Jan 2010 16:28:26 +0900</pubDate>
+    </item>
+    <item>
+      <title>クラス指導部　【実力・特進コース】　:開始:終了　</title>
+      <link>http://jukutown.com/aiz-sanda/course-detail-2971/</link>
+      <guid>http://jukutown.com/aiz-sanda/course-detail-2971/</guid>
+      <description>学校成績を大く塵し、公立・私立トップ校合格につながる学力を養成するコースです。志望校合格に向けてそれぞれの学年ごとの学習目標を着実に達成していくことで、合格に必要な学力と強い意志力を鍛えています。毎年抜群の志望校合格率を上げています。</description>
+      <pubDate>Tue, 19 Jan 2010 16:27:38 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【 KCC学院 下館駅前校 】</title>
+    <link>http://jukutown.com/dummy-kcc/</link>
+    <copyright>ＫＣＣ学院 下館駅前校</copyright>
+    <description>個別指導と少人数制指導、選べる受講スタイルの学習塾【ＫＣＣ学院 下館駅前校】</description>
+    <item>
+      <title>ツーワン(個別指導部)　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-kcc/course-detail-7773/</link>
+      <guid>http://jukutown.com/dummy-kcc/course-detail-7773/</guid>
+      <description>講師1人に対して生徒2人の個別指導を行います。1回の授業は80分です。授業の曜日・時間・教科につましてはご相談の上決定させていただます。</description>
+      <pubDate>Tue, 29 Jan 2013 20:28:11 +0900</pubDate>
+    </item>
+    <item>
+      <title>ブライト(集団授業・中学部)　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-kcc/course-detail-7772/</link>
+      <guid>http://jukutown.com/dummy-kcc/course-detail-7772/</guid>
+      <description>各学年ごとに1クラス12名までの少人数クラスでの集団授業です。英数国の3教科の授業を週2回, 理社2教科の授業を週1回行います。1回の授業は130分(途中10分の休憩があります)です。</description>
+      <pubDate>Tue, 29 Jan 2013 20:25:37 +0900</pubDate>
+    </item>
+    <item>
+      <title>ブライト(集団授業・高校部)　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-kcc/course-detail-7771/</link>
+      <guid>http://jukutown.com/dummy-kcc/course-detail-7771/</guid>
+      <description>各学年, 各講座ごとに1クラス10名程度の少人数クラスでの集団授業です。1つの講座は週1回150分(10分の休憩を含みます)の授業です。</description>
+      <pubDate>Tue, 29 Jan 2013 20:22:28 +0900</pubDate>
+    </item>
+    <item>
+      <title>サテライン(通信衛星授業部)　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-kcc/course-detail-7770/</link>
+      <guid>http://jukutown.com/dummy-kcc/course-detail-7770/</guid>
+      <description>代々木ゼミナール本部校（代ゼミタワー）で行われている“ベストの講義”をネット配信（パソコンにて受講）によるオンデマンドで受講でるものです。サテラインゼミは、年間約1,300講座以上を放映し、センター対策講座・大学別入試対策講座・メディカル入試対策講座・入門〜トップまで６レベル分かれたレベル別入試対策講座・小論文・AO入試対策講座など堀なカリュラムが、高校生のあらゆるニーズにめ細かく対応しています。</description>
+      <pubDate>Tue, 29 Jan 2013 20:20:06 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

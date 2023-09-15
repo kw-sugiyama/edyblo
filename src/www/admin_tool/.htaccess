@@ -1,0 +1,68 @@
+
+
+#############################################################
+
+# php setting - admin_tool
+
+#############################################################
+
+
+
+# base setting
+
+
+
+php_flag register_globals off
+
+php_flag magic_quotes_gpc on
+
+php_flag display_errors on
+
+
+
+# mbstring setting
+
+
+
+php_value mbstring.language Japanese
+
+php_value mbstring.internal_encoding EUC-JP
+
+php_value mbstring.http_input pass
+
+php_flag  mbstring.encoding_translation on
+
+php_value mbstring.substitute_character none
+
+php_value mbstring.detect_order ASCII,JIS,UTF-8,EUC-JP,SJIS
+
+php_value mbstring.func_overload 0
+
+# file-upload setting
+
+
+
+php_value memory_limit "10000M"
+php_value post_max_size "9600M"
+php_value upload_max_filesize "9500M"
+php_value max_execution_time "0"
+php_flag file_uploads on
+#php_value max_execution_time "7200"
+#php_value max_input_time "1800"
+#php_value set_time_limit "0"
+
+
+
+# session setting
+
+
+
+php_value session.name "edyblo_admin_sess"
+php_value session.gc_maxlifetime 36000
+php_flag  session.use_only_cookies on
+php_value session.cache_expire 36000
+php_value session.cache_limiter nocache
+php_value session.save_path /home/jukutown.com/ftp/session_tmp/
+
+
+

@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://kohana-academy.com/blog-101958/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 17 Jul 2016 18:34:53 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-101333/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 27 Jun 2016 13:42:51 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-100319/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 23 May 2016 16:38:27 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-99681/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 27 Apr 2016 23:19:02 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-98739/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 29 Mar 2016 19:09:45 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-96273/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 04 Jan 2016 10:40:52 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-94088/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 18 Oct 2015 01:17:51 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-92009/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 08 Aug 2015 00:08:11 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-91302/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 16 Jul 2015 11:04:58 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-91144/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 12 Jul 2015 17:16:59 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-88857/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 12 May 2015 12:26:27 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-88482/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 29 Apr 2015 11:54:40 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-87251/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 24 Mar 2015 02:08:44 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-86520/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 03 Mar 2015 02:53:15 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-85348/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 31 Jan 2015 11:57:49 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-84421/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 05 Jan 2015 22:29:36 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-84099/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 24 Dec 2014 01:47:49 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-83064/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 22 Nov 2014 00:41:40 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-82171/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 27 Oct 2014 11:36:51 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-81723/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 13 Oct 2014 17:00:23 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-81649/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 10 Oct 2014 14:28:04 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-81522/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 07 Oct 2014 00:21:56 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-81234/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 29 Sep 2014 16:40:10 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-80722/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 12 Sep 2014 06:58:35 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-79583/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 06 Aug 2014 10:25:55 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-79186/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 24 Jul 2014 01:14:27 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-79071/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 21 Jul 2014 10:32:27 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-78811/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 13 Jul 2014 17:13:48 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-78556/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 08 Jul 2014 01:25:06 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-78555/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 08 Jul 2014 01:06:02 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-75859/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 29 Apr 2014 13:42:40 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-72805/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 13 Feb 2014 02:00:01 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-71419/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 12 Jan 2014 10:48:05 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-70842/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 25 Dec 2013 22:39:28 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-70841/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 25 Dec 2013 22:35:40 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-68336/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 15 Oct 2013 08:36:40 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-68263/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 11 Oct 2013 22:46:03 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-67440/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 23 Sep 2013 13:37:08 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-65546/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 05 Aug 2013 11:39:45 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-64562/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 14 Jul 2013 09:58:20 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-60574/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 19 Apr 2013 12:29:22 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-59396/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 28 Mar 2013 12:25:16 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-59069/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 21 Mar 2013 22:01:05 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-57336/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 16 Feb 2013 12:43:03 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-56983/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 09 Feb 2013 15:13:58 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-56486/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 01 Feb 2013 08:26:05 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-55902/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 19 Jan 2013 15:45:50 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-55661/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 14 Jan 2013 21:35:12 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-55349/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 07 Jan 2013 01:16:35 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-55099/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 30 Dec 2012 13:33:21 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-55098/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 30 Dec 2012 13:28:27 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-54623/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 19 Dec 2012 10:27:28 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-54042/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 07 Dec 2012 00:05:55 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-51770/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 23 Oct 2012 00:55:50 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-51769/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 20 Oct 2012 15:33:56 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-50828/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 01 Oct 2012 11:12:57 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-50796/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 30 Sep 2012 12:04:56 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-50793/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 30 Sep 2012 06:48:45 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-50254/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 19 Sep 2012 00:33:50 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-50108/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 15 Sep 2012 12:59:04 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-48250/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 07 Aug 2012 01:32:06 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-47415/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 19 Jul 2012 22:46:37 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-47202/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 15 Jul 2012 20:28:01 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-45943/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 22 Jun 2012 01:36:23 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-45942/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 22 Jun 2012 01:33:11 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-45758/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 19 Jun 2012 12:20:14 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-45701/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 19 Jun 2012 11:27:18 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-45040/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 05 Jun 2012 16:21:15 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-44091/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 17 May 2012 08:25:52 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-42126/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 31 Mar 2012 19:56:02 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-41970/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 27 Mar 2012 08:22:54 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-41853/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 05 Apr 2012 00:31:49 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-40899/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 30 Mar 2012 17:25:50 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-40825/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 29 Feb 2012 08:04:29 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-40566/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 24 Feb 2012 08:37:04 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-40307/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 18 Feb 2012 13:31:51 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-39839/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 07 Feb 2012 23:51:34 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-38348/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 10 Jan 2012 16:09:45 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-37512/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 22 Dec 2011 01:31:12 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-36380/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 27 Nov 2011 12:56:58 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-36030/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 21 Nov 2011 16:29:35 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-35487/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 21 Nov 2011 16:38:34 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-35382/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 09 Nov 2011 15:55:46 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-34603/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 25 Oct 2011 10:40:01 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-34358/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 20 Oct 2011 08:51:13 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-33287/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 29 Sep 2011 19:18:27 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-33226/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 28 Sep 2011 16:27:02 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-32824/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 21 Sep 2011 09:19:22 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-30905/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 10 Aug 2011 01:04:38 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-30586/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 01 Sep 2011 16:17:45 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-29370/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 07 Jul 2011 00:56:45 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-28502/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 20 Jun 2011 22:07:21 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-27793/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 08 Jun 2011 09:45:10 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-27792/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 08 Jun 2011 09:43:36 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-27215/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 28 May 2011 00:52:14 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-27214/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 28 May 2011 16:34:12 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-26272/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 10 May 2011 01:03:59 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-25645/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 25 Apr 2011 22:29:10 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-23873/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 28 Mar 2011 13:50:18 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-23786/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 25 Mar 2011 00:50:47 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-23553/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 19 Mar 2011 22:05:56 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-23064/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 15 Mar 2011 01:03:53 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-22727/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 05 Mar 2011 21:57:18 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-22380/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 26 Feb 2011 22:48:19 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-22041/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 19 Feb 2011 23:46:34 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-21646/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 12 Feb 2011 23:36:42 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/blog-21379/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 14 Feb 2011 14:09:45 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-5544/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 07 Mar 2012 15:49:55 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-5546/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 07 Mar 2012 15:50:22 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-5545/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 07 Mar 2012 15:50:43 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-6853/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 07 Feb 2016 20:38:14 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-6852/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 07 Feb 2016 20:46:17 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kohana-academy.com/course-detail-6854/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 08 Feb 2016 13:42:55 +0900</lastmod>
+    </url>
+</urlset>

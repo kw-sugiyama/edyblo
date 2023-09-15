@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>スタディルームエイコーン　〜東灘区 住吉駅近くの学習塾・個別指導塾〜</title>
+    <link>http://jukutown.com/dummy-studyroomacorn/</link>
+    <copyright>スタディルームエイコーン</copyright>
+    <description></description>
+    <item>
+      <title>中学生コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-studyroomacorn/course-detail-10459/</link>
+      <guid>http://jukutown.com/dummy-studyroomacorn/course-detail-10459/</guid>
+      <description>高校受験に向けて基礎をしっかり定着させ、応用力を身につけています。苦手なところを克服し、得意科目はもっと得意になるようにし、希望の高校へ進学でるようにします。</description>
+      <pubDate>Mon, 23 May 2016 17:46:08 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース（４年生〜６年生）　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-studyroomacorn/course-detail-10458/</link>
+      <guid>http://jukutown.com/dummy-studyroomacorn/course-detail-10458/</guid>
+      <description>小学生高学年では、自学自習の習慣を身につけることを目標とします。自分で考える力を身につけることは、これからの学習に大変履です。なぜそうなのか、どこがわからないのか、どこでまちがえたのか・・・など自ら考え、発見することで、考える力をつけています。</description>
+      <pubDate>Mon, 23 May 2016 17:41:38 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース（１年生〜３年生）　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-studyroomacorn/course-detail-10457/</link>
+      <guid>http://jukutown.com/dummy-studyroomacorn/course-detail-10457/</guid>
+      <description>小学生コースでは、毎日少しずつでもちんと学習することがでるよう学習習慣を身につけることを目標としています。</description>
+      <pubDate>Mon, 23 May 2016 17:37:54 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

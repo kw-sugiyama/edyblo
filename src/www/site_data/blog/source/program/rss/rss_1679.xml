@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>関学ゼミナール　〜西宮市の学習塾・予備校〜</title>
+    <link>http://jukutown.com/dummy-kanzemi/</link>
+    <copyright>関学ゼミナール</copyright>
+    <description>西宮市の学習塾・予備校『関学ゼミナール』のホームページです。関西学院（関学）をはじめとして、関関同立への屈指の合格率を誇ります。</description>
+    <item>
+      <title>高卒本科　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-kanzemi/course-detail-9917/</link>
+      <guid>http://jukutown.com/dummy-kanzemi/course-detail-9917/</guid>
+      <description>20名だけの限定募集完全密着指導であなたを合格へ導く!!関学セミナールでは、一人一人の得意・上得意科目に合わせて受講できる様々な授業を用意しています。また、テストの成績をもとに、あなたの志望校に合わせてあなただけの時間割を作成します。</description>
+      <pubDate>Tue, 02 Jun 2015 04:36:36 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

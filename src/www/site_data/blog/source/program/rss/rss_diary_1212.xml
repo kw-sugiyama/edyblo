@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>サンプル進学塾  （＠will掲載フォーマット用）</title>
+    <link>http://jukutown.com/dummy-atwill/</link>
+    <copyright>サンプル進学塾（＠will掲載フォーマット用）</copyright>
+    <description></description>
+    <item>
+      <title>お知らせサンプル</title>
+      <link>http://jukutown.com/dummy-atwill/blog-38534/</link>
+      <guid>http://jukutown.com/dummy-atwill/blog-38534/</guid>
+      <description>仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト</description>
+      <pubDate>Fri, 13 Jan 2012 15:40:57 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

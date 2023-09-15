@@ -1,0 +1,49 @@
+@import url(./base.css);
+
+
+body{
+	height: 100%;
+	font-size: 75%;
+	font-family: "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3","Hiragino Kaku Gothic Pro","MS P¥´¥·¥Ã¥¯",sans-serif;
+	line-heigth: 1.5;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #C0C0C0;
+}
+
+#navigation{
+	width: 135px;
+	height: 100%;
+	margin-top: 20px;
+}
+
+#navigation ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: center;
+}
+
+#navigation li{
+	widht: 120px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation a{
+	padding: 15px 0;
+	background : url(./images/menu_button_back.gif) no-repeat;
+	background-color: #FFFFFF;
+	display: block;
+	width: 120px !important;
+	width /**/ : 120px;
+	color: #333333;
+	text-decoration: none;
+	font-size: 12px;
+}
+#navigation a:hover{
+	color: #FF0000;
+}

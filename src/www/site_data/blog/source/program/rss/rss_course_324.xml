@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>個別指導　REAL</title>
+    <link>http://jukutown.com/real/</link>
+    <copyright>個別指導REAL</copyright>
+    <description></description>
+    <item>
+      <title>高校生・既卒生コース　:開始:終了　</title>
+      <link>http://jukutown.com/real/course-detail-1329/</link>
+      <guid>http://jukutown.com/real/course-detail-1329/</guid>
+      <description>◆日々の学習から大学受験まで◆お子さまの学習の目的に合わせて授業プランを選択でます。お子さまのレベルに合わせた授業で、一人ひとりの課題にこたえています。</description>
+      <pubDate>Mon, 25 May 2009 16:01:53 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　:開始:終了　</title>
+      <link>http://jukutown.com/real/course-detail-1328/</link>
+      <guid>http://jukutown.com/real/course-detail-1328/</guid>
+      <description>◆日々の学習から高校受験まで◆お子さまの学習の目的に合わせて授業プランを選択でます。お子さまのレベルに合わせた授業で、一人ひとりの課題にこたえています。</description>
+      <pubDate>Mon, 25 May 2009 16:01:25 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース　:開始:終了　</title>
+      <link>http://jukutown.com/real/course-detail-1327/</link>
+      <guid>http://jukutown.com/real/course-detail-1327/</guid>
+      <description>◆日々の学習から中学受験まで◆お子さまの学習の目的に合わせて授業プランを選択でます。お子さまのレベルに合わせた授業で、一人ひとりの課題にこたえています。</description>
+      <pubDate>Mon, 25 May 2009 15:59:49 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

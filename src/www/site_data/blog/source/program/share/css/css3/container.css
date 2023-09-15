@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width:826px;
+	background-repeat:repeat-y;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#wrappertop {
+	width:826px;
+	background-image: url(images/bg_3.gif);
+}
+
+#wrapperbottom{
+	width:826px;
+	background-image:url(images/bg_bottom_3.gif);
+	background-repeat:no-repeat;
+}

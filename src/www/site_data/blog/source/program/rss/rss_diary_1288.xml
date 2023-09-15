@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>The Little Room </title>
+    <link>http://the-little-room.net/</link>
+    <copyright>The Little Room</copyright>
+    <description>『The Little Room』は、静岡県掛川市にある幼児から中学生までを対象とした英語教室です。</description>
+    <item>
+      <title>春のお知らせ</title>
+      <link>http://the-little-room.net/blog-58904/</link>
+      <guid>http://the-little-room.net/blog-58904/</guid>
+      <description>桜の開花も進み、新年度をむかえ子供たちの新しい学年が始まります。The Little Room　でも3月に児童英検の受験が終わり、ほっと一息・・・新学期のための準備をさせていただくため、4月第1週はお休みとなります。子供たちには、各レベルごとにチャレンジを考えています。また、それぞれのレベルごとにお知らせします。ご理解いただき、子供たちには励ましの言葉をかけてあげてください。今年度もよろしくお願い致します。</description>
+      <pubDate>Mon, 18 Mar 2013 19:32:19 +0900</pubDate>
+    </item>
+    <item>
+      <title>夏休みのお知らせ</title>
+      <link>http://the-little-room.net/blog-48062/</link>
+      <guid>http://the-little-room.net/blog-48062/</guid>
+      <description>暑い日が続いていますが、教室に来る子供たちは元気です。夏休みの宿題の話や近況など、話題は尽きません。中学生は力をつける大切な夏休み、今までの復習をしっかりして着実に、確実に力をつけてください。今年の夏休みは、8月第3週、13日から18日となります。体調管理に気を付けて、元気に夏休みを過ごしてくださいね。</description>
+      <pubDate>Fri, 03 Aug 2012 12:20:47 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページを開設しました</title>
+      <link>http://the-little-room.net/blog-46173/</link>
+      <guid>http://the-little-room.net/blog-46173/</guid>
+      <description>このたび、 The Little Room のホームページを開設しました。今後、随時更新していきたいと思いますので、ぜひご覧ください。</description>
+      <pubDate>Tue, 26 Jun 2012 16:52:31 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

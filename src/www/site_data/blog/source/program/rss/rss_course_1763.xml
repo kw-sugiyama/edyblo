@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>福岡校</title>
+    <link>http://jukutown.com/dummy-sample-impact/</link>
+    <copyright>インパクトサンプル教室</copyright>
+    <description></description>
+    <item>
+      <title>小学生コース　17:00開始19:00終了　火・水・木</title>
+      <link>http://jukutown.com/dummy-sample-impact/course-detail-10743/</link>
+      <guid>http://jukutown.com/dummy-sample-impact/course-detail-10743/</guid>
+      <description></description>
+      <pubDate>Thu, 30 Mar 2017 18:50:09 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

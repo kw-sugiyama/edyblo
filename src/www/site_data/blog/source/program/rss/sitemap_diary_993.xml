@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://yoshimi.waseiku.com/blog-28782/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 25 Jun 2011 12:55:33 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://yoshimi.waseiku.com/blog-20604/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 20 Jan 2011 20:14:52 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://yoshimi.waseiku.com/blog-19407/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 19 Dec 2010 02:13:57 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://yoshimi.waseiku.com/blog-19079/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 10 Dec 2010 15:02:34 +0900</lastmod>
+    </url>
+</urlset>

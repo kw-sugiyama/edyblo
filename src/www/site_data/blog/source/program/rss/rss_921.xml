@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>サンプル進学塾 新宿教室　（エディブロ）</title>
+    <link>http://jukutown.com/sample1/</link>
+    <copyright>サンプル進学塾１新宿教室</copyright>
+    <description></description>
+    <item>
+      <title>私立中学受験コース　17:00開始18:30終了　学年・教科により異なります</title>
+      <link>http://jukutown.com/sample1/course-detail-4813/</link>
+      <guid>http://jukutown.com/sample1/course-detail-4813/</guid>
+      <description>もう知識だけで闘える時代ではありません!!ここ近年、時代背景の変化と共に、中学受験に出題される問題の傾向も毎年変化しています。こうした変化にいち早く注目し、単に知識を詰め込むだけではなく、「自分で考える」ことを身に付ける教育にも力を入れています。</description>
+      <pubDate>Mon, 13 Sep 2010 12:32:36 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校進学コース　20:00開始21:00終了　火・木</title>
+      <link>http://jukutown.com/sample1/course-detail-4820/</link>
+      <guid>http://jukutown.com/sample1/course-detail-4820/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導。重要視される内申点の更なるアップ。繰り返し行う模擬テストで合格への最短ルートを発見。</description>
+      <pubDate>Mon, 13 Sep 2010 11:10:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>難関高校受験コース　18:00開始19:00終了　平日</title>
+      <link>http://jukutown.com/sample1/course-detail-4816/</link>
+      <guid>http://jukutown.com/sample1/course-detail-4816/</guid>
+      <description>難関高校を目指すなら</description>
+      <pubDate>Mon, 13 Sep 2010 11:09:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>難関私立大学受験コース　17:00開始21:00終了　平日</title>
+      <link>http://jukutown.com/sample1/course-detail-4818/</link>
+      <guid>http://jukutown.com/sample1/course-detail-4818/</guid>
+      <description>おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</description>
+      <pubDate>Fri, 10 Sep 2010 16:46:38 +0900</pubDate>
+    </item>
+    <item>
+      <title>新ホームページを開設致しました</title>
+      <link>http://jukutown.com/sample1/diary-detail-15521/</link>
+      <guid>http://jukutown.com/sample1/diary-detail-15521/</guid>
+      <description>新しいホームページを開設致しました。随時更新していきますので、是非皆さんご覧下さい。</description>
+      <pubDate>Mon, 13 Sep 2010 10:24:17 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

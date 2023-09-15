@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://otsu.jukutown.com/blog-34419/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 21 Oct 2011 15:01:35 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://otsu.jukutown.com/blog-2430/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 07 Aug 2009 22:00:31 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://otsu.jukutown.com/course-detail-1206/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 08 May 2009 15:47:47 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://otsu.jukutown.com/course-detail-1207/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 08 May 2009 15:48:46 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://otsu.jukutown.com/course-detail-1208/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 26 Aug 2009 19:42:31 +0900</lastmod>
+    </url>
+</urlset>

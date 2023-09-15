@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@import "common.css";
+@import "container.css";
+@import "header.css";
+@import "globalmenu.css";
+@import "main.css";
+@import "footer.css";
+@import "credit.css";
+@import "mainbox.css";
+
+
+#header{
+	display:none;
+	}
+
+#globalmenuwrapper{
+	display:none;
+	}
+
+#mainleft{
+	display:none;
+	}
+
+#footerwrapper{
+	display:none;
+	}
+
+#wrapperbottom{
+	display:none;
+	}

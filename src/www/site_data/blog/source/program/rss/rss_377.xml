@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>杉浦塾　日進校</title>
+    <link>http://jukutown.com/sugiura-nissin/</link>
+    <copyright>杉浦塾日進校</copyright>
+    <description>愛知県日進市栄の学習塾『杉浦塾・日進校』のホームページです。</description>
+    <item>
+      <title>個別指導「ｅ-Ｓｅｉ イー・ジー」　19:00開始21:30終了　月・水・金</title>
+      <link>http://jukutown.com/sugiura-nissin/course-detail-1772/</link>
+      <guid>http://jukutown.com/sugiura-nissin/course-detail-1772/</guid>
+      <description>◆「わかったつもり」を「できる！」に変える◆・わかったつもりだったけど、テストではできていない・苦手科目をどう勉強したらいいかわからない。・前の学年からやり直したい。</description>
+      <pubDate>Sun, 01 Mar 2015 19:01:11 +0900</pubDate>
+    </item>
+    <item>
+      <title>『中学生本科』　:開始:終了　月・水・金</title>
+      <link>http://jukutown.com/sugiura-nissin/course-detail-1771/</link>
+      <guid>http://jukutown.com/sugiura-nissin/course-detail-1771/</guid>
+      <description>◆少人数の集団授業できめ細かく指導します◆</description>
+      <pubDate>Sun, 01 Mar 2015 18:58:20 +0900</pubDate>
+    </item>
+    <item>
+      <title>『小学個別』　小３〜小６　17:00開始18:40終了　月・水・金</title>
+      <link>http://jukutown.com/sugiura-nissin/course-detail-1770/</link>
+      <guid>http://jukutown.com/sugiura-nissin/course-detail-1770/</guid>
+      <description>◆公立中学進学を前提としたコースです。◆ひとりひとりに合わせた指導をしています。週１〜３回から選択できます。</description>
+      <pubDate>Sun, 01 Mar 2015 17:30:21 +0900</pubDate>
+    </item>
+    <item>
+      <title>定期テスト対策コース　:開始:終了　</title>
+      <link>http://jukutown.com/sugiura-nissin/course-detail-6695/</link>
+      <guid>http://jukutown.com/sugiura-nissin/course-detail-6695/</guid>
+      <description>定期テスト前だけ通うコースです。</description>
+      <pubDate>Thu, 28 Feb 2013 01:11:35 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

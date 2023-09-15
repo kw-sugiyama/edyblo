@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾　大志館（たいしかん）</title>
+    <link>http://jukutown.com/taishikan/</link>
+    <copyright>学習塾　大志館（たいしかん）</copyright>
+    <description>大志館（たいしかん）は、新潟県南魚沼市上十日町にある学習塾です。完全少人数制の学年別クラス授業で成績を伸ばします！</description>
+    <item>
+      <title>ホームページを開設しました！</title>
+      <link>http://jukutown.com/taishikan/blog-98824/</link>
+      <guid>http://jukutown.com/taishikan/blog-98824/</guid>
+      <description>こんにちは。大志館です。ホームページが完成しました。随時更新していきますので、お見逃しなく♪</description>
+      <pubDate>Wed, 30 Mar 2016 16:22:19 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

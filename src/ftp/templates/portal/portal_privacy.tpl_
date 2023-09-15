@@ -1,0 +1,92 @@
+<?php require_once( SYS_PATH."templates/portal/portal_header.tpl" ); ?>
+
+<body>
+
+<?php require_once( SYS_PATH."templates/portal/portal_container.tpl" ); ?>
+
+<div id="main"><!--main start-->
+<div id="mainleft"><!--mainleft start-->
+
+<p class="topicpath"><strong><a href="/">HOME</a></strong><span class="paddinglr1">&gt;</span><strong>個人情報保護方針</strong><!--topic path-->
+</p>
+<h3>個人情報保護方針</h3><!--search start-->
+<div class="box">
+<div class="box4">
+<p>株式会社エディースタッフ（以下、当社という）は、個人情報の保護に関する法令等を遵守するとともに、ここに規定するプライバシーポリシーを遵守いたします。</p>
+
+<div class="box">
+
+<div class="box2">
+<p>1. 個人情報の取得<br>
+当社は、個人情報を適正な手段により取得いたします。当社は、このウェブサイトのコンテンツをご利用される利用者から、その利用の際に、個人情報を取得することがあります。</p>
+</div>
+
+<div class="box2">
+<p>2. 個人情報の利用目的<br>
+当社は、個人情報を以下の目的で利用します。<br>
+個人情報保護法その他の関連する法令により認められる事由がある場合を除き、ご本人の同意がない限り、この利用目的を超えて個人情報を利用することはありません。<br>
+・商材、レポートその他の当社事業関連または付帯するサービスの情報、年賀状等の挨拶状のご案内<br>
+  ・お問い合せへの対応<br>
+  ・その他、上記の利用目的に付随する目的</p>
+</div>
+
+<div class="box2">
+<p>3. 個人情報の第三者への提供 <br>
+当社は、個人情報の第三者への提供については、個人情報保護法その他の関連する法令を遵守いたします。 </p>
+<p><br>
+  4. 個人情報の安全管理<br>
+  当社は、個人情報を適切に管理し、個人情報の漏洩、滅失、毀損等に対する予防措置を講じます。<br>
+</p>
+</div>
+
+<div class="box2">
+<p>
+  5. 個人情報の利用目的の通知、開示、訂正、利用停止等の求め<br>
+  当社は、個人情報について、開示、訂正・追加・削除、利用停止・消去、第三者への提供の停止または利用目的の通知に、そのご本人からのお申出があった場合には、お申出をいただいた方がご本人であることを確認のうえ、個人情報保護法の定めに従い、誠実かつ速やかに対応します。</p>
+<p>なお、お申出が個人情報保護法の定める要件をみたさない場合、または、個人情報保護法その他の法令により、開示等を拒絶することが認められる事由がある場合には、お申出をお断りすることがございますので、あらかじめご了承ください。</p>
+</div>
+
+<div class="box2">
+<p>
+  6. お問い合せ窓口<br>
+  開示等のお申出、ご意見、ご質問、苦情、その他の個人情報の取扱いに関するお問い合せは、下記ご連絡先にて受け付け致します。</p>
+<p>電子メール：<?=$param_mail_portal_inq["to_addr_direct"]?></p>
+</div>
+
+<div class="box2">
+<p>  7. 継続的改善<br>
+  当社は、個人情報の取扱いに関する運用状況を適宜見直し、継続的な改善に努め、必要に応じて、プライバシーポリシーを変更することがあります。</p>
+<br>
+<p>【免責事項】 <br>
+  当社は情報提供会社における個人情報の利用に関して責任を負わないものとします。<br>
+</p>
+</div>
+
+</div>
+</div>
+</div><!--box end-->
+
+<!--to pagetop start--> 
+<?php require_once( SYS_PATH."templates/portal/portal_main_footer.tpl" ); ?>
+<!--to pagetop end--> 
+
+</div><!--mainleft end-->
+
+
+<div id="mainright"><!--mainright start-->
+<?php require_once( SYS_PATH."templates/portal/portal_right_menu.tpl" ); ?>
+</div><!--mainright end-->    
+        
+</div><!--main end-->    
+
+
+<div id="footerwrapper"><!--footerwrapper start-->
+
+</div><!--footerwrapper end-->
+<?php require_once( SYS_PATH."edy/portal_footer.tpl" ); ?>
+</div><!--container end-->
+
+<?php require_once( SYS_PATH."templates/portal/portal_analytics.tpl" ); ?>
+
+</body>
+</html>

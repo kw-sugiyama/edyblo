@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>マンツーマン学習センター　【西神南教室】</title>
+    <link>http://jukutown.com/mantoman-seishinminami/</link>
+    <copyright>マンツーマン学習センター西神南校</copyright>
+    <description></description>
+    <item>
+      <title>ホームページを開設しました！</title>
+      <link>http://jukutown.com/mantoman-seishinminami/blog-7376/</link>
+      <guid>http://jukutown.com/mantoman-seishinminami/blog-7376/</guid>
+      <description>ホームページを開設致しました。随時更新していきますので、是非皆さんご覧下さい！</description>
+      <pubDate>Fri, 29 Jan 2010 12:48:49 +0900</pubDate>
+    </item>
+    <item>
+      <title>基礎練成コース　:開始:終了　</title>
+      <link>http://jukutown.com/mantoman-seishinminami/course-detail-3047/</link>
+      <guid>http://jukutown.com/mantoman-seishinminami/course-detail-3047/</guid>
+      <description>【基礎力練成コース】▼対象：　小学生、中学１・２年生、高校１・２年生▼内容：　教科書内容の完全理解。　　　　　　基礎の徹底練成から応用力の強化へ向かう。</description>
+      <pubDate>Thu, 28 Jan 2010 15:27:09 +0900</pubDate>
+    </item>
+    <item>
+      <title>受験コース　:開始:終了　</title>
+      <link>http://jukutown.com/mantoman-seishinminami/course-detail-3048/</link>
+      <guid>http://jukutown.com/mantoman-seishinminami/course-detail-3048/</guid>
+      <description>【受験コース】▼対象：　小学６年生、中学３年生、高校３年生、高卒生▼内容：　志望校合格に狙いを定め、基礎力の早期定着から　　　　　　高い応用力を身につける。</description>
+      <pubDate>Thu, 28 Jan 2010 15:27:20 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

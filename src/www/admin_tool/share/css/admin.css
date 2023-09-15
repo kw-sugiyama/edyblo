@@ -1,0 +1,51 @@
+@import url(./base.css);
+
+#admin{
+	width:600px;
+}
+
+#admin table {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	width: 100%;
+}
+
+#admin td {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 10px;
+	font-size:13px;
+}
+
+#admin td em{
+	font-weight:normal;
+	color:#FF0000;
+	padding:5px;
+}
+
+#admin th {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 6px solid #CCCCCC;
+	border-right: none;
+	background-color: #2B2BFF;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding: 10px;	
+	width: 150px;
+	font-size:13px;
+}
+
+#admin th.must{
+	border-left-color: #FF0000;
+}
+
+.btn_nosize{
+	color:#FFFFFF;
+	background-color:#0000FF;
+}

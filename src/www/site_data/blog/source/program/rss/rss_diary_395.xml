@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾　まいぺーす</title>
+    <link>http://jukutown.com/my-pace/</link>
+    <copyright>学習塾　まいぺーす</copyright>
+    <description></description>
+    <item>
+      <title>ホームページ開設！</title>
+      <link>http://jukutown.com/my-pace/blog-1997/</link>
+      <guid>http://jukutown.com/my-pace/blog-1997/</guid>
+      <description>ホームページを開設しました！ぜひ、ご覧ください！！</description>
+      <pubDate>Wed, 15 Jul 2009 19:09:04 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

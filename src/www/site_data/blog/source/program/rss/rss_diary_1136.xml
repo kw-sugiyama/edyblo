@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>名学館　杁中本校</title>
+    <link>http://jukutown.com/dummy-yamada4/</link>
+    <copyright>サンプル進学塾（練習用）</copyright>
+    <description></description>
+    <item>
+      <title>ＱＲコード</title>
+      <link>http://jukutown.com/dummy-yamada4/blog-29343/</link>
+      <guid>http://jukutown.com/dummy-yamada4/blog-29343/</guid>
+      <description></description>
+      <pubDate>Wed, 06 Jul 2011 16:22:30 +0900</pubDate>
+    </item>
+    <item>
+      <title>新ホームページ開設致しました。</title>
+      <link>http://jukutown.com/dummy-yamada4/blog-29341/</link>
+      <guid>http://jukutown.com/dummy-yamada4/blog-29341/</guid>
+      <description>新しいホームページを開設致しました。随時更新していきますので、是非皆さんご覧下さい。</description>
+      <pubDate>Wed, 06 Jul 2011 16:09:45 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

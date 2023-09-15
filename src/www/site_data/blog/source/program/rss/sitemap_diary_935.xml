@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://kouroen.waseiku.com/blog-22201/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 23 Feb 2011 01:59:49 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kouroen.waseiku.com/blog-20271/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 12 Jan 2011 23:03:22 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kouroen.waseiku.com/blog-19659/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sun, 26 Dec 2010 20:46:00 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kouroen.waseiku.com/blog-18483/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 25 Dec 2010 00:19:09 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kouroen.waseiku.com/blog-15962/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 25 Sep 2010 00:20:25 +0900</lastmod>
+    </url>
+</urlset>

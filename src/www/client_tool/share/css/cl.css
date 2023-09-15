@@ -1,0 +1,189 @@
+@import url(./base.css);
+
+#title {
+	width: 800px;
+	background-color: #20B2AA;
+	color: #FFFFFF;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+#title2 {
+	width: 850px;
+	background-color: #20B2AA;
+	color: #FFFFFF;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+#client{
+	width:800px;
+}
+
+#client table {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	padding: 2px;
+	width: 100%;
+}
+
+#client table.add {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	padding: 2px;
+	width: 650px;
+}
+
+#client table.tzip {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	padding: 2px;
+	width: 400px;
+}
+
+#client td {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 2px;
+	font-size:13px;
+	width: 650px;
+}
+
+#client td.zip {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-collapse: collapse;
+	padding: 2px;
+	font-size:13px;
+	width: 460px;
+}
+
+#client td.ziptitle {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-collapse: collapse;
+	text-align: right;
+	vertical-align: middle;
+	padding: 2px;
+	font-size:13px;
+	width: 260px;
+}
+
+#client td.add1 {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-collapse: collapse;
+	padding: 2px;
+	font-size:13px;
+	width: 180px;
+}
+
+#client td.add2 {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 2px;
+	font-size:13px;
+	width: 60px;
+}
+
+#client td.add3 {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-collapse: collapse;
+	padding: 2px;
+	font-size:13px;
+	width: 400px;
+}
+
+#client td.half {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 2px;
+	font-size:13px;
+	width: 250px;
+}
+
+#client td.3half {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 2px;
+	font-size:13px;
+	width: 150px;
+}
+
+#client td em{
+	font-style: normal; 
+	font-weight: normal;
+	font-size: 12px;
+	color: #FF0000;
+	padding: 2px;
+}
+
+#client th {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 6px solid #808080;
+	border-right: none;
+	background-color: #20B2AA;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding: 2px;
+	width: 100px;
+	font-size:13px;
+}
+
+#client th.must{
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 6px solid #DC143C;
+	border-right: none;
+	background-color: #20B2AA;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding: 2px;
+	width: 100px;
+	font-size:13px;
+}
+
+#client input{
+	padding: 2px;
+	width: 150px;
+}
+
+.btn_nosize{
+	color:#FFFFFF;
+	background-color:#20B2AA;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>Mu 数学スクール</title>
+    <link>http://jukutown.com/mu-sugakuschool/</link>
+    <copyright>Mu 数学スクール</copyright>
+    <description>『Mu 数学スクール』は、富士見市ふじみ野にある小学校高学年・中学生のための数学指導塾です。</description>
+    <item>
+      <title>合格おめでとう！</title>
+      <link>http://jukutown.com/mu-sugakuschool/blog-59535/</link>
+      <guid>http://jukutown.com/mu-sugakuschool/blog-59535/</guid>
+      <description>合格おめでとう！！開校して間もないですが、「数学が伸びれば第一志望に合格するのに」という受験生が３名入塾し、努力が報われて見事に難関校に合格しました。淑徳高校、淑徳与野高校、川越高校、川越東高校、星野高校</description>
+      <pubDate>Sun, 31 Mar 2013 16:36:54 +0900</pubDate>
+    </item>
+    <item>
+      <title>チャレンジ問題</title>
+      <link>http://jukutown.com/mu-sugakuschool/blog-53548/</link>
+      <guid>http://jukutown.com/mu-sugakuschool/blog-53548/</guid>
+      <description>【問題】　５種類の宝石をすべて使ってできるブレスレットは全部で何種類ありますか？【解答】　数珠順列といいます。&lt;img src=&quot;http://jukutown.com//cl_img/img_list/1321/2360.gif&quot; alt=&quot;チャレンジ問題　式1&quot; title=&quot;チャレンジ問題　式1&quot; width=&quot;118&quot; height=&quot;48&quot;/&gt;　　12種類【解説】　ｎ個のものをすべて使って順番に並べる方法を順列といい、 n! で表します。また、環状に並べる方法を円順列といい、順列の中で「まわして重なる」ので、&lt;img src=&quot;http://jukutown.com//cl_img/img_list/1321/2361.gif&quot; alt=&quot;チャレンジ問題　式2&quot; title=&quot;チャレンジ問題　式2&quot; width=&quot;85&quot; height=&quot;44&quot;/&gt; で表します。ここでは、さらに円順列の中で「裏返せば重なる」ので、これを数珠順列といい、&lt;img src=&quot;http://jukutown.com//cl_img/img_list/1321/2362.gif&quot; alt=&quot;チャレンジ問題　式3&quot; title=&quot;チャレンジ問題　式3&quot; width=&quot;55&quot; height=&quot;48&quot;/&gt; で表します。</description>
+      <pubDate>Mon, 26 Nov 2012 15:13:23 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

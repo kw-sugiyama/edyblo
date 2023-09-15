@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>英会話教室　オハナ・イングリッシュ</title>
+    <link>http://jukutown.com/ohana/</link>
+    <copyright>OHANA English</copyright>
+    <description></description>
+    <item>
+      <title>ホームページを開設しました！</title>
+      <link>http://jukutown.com/ohana/blog-1285/</link>
+      <guid>http://jukutown.com/ohana/blog-1285/</guid>
+      <description>ホームページを開設しました！随時更新していくので、ぜひご覧ください。</description>
+      <pubDate>Wed, 15 Jul 2009 15:42:45 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

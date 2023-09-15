@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>秀学舎のご案内</title>
+    <link>http://jukutown.com/shugakusha/</link>
+    <copyright>秀学舎</copyright>
+    <description>専任講師がつまずきを見つけ出し、トレーニングする個別学習指導！秀学舎のホームページです。埼玉県川越市的場北で学習塾・進学塾をお探しの方は必見！</description>
+    <item>
+      <title>フラッシュカード方式</title>
+      <link>http://jukutown.com/shugakusha/blog-493/</link>
+      <guid>http://jukutown.com/shugakusha/blog-493/</guid>
+      <description>フラッシュカード方式による漢字音読演習によって、小学段階・中学段階で学ぶ全漢字と、地名・人名・四字熟語などの常用漢字を学ぶことができます。早く読んだり聴いたりすることにより、脳は情報を早く処理しようと活性化します。特に高速で情報を処理する右脳に働きかけ、集中力や記憶力も高めます。</description>
+      <pubDate>Mon, 06 Apr 2009 22:49:04 +0900</pubDate>
+    </item>
+    <item>
+      <title>速聴プログラムについて</title>
+      <link>http://jukutown.com/shugakusha/blog-494/</link>
+      <guid>http://jukutown.com/shugakusha/blog-494/</guid>
+      <description>語彙力、読解力、漢字力まで身につけることができる「読書」。本を読むことが良いのは誰でも知っている事ですが、いざ本を渡してみても、なかなか自ら本を読むようにはなりません。秀学舎では、200種類以上の名著の中から、好きな本を選び、その本の雰囲気にあったプロのナレーターによる音読をペースメーカーにして0.5倍〜10倍の速さで、速聴するプログラムが組まれています。</description>
+      <pubDate>Mon, 06 Apr 2009 22:47:27 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

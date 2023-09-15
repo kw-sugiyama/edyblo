@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾【 志学塾 下館本校 】</title>
+    <link>http://jukutown.com/dummy-shigakujuku/</link>
+    <copyright>志学塾下館本校</copyright>
+    <description>志学塾は小・中・高校生対象の学習塾。本当に学力を塵したい方は【志学塾 下館本校】へ！！</description>
+    <item>
+      <title>小学部・指導内容　:開始:終了　月〜土曜日</title>
+      <link>http://jukutown.com/dummy-shigakujuku/course-detail-7829/</link>
+      <guid>http://jukutown.com/dummy-shigakujuku/course-detail-7829/</guid>
+      <description>３つのコースで、さまざまなニーズに応えます！！まずは面談にてお子様の現在の状況や進学希望などを詳しくお伺いしながら、最適のコースをご提案致します。なんでもご相談下さい。</description>
+      <pubDate>Wed, 06 Feb 2013 19:47:56 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学部・指導内容　:開始:終了　月〜土曜日</title>
+      <link>http://jukutown.com/dummy-shigakujuku/course-detail-7830/</link>
+      <guid>http://jukutown.com/dummy-shigakujuku/course-detail-7830/</guid>
+      <description>２つのコースで、さまざまなニーズに応えます！！★中３生には受験に向けた特訓ゼミも頼★まずは面談にてお子様の現在の状況や進学希望などを詳しくお伺いしながら、最適のコースをご提案致します。なんでもご相談下さい。</description>
+      <pubDate>Wed, 06 Feb 2013 19:47:47 +0900</pubDate>
+    </item>
+    <item>
+      <title>個別クラス・指導内容　:開始:終了　月〜土曜日</title>
+      <link>http://jukutown.com/dummy-shigakujuku/course-detail-7831/</link>
+      <guid>http://jukutown.com/dummy-shigakujuku/course-detail-7831/</guid>
+      <description>☆曜日・時間帯が選べる個別指導です☆まずは面談にてお子様の現在の状況や進学希望などを詳しくお伺いしながら、ひとり一人に合わせた個別のカリュラムをご提案致します。なんでもご相談下さい。</description>
+      <pubDate>Wed, 06 Feb 2013 19:29:49 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>Y.P.S.学習塾のホームページへようこそ！</title>
+    <link>http://jukutown.com/ypsgakushujuku/</link>
+    <copyright>Y.P.S.学習塾</copyright>
+    <description>神戸市北区・鈴蘭台駅近くの学習塾【Y.P.S.学習塾】。少人数制・送迎あり。無料体験授業は随時受付中。</description>
+    <item>
+      <title>ホームページ開設</title>
+      <link>http://jukutown.com/ypsgakushujuku/blog-2021/</link>
+      <guid>http://jukutown.com/ypsgakushujuku/blog-2021/</guid>
+      <description>ホームページを開設いました！ぜひご覧ください！！</description>
+      <pubDate>Wed, 17 Dec 2014 13:39:47 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

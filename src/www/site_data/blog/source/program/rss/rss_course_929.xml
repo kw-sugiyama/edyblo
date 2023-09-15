@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>サンプル進学塾 新宿教室　（エディブロ）</title>
+    <link>http://jukutown.com/sample9/</link>
+    <copyright>サンプル進学塾９新宿教室</copyright>
+    <description></description>
+    <item>
+      <title>難関高校受験コース　18:00開始19:00終了　平日</title>
+      <link>http://jukutown.com/sample9/course-detail-4876/</link>
+      <guid>http://jukutown.com/sample9/course-detail-4876/</guid>
+      <description>難関高校を目指すなら</description>
+      <pubDate>Fri, 17 Sep 2010 10:04:57 +0900</pubDate>
+    </item>
+    <item>
+      <title>難関私立大学受験コース　17:00開始21:00終了　平日</title>
+      <link>http://jukutown.com/sample9/course-detail-4871/</link>
+      <guid>http://jukutown.com/sample9/course-detail-4871/</guid>
+      <description>おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</description>
+      <pubDate>Wed, 15 Sep 2010 17:56:51 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

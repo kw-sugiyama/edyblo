@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://sakaguchi-juku.com/blog-33266/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 15 Feb 2012 20:02:38 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://sakaguchi-juku.com/course-detail-6361/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 07 Oct 2011 03:53:31 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://sakaguchi-juku.com/course-detail-6360/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 02 Feb 2012 02:05:28 +0900</lastmod>
+    </url>
+</urlset>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>PALS学院</title>
+    <link>http://jukutown.com/pals/</link>
+    <copyright>PALS学院</copyright>
+    <description></description>
+    <item>
+      <title>ホームページ開設！</title>
+      <link>http://jukutown.com/pals/blog-2895/</link>
+      <guid>http://jukutown.com/pals/blog-2895/</guid>
+      <description>PALS学院のホームページを開設いたしました。随時更新していきますので、ぜひご覧ください！</description>
+      <pubDate>Mon, 07 Sep 2009 23:14:34 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

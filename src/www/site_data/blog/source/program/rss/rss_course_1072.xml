@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>○○スクール　多摩教室</title>
+    <link>http://jukutown.com/dummy-muto2/</link>
+    <copyright>サンプル進学塾（練習用）</copyright>
+    <description>東大合格１の実力！！難関突破を目指すなら○○スクール</description>
+    <item>
+      <title>エリートコース　:開始:終了　月、金</title>
+      <link>http://jukutown.com/dummy-muto2/course-detail-5919/</link>
+      <guid>http://jukutown.com/dummy-muto2/course-detail-5919/</guid>
+      <description>最難関大学をはじめ、当コースを受講された9割の生徒はそれぞれの第一志望である難関大学に合格しています。先輩の活躍に続けるよう皆さんの挑戦と努力を期待しております。当コースであなたも一年後に○○大生になってみませんか？</description>
+      <pubDate>Wed, 20 Apr 2011 15:26:25 +0900</pubDate>
+    </item>
+    <item>
+      <title>アドバンスコース　:開始:終了　火、木</title>
+      <link>http://jukutown.com/dummy-muto2/course-detail-5918/</link>
+      <guid>http://jukutown.com/dummy-muto2/course-detail-5918/</guid>
+      <description>難関大学を目指す生徒のためのコースです。学年平均あたりのレベルから難関大学の入試で勝負でるレベルまで上げるカリュラムを当コースでは用意させていただいてます。</description>
+      <pubDate>Wed, 20 Apr 2011 13:17:12 +0900</pubDate>
+    </item>
+    <item>
+      <title>ベーシックコース　:開始:終了　月、水</title>
+      <link>http://jukutown.com/dummy-muto2/course-detail-5917/</link>
+      <guid>http://jukutown.com/dummy-muto2/course-detail-5917/</guid>
+      <description>大学受験を控え、『正直勉強にあまり自信がない』方、本格的な受験勉強を始める前に基礎力をしっかり身につけたい生徒のためのコースです。</description>
+      <pubDate>Wed, 20 Apr 2011 13:13:14 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

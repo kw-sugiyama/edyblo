@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>W早慶進学会　稲門進学ゼミ　教育グループ</title>
+    <link>http://jukutown.com/wtomon-oyumino/</link>
+    <copyright>【W早慶進学会　稲門進学ゼミ　】　おゆみ野駅前本部教室</copyright>
+    <description>千葉市緑区おゆみ野南の学習塾・進学塾・個別指導塾『稲門進学ゼミ』のホームページになります。千葉市緑区おゆみ野で学習塾をお探しの方はこちらから。</description>
+    <item>
+      <title>小学生対象コース　:開始:終了　</title>
+      <link>http://jukutown.com/wtomon-oyumino/course-detail-2483/</link>
+      <guid>http://jukutown.com/wtomon-oyumino/course-detail-2483/</guid>
+      <description>小学生対象のコースは「公立中学進学コース」と「難関国私立中学・公立中高一貫校合格コース」の２種類です。</description>
+      <pubDate>Fri, 16 May 2014 16:31:32 +0900</pubDate>
+    </item>
+    <item>
+      <title>個別指導コース　:開始:終了　</title>
+      <link>http://jukutown.com/wtomon-oyumino/course-detail-2494/</link>
+      <guid>http://jukutown.com/wtomon-oyumino/course-detail-2494/</guid>
+      <description>一人ひとりのペースや目標・生活に合わせた指導を行い、科目や曜日・時間帯も個別指導だからでる選択制です。あらゆる生徒さんのニーズに対応でます。</description>
+      <pubDate>Wed, 18 Apr 2012 15:13:53 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生対象コース　:開始:終了　</title>
+      <link>http://jukutown.com/wtomon-oyumino/course-detail-2488/</link>
+      <guid>http://jukutown.com/wtomon-oyumino/course-detail-2488/</guid>
+      <description>公立高校および難関国私立高校合格を目標に、中学校の内申アップと各種試験での得点力を養成します。</description>
+      <pubDate>Wed, 25 Nov 2009 16:20:33 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

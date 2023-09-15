@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ジーニアス井上塾の教室ご案内</title>
+    <link>http://jukutown.com/genius/</link>
+    <copyright>ジーニアス井上塾</copyright>
+    <description></description>
+    <item>
+      <title>インターネット予備校　17:00開始22:00終了　月曜日〜土曜日</title>
+      <link>http://jukutown.com/genius/course-detail-812/</link>
+      <guid>http://jukutown.com/genius/course-detail-812/</guid>
+      <description>ブロードバンド・マイペース予備校です。パソコンのインターネットを使い、余予備校の先生の授業を画面で見て１人で授業を受けます。すでに受講した生徒には大好評です。わからないところは、質問教室で聞けます。</description>
+      <pubDate>Thu, 09 Apr 2009 20:39:32 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生クラス　17:00開始21:00終了　日曜日</title>
+      <link>http://jukutown.com/genius/course-detail-810/</link>
+      <guid>http://jukutown.com/genius/course-detail-810/</guid>
+      <description>一クラス１０名程度までです。週２回、各回国語と数学４５分の授業です。</description>
+      <pubDate>Thu, 09 Apr 2009 20:37:22 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生クラス　18:00開始21:00終了　月曜日〜金曜日</title>
+      <link>http://jukutown.com/genius/course-detail-811/</link>
+      <guid>http://jukutown.com/genius/course-detail-811/</guid>
+      <description>　中学生のクラス授業です。１クラスは、10名から15名程度です。 人数が、１５名を越えるか、人数はすくなくても成績に大な差が出て授業に差しさわりがある場合にクラスを増やします。</description>
+      <pubDate>Thu, 09 Apr 2009 20:36:48 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

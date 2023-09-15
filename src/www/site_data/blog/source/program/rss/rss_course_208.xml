@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>すずへ院　学習教室</title>
+    <link>http://suzukigakuin.com/</link>
+    <copyright>すずへ院　学習教室</copyright>
+    <description>すずへ院学習教室は、埼玉県さいたま市浦和区の学習塾です。自宅に教室を開あ夫婦で子どもたちとつあってました。地元で40年以上続いている“家庭塾”です。</description>
+    <item>
+      <title>小学生クラス　16:00開始17:30終了　火曜日・金曜日</title>
+      <link>http://suzukigakuin.com/course-detail-565/</link>
+      <guid>http://suzukigakuin.com/course-detail-565/</guid>
+      <description>原則として５年生以上が対象です。考える楽しさ・学習習慣を身につけることを大切にしています。</description>
+      <pubDate>Tue, 22 Mar 2016 19:51:52 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校生クラス　18:00開始19:30終了　火曜日〜土曜日</title>
+      <link>http://suzukigakuin.com/course-detail-567/</link>
+      <guid>http://suzukigakuin.com/course-detail-567/</guid>
+      <description>日常学習・定期テスト対策＋進学に備え、各人の傾向・適正と進路に応じて教材・学習方法を決めています。文系・理系各教科＋小論文、英検・漢検等対応。</description>
+      <pubDate>Sat, 06 Dec 2014 21:27:04 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生クラス　19:00開始21:10終了　月曜日〜土曜日</title>
+      <link>http://suzukigakuin.com/course-detail-566/</link>
+      <guid>http://suzukigakuin.com/course-detail-566/</guid>
+      <description>学校での日常学習・定期テスト対策・受験対策を重視しています。英語検定・漢字検定・数学検定対応。</description>
+      <pubDate>Mon, 19 Oct 2009 23:03:14 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

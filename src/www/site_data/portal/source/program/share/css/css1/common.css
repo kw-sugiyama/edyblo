@@ -1,0 +1,81 @@
+@charset "utf-8";
+/***********************************************/
+/* initialize                                   */
+/***********************************************/
+
+* {
+	margin:0;
+	padding:0;
+	}
+
+html {
+	background-image:url(images/bg_headerback.gif);
+	background-color: #fefaee;
+	background-repeat: repeat-x;
+	}
+	
+body {
+	color: #000;
+	background-image: url(images/bg_footer.gif);
+	background-repeat: repeat-x;
+	background-position: 0px bottom;
+	}
+img {
+	border: none;
+	}
+hr {
+	display: none;
+	}
+h1,h2,h3,h4,h5,h6,p,dt,dl,dd,ul,li{
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+	font-size: 12px;
+	font-weight:normal;
+	font-style:normal;
+	color:#333333;
+	line-height: 1.5;
+	}
+
+a{
+	color: #61B9D8;
+	text-decoration:none;
+	}
+
+a:visited{
+	color: #61B9D8;
+}
+
+a:hover{
+  color: #FF6600;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+	}
+
+table{
+	border-collapse:collapse;
+	width:567px;
+	word-break:break-all;
+	height: auto;
+	font-size: 12px;
+	color: #66CCFF;
+	font-style: normal;
+	}
+
+th,td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	}
+
+.clear{
+	clear:both;
+	}
+	
+.nodisplay {
+	display: none;
+}
+
+.floatleft {
+	float: left;
+}

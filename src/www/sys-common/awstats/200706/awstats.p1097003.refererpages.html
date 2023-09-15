@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang='jp'>
+<head>
+<meta name="robots" content="noindex,nofollow" />
+<meta http-equiv="content-type" content="text/html; charset=EUC-JP" />
+<meta http-equiv="expires" content="Sat Jun 30 19:31:24 2007" />
+<meta http-equiv="description" content="Awstats - Advanced Web Statistics for reblo.net" />
+<title>統計対象サイト reblo.net</title>
+<style type="text/css">
+<!--
+body { font: 11px verdana, arial, helvetica, sans-serif; background-color: #FFFFFF; margin-top: 0; margin-bottom: 0; }
+.aws_bodyl  { }
+.aws_border { background-color: #CCCCDD; padding: 1px 1px 1px 1px; margin-top: 0; margin-bottom: 0; }
+.aws_title  { font: 13px verdana, arial, helvetica, sans-serif; font-weight: bold; background-color: #CCCCDD; text-align: center; margin-top: 0; margin-bottom: 0; padding: 1px 1px 1px 1px; }
+.aws_blank  { font: 13px verdana, arial, helvetica, sans-serif; background-color: #CCCCDD; text-align: center; margin-bottom: 0; padding: 1px 1px 1px 1px; }
+.aws_data {
+	background-color: #FFFFFF;
+	border-top-width: 1px;   
+	border-left-width: 0px;  
+	border-right-width: 0px; 
+	border-bottom-width: 0px;
+}
+.aws_formfield { font: 13px verdana, arial, helvetica; }
+.aws_button {
+	font-family: arial,verdana,helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #ccd7e0;
+	background-image : url(/sys-common/awstats/icon/other/button.gif);
+}
+th		{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 2px 1px 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+th.aws	{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 2px 1px 1px; font-size: 13px; font-weight: bold; }
+td		{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 1px 1px 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+td.aws	{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 1px 1px 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:left; color: #000000; }
+td.awsm	{ border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding: 0px 0px 0px 0px; font: 11px verdana, arial, helvetica, sans-serif; text-align:left; color: #000000; }
+b { font-weight: bold; }
+a { font: 11px verdana, arial, helvetica, sans-serif; }
+a:link    { color: #0011BB; text-decoration: none; }
+a:visited { color: #0011BB; text-decoration: none; }
+a:hover   { color: #605040; text-decoration: underline; }
+div { font: 12px 'Arial','Verdana','Helvetica', sans-serif; text-align: justify; }
+.CTooltip { position:absolute; top: 0px; left: 0px; z-index: 2; width: 380px; visibility:hidden; font: 8pt 'MS Comic Sans','Arial',sans-serif; background-color: #FFFFE6; padding: 8px; border: 1px solid black; }
+//-->
+</style>
+</head>
+
+<body style="margin-top: 0px">
+<a name="top">&nbsp;</a>
+
+
+
+
+<script language="javascript" type="text/javascript">
+function ShowTip(fArg)
+{
+	var tooltipOBJ = (document.getElementById) ? document.getElementById('tt' + fArg) : eval("document.all['tt" + fArg + "']");
+	if (tooltipOBJ != null) {
+		var tooltipLft = (document.body.offsetWidth?document.body.offsetWidth:document.body.style.pixelWidth) - (tooltipOBJ.offsetWidth?tooltipOBJ.offsetWidth:(tooltipOBJ.style.pixelWidth?tooltipOBJ.style.pixelWidth:380)) - 30;
+		var tooltipTop = 10;
+		if (navigator.appName == 'Netscape') {
+			if (parseFloat(navigator.appVersion) >= 5) { tooltipTop = (document.body.scrollTop>=0?document.body.scrollTop+10:event.clientY+10); }
+			tooltipOBJ.style.left = tooltipLft; tooltipOBJ.style.top = tooltipTop;
+		}
+		else {
+			tooltipTop = (document.body.scrollTop>=0?document.body.scrollTop+10:event.clientY+10);
+			if ((event.clientX > tooltipLft) && (event.clientY < (tooltipOBJ.scrollHeight?tooltipOBJ.scrollHeight:tooltipOBJ.style.pixelHeight) + 10)) {
+				tooltipTop = (document.body.scrollTop?document.body.scrollTop:document.body.offsetTop) + event.clientY + 20;
+			}
+			tooltipOBJ.style.pixelLeft = tooltipLft; tooltipOBJ.style.pixelTop = tooltipTop;
+		}
+		tooltipOBJ.style.visibility = "visible";
+	}
+}
+function HideTip(fArg)
+{
+	var tooltipOBJ = (document.getElementById) ? document.getElementById('tt' + fArg) : eval("document.all['tt" + fArg + "']");
+	if (tooltipOBJ != null) {
+		tooltipOBJ.style.visibility = "hidden";
+	}
+}
+</script>
+
+<a name="menu">&nbsp;</a>
+<form name="FormDateFilter" action="/cgi-bin/awstats.pl?config=p1097003&staticlinks&diricons=/sys-common/awstats/icon&output=refererpages" style="padding: 0px 0px 0px 0px; margin-top: 0">
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td>
+<table class="aws_data" border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr><td class="aws" valign="middle"><b>統計対象サイト:</b>&nbsp;</td><td class="aws"><span style="font-size: 14px;">reblo.net</span></td><td align="right" rowspan="3"><a href="http://awstats.sourceforge.net" target="awstatshome"><img src="/sys-common/awstats/icon/other/awstats_logo6.png" border="0" alt='Awstats Web Site' title='Awstats Web Site' /></a></td></tr>
+<tr valign="middle"><td class="aws" valign="middle" width="150"><b>最後の更新:</b>&nbsp;</td><td class="aws" valign="middle"><span style="font-size: 12px;">2007年 7月 01日 - 00:00</span></td></tr>
+<tr><td class="aws" valign="middle"><b>Reported period:</b></td><td class="aws" valign="middle"><span style="font-size: 14px;">月 6月 2007</span></td></tr>
+</table>
+</td></tr></table>
+</form>
+
+<table>
+<tr><td class="aws"><a href="javascript:parent.window.close();">このウインドゥを閉じる</a></td></tr>
+</table>
+
+<a name="refererpages">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">外部ページからのリンク(検索エンジンを除くWebサイト) </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data refererpages" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>合計: 65 ページ中</th><th bgcolor="#4477DD" width="80">ページ</th><th bgcolor="#4477DD" width="80">割合</th><th bgcolor="#66F0FF" width="80">ヒット</th><th bgcolor="#66F0FF" width="80">割合</th></tr>
+<tr><td class="aws"><a href="http://www.s-lash.co.jp/reblo.html" target="url">http://www.s-lash.co.jp/reblo.html</a></td><td>406</td><td>29.3 %</td><td>406</td><td>25.6 %</td></tr>
+<tr><td class="aws"><a href="http://www.ikuta-f.co.jp" target="url">http://www.ikuta-f.co.jp</a></td><td>240</td><td>17.3 %</td><td>240</td><td>15.1 %</td></tr>
+<tr><td class="aws"><a href="http://www.fudousan-blog.com/index.php" target="url">http://www.fudousan-blog.com/index.php</a></td><td>116</td><td>8.3 %</td><td>116</td><td>7.3 %</td></tr>
+<tr><td class="aws"><a href="http://fudosan-ping.com/modules/weblinks/" target="url">http://fudosan-ping.com/modules/weblinks/</a></td><td>99</td><td>7.1 %</td><td>99</td><td>6.2 %</td></tr>
+<tr><td class="aws"><a href="http://reblo-net.seesaa.net" target="url">http://reblo-net.seesaa.net</a></td><td>71</td><td>5.1 %</td><td>71</td><td>4.4 %</td></tr>
+<tr><td class="aws"><a href="http://fujiken-smc.jugem.jp" target="url">http://fujiken-smc.jugem.jp</a></td><td>69</td><td>4.9 %</td><td>69</td><td>4.3 %</td></tr>
+<tr><td class="aws"><a href="http://freerss.net/article16108.html" target="url">http://freerss.net/article16108.html</a></td><td>47</td><td>3.3 %</td><td>47</td><td>2.9 %</td></tr>
+<tr><td class="aws"><a href="http://asp.e-seikatsu.co.jp/estate2/rent/fujiken/index.jsp" target="url">http://asp.e-seikatsu.co.jp/estate2/rent/fujiken/index.jsp</a></td><td>46</td><td>3.3 %</td><td>46</td><td>2.9 %</td></tr>
+<tr><td class="aws"><a href="http://cache.yahoofs.jp/search/cache" target="url">http://cache.yahoofs.jp/search/cache</a></td><td>34</td><td>2.4 %</td><td>112</td><td>7 %</td></tr>
+<tr><td class="aws"><a href="http://shop.homes.co.jp/search/detail/ge=106092h7LKJzU90Rgw/" target="url">http://shop.homes.co.jp/search/detail/ge=106092h7LKJzU90Rgw/</a></td><td>24</td><td>1.7 %</td><td>24</td><td>1.5 %</td></tr>
+<tr><td class="aws"><a href="http://72.14.235.104/search" target="url">http://72.14.235.104/search</a></td><td>21</td><td>1.5 %</td><td>104</td><td>6.5 %</td></tr>
+<tr><td class="aws"><a href="http://realestate.homes.co.jp/shop/search/detail/ge=0106092hFNfTJ4p-7zo/o=70hYirjxoNUXIg" target="url">http://realestate.homes.co.jp/shop/search/detail/ge=0106092hFNfT...</a></td><td>17</td><td>1.2 %</td><td>17</td><td>1 %</td></tr>
+<tr><td class="aws"><a href="http://www.cliohome.com" target="url">http://www.cliohome.com</a></td><td>14</td><td>1 %</td><td>14</td><td>0.8 %</td></tr>
+<tr><td class="aws"><a href="http://cliohome.com" target="url">http://cliohome.com</a></td><td>14</td><td>1 %</td><td>14</td><td>0.8 %</td></tr>
+<tr><td class="aws"><a href="http://local.blogmura.com/kanagawa/" target="url">http://local.blogmura.com/kanagawa/</a></td><td>12</td><td>0.8 %</td><td>12</td><td>0.7 %</td></tr>
+<tr><td class="aws"><a href="http://www.fudousan-blog.com" target="url">http://www.fudousan-blog.com</a></td><td>11</td><td>0.7 %</td><td>11</td><td>0.6 %</td></tr>
+<tr><td class="aws"><a href="http://www.blogmura.com/profile/135767.html" target="url">http://www.blogmura.com/profile/135767.html</a></td><td>10</td><td>0.7 %</td><td>10</td><td>0.6 %</td></tr>
+<tr><td class="aws"><a href="http://www.blogmura.com/profile/135767_2.html" target="url">http://www.blogmura.com/profile/135767_2.html</a></td><td>9</td><td>0.6 %</td><td>9</td><td>0.5 %</td></tr>
+<tr><td class="aws"><a href="http://jp.f102.mail.yahoo.co.jp/ym/ShowLetter" target="url">http://jp.f102.mail.yahoo.co.jp/ym/ShowLetter</a></td><td>9</td><td>0.6 %</td><td>9</td><td>0.5 %</td></tr>
+<tr><td class="aws"><a href="http://www.ikuta-f.co.jp/asao.html" target="url">http://www.ikuta-f.co.jp/asao.html</a></td><td>9</td><td>0.6 %</td><td>9</td><td>0.5 %</td></tr>
+<tr><td class="aws"><a href="http://ikuta-f.seesaa.net" target="url">http://ikuta-f.seesaa.net</a></td><td>8</td><td>0.5 %</td><td>8</td><td>0.5 %</td></tr>
+<tr><td class="aws"><a href="http://www.cliohome.com/privacy.html" target="url">http://www.cliohome.com/privacy.html</a></td><td>7</td><td>0.5 %</td><td>7</td><td>0.4 %</td></tr>
+<tr><td class="aws"><a href="http://www.town-search.jp/eki/23/yamate/shinjuku/shop.html" target="url">http://www.town-search.jp/eki/23/yamate/shinjuku/shop.html</a></td><td>7</td><td>0.5 %</td><td>7</td><td>0.4 %</td></tr>
+<tr><td class="aws"><a href="http://www.style-e.net/cliohome/ifnote/index.cgi" target="url">http://www.style-e.net/cliohome/ifnote/index.cgi</a></td><td>6</td><td>0.4 %</td><td>6</td><td>0.3 %</td></tr>
+<tr><td class="aws"><a href="http://www.ikuta-f.co.jp/index.html" target="url">http://www.ikuta-f.co.jp/index.html</a></td><td>6</td><td>0.4 %</td><td>6</td><td>0.3 %</td></tr>
+<tr><td class="aws"><a href="http://219.163.62.35/dev/slash/estate/www/" target="url">http://219.163.62.35/dev/slash/estate/www/</a></td><td>5</td><td>0.3 %</td><td>5</td><td>0.3 %</td></tr>
+<tr><td class="aws"><a href="http://reblo-net.seesaa.net/article/43598206.html" target="url">http://reblo-net.seesaa.net/article/43598206.html</a></td><td>4</td><td>0.2 %</td><td>4</td><td>0.2 %</td></tr>
+<tr><td class="aws"><a href="http://jp.f21.mail.yahoo.co.jp/ym/ShowLetter" target="url">http://jp.f21.mail.yahoo.co.jp/ym/ShowLetter</a></td><td>4</td><td>0.2 %</td><td>4</td><td>0.2 %</td></tr>
+<tr><td class="aws"><a href="http://72.14.253.104/search" target="url">http://72.14.253.104/search</a></td><td>4</td><td>0.2 %</td><td>39</td><td>2.4 %</td></tr>
+<tr><td class="aws"><a href="http://travel.matome.jp/keyword/%e8%8d%b3%ef%bd%ad%e8%9e%9f%ef%bd%ae%e8%ad%9a%ef%bd%b1%e8%9c%bf%ef%bd%a3" target="url">http://travel.matome.jp/keyword/%e8%8d%b3%ef%bd%ad%e8%9e%9f%ef%b...</a></td><td>4</td><td>0.2 %</td><td>4</td><td>0.2 %</td></tr>
+<tr><td class="aws"><a href="http://reblo-net.seesaa.net/category/3287365-1.html" target="url">http://reblo-net.seesaa.net/category/3287365-1.html</a></td><td>3</td><td>0.2 %</td><td>3</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://house.blogmura.com" target="url">http://house.blogmura.com</a></td><td>3</td><td>0.2 %</td><td>3</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://reblo-net.seesaa.net/category/3287363-1.html" target="url">http://reblo-net.seesaa.net/category/3287363-1.html</a></td><td>3</td><td>0.2 %</td><td>3</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://fudosan-ping.com/modules/weblinks/viewcat.php" target="url">http://fudosan-ping.com/modules/weblinks/viewcat.php</a></td><td>3</td><td>0.2 %</td><td>3</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://reblo-net.seesaa.net/article/45813254.html" target="url">http://reblo-net.seesaa.net/article/45813254.html</a></td><td>3</td><td>0.2 %</td><td>3</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://fudosan-ping.com/modules/weblinks/index.php" target="url">http://fudosan-ping.com/modules/weblinks/index.php</a></td><td>2</td><td>0.1 %</td><td>2</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://shop.homes.co.jp/search/detail/ge=106092h7LKJzU90Rgw/o=157hG__yaalpA-o/" target="url">http://shop.homes.co.jp/search/detail/ge=106092h7LKJzU90Rgw/o=15...</a></td><td>2</td><td>0.1 %</td><td>2</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://fudosan-ping.com/modules/weblinks/singlelink.php" target="url">http://fudosan-ping.com/modules/weblinks/singlelink.php</a></td><td>2</td><td>0.1 %</td><td>2</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://house.blogmura.com/estate/" target="url">http://house.blogmura.com/estate/</a></td><td>2</td><td>0.1 %</td><td>2</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://www.cliohome.com/index.html" target="url">http://www.cliohome.com/index.html</a></td><td>2</td><td>0.1 %</td><td>2</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://shop.homes.co.jp/search/detail/mid=106092/s=f/" target="url">http://shop.homes.co.jp/search/detail/mid=106092/s=f/</a></td><td>2</td><td>0.1 %</td><td>2</td><td>0.1 %</td></tr>
+<tr><td class="aws"><a href="http://www.freerss.net/article16108.html" target="url">http://www.freerss.net/article16108.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://www.cliohome.com/kensaku.html" target="url">http://www.cliohome.com/kensaku.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://b.hatena.ne.jp/keyword/%e4%b9%83%e6%9c%a8%e5%9d%82" target="url">http://b.hatena.ne.jp/keyword/%e4%b9%83%e6%9c%a8%e5%9d%82</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://cliohome.com/kensaku.html" target="url">http://cliohome.com/kensaku.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://www.cliohome.com/mail.html" target="url">http://www.cliohome.com/mail.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://adsenser.jp" target="url">http://adsenser.jp</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://reblo-net.seesaa.net/article/45812499.html" target="url">http://reblo-net.seesaa.net/article/45812499.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://shop.homes.co.jp/search/detail/ge=106092h7LKJzU90Rgw/o=159hnQhsDI138co/" target="url">http://shop.homes.co.jp/search/detail/ge=106092h7LKJzU90Rgw/o=15...</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://google/search" target="url">http://google/search</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://blog.chew.jp/result/%e8%aa%ad%e5%a3%b2%e3%83%a9%e3%83%b3%e3%83%89/%e8%aa%ad%e5%a3%b2%e3%83%a9%e3%83%b3%e3%83%89%20%e5%89%8d" target="url">http://blog.chew.jp/result/%e8%aa%ad%e5%a3%b2%e3%83%a9%e3%83%b3%...</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://travel.matome.jp/keyword/%e8%9f%b7%ef%bd%b3%e8%9c%a5%e6%82%9f%e5%ba%8a" target="url">http://travel.matome.jp/keyword/%e8%9f%b7%ef%bd%b3%e8%9c%a5%e6%8...</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://ikuta-f.seesaa.net/category/2423075-1.html" target="url">http://ikuta-f.seesaa.net/category/2423075-1.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://10.23.1.120/miniminiWEB/prjIntranet/MailPOP3/shinichi_enomoto/ATTACH/PART1.html" target="url">http://10.23.1.120/miniminiWEB/prjIntranet/MailPOP3/shinichi_eno...</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://shop.homes.co.jp/search/jump.php" target="url">http://shop.homes.co.jp/search/jump.php</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://ikuta-f.seesaa.net/article/29023523.html" target="url">http://ikuta-f.seesaa.net/article/29023523.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://shop.homes.co.jp/search/detail/ge=0106092hFNfTJ4p-7zo/" target="url">http://shop.homes.co.jp/search/detail/ge=0106092hFNfTJ4p-7zo/</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://cliohome.com/kiso.html" target="url">http://cliohome.com/kiso.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://www.blogmura.com" target="url">http://www.blogmura.com</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://cliohome.com/privacy.html" target="url">http://cliohome.com/privacy.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://shop.homes.co.jp/search/detail/mid=106092/" target="url">http://shop.homes.co.jp/search/detail/mid=106092/</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://mypage.blogmura.com" target="url">http://mypage.blogmura.com</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://cliohome.com/about.html" target="url">http://cliohome.com/about.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://cliohome.com/mail.html" target="url">http://cliohome.com/mail.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+<tr><td class="aws"><a href="http://ikuta-f.seesaa.net/category/2263417-1.html" target="url">http://ikuta-f.seesaa.net/category/2263417-1.html</a></td><td>1</td><td>0 %</td><td>1</td><td>0 %</td></tr>
+</table></td></tr></table><br />
+
+<br /><br />
+<span dir="ltr" style="font: 11px verdana, arial, helvetica; color: #000000;"><b>Advanced Web Statistics 6.0 (build 1.696)</b> - <a href="http://awstats.sourceforge.net" target="awstatshome">Created by awstats (with plugin decodeutfkeys, tooltips)</a></span><br />
+
+<br />
+</body>
+</html>

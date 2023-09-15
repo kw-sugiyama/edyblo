@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>サンプル進学塾 新宿教室　（エディブロ）</title>
+    <link>http://jukutown.com/dummy-0713/</link>
+    <copyright>サンプル進学塾（杉山さんテスト用）</copyright>
+    <description></description>
+    <item>
+      <title>テスト</title>
+      <link>http://jukutown.com/dummy-0713/blog-22495/</link>
+      <guid>http://jukutown.com/dummy-0713/blog-22495/</guid>
+      <description>エディースタッフエディースタッフエディースタッフエディースタッフエディースタッフエディースタッフエディースタッフエディースタッフエディースタッフ</description>
+      <pubDate>Wed, 30 Jan 2013 03:26:12 +0900</pubDate>
+    </item>
+    <item>
+      <title>入塾キャンペーン始めました</title>
+      <link>http://jukutown.com/dummy-0713/blog-22452/</link>
+      <guid>http://jukutown.com/dummy-0713/blog-22452/</guid>
+      <description>今年度から入塾キャンペーン3回無料体験塾を開きます！誰でも前日予約で好きな教科を選択できますので、お気軽にご参加ください。</description>
+      <pubDate>Mon, 28 Feb 2011 16:37:29 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

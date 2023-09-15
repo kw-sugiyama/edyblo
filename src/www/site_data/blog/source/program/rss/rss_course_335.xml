@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>BFA学習塾　ブライトフューチャーアカデミー</title>
+    <link>http://jukutown.com/bfa/</link>
+    <copyright>ブライトフューチャーアカデミー</copyright>
+    <description></description>
+    <item>
+      <title>私国立中学受験コース　:開始:終了　</title>
+      <link>http://jukutown.com/bfa/course-detail-1400/</link>
+      <guid>http://jukutown.com/bfa/course-detail-1400/</guid>
+      <description>●受験内容の学習●志望校合格への対策●他塾のフォロー</description>
+      <pubDate>Fri, 29 May 2009 20:57:11 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校受験コース　:開始:終了　</title>
+      <link>http://jukutown.com/bfa/course-detail-1401/</link>
+      <guid>http://jukutown.com/bfa/course-detail-1401/</guid>
+      <description>●学校内容の補習●定期テスト対策で内申点アップ●志望校合格への対策</description>
+      <pubDate>Fri, 29 May 2009 20:56:34 +0900</pubDate>
+    </item>
+    <item>
+      <title>大学受験コース　:開始:終了　</title>
+      <link>http://jukutown.com/bfa/course-detail-1403/</link>
+      <guid>http://jukutown.com/bfa/course-detail-1403/</guid>
+      <description>●学校内容の補習●定期テスト対策●志望校合格への対策</description>
+      <pubDate>Fri, 29 May 2009 20:56:06 +0900</pubDate>
+    </item>
+    <item>
+      <title>学校補習コース　:開始:終了　</title>
+      <link>http://jukutown.com/bfa/course-detail-1404/</link>
+      <guid>http://jukutown.com/bfa/course-detail-1404/</guid>
+      <description>●基礎からの徹底指導●学校内容の補習●定期テスト対策</description>
+      <pubDate>Fri, 29 May 2009 20:55:11 +0900</pubDate>
+    </item>
+    <item>
+      <title>中高一貫校コース　:開始:終了　</title>
+      <link>http://jukutown.com/bfa/course-detail-1402/</link>
+      <guid>http://jukutown.com/bfa/course-detail-1402/</guid>
+      <description>●学校の進度に合わせた学習●定期テスト対策●大学受験を見据えた学習</description>
+      <pubDate>Fri, 29 May 2009 20:55:03 +0900</pubDate>
+    </item>
+    <item>
+      <title>公立中進学コース　:開始:終了　</title>
+      <link>http://jukutown.com/bfa/course-detail-1399/</link>
+      <guid>http://jukutown.com/bfa/course-detail-1399/</guid>
+      <description>●学校内容補習●発展的内容・先取り学習●英語指導</description>
+      <pubDate>Fri, 29 May 2009 20:54:55 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

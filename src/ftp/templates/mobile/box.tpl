@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+<?
+
+print("$boxmobileB");
+print("$boxmobile");
+
+?>

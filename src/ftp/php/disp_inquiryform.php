@@ -1,0 +1,995 @@
+<?
+/*HTMLフォームを作成
+
+$inquiry_checkbox　お問い合わせフォーム
+$request_checkbox　ご連絡フォーム
+$request_msg　　　 ご質問内容フォーム
+$inquiry_form1　 　上記とセットで使うフォーム
+
+$inquiry_form2　 　資料請求用フォーム
+
+$inquiry_form3　 　コース資料請求用フォーム
+
+$inquiry_form4　 　キャンペーン申し込み用フォーム
+
+$privacy　個人情報について
+*/
+//変数のクリア
+$report1       = "";
+$report2       = "";
+$report3       = "";
+$report4       = "";
+$etc           = "";
+$demand1       = "";
+$demand2       = "";
+$demand3       = "";
+$demand4       = "";
+$year          = "";
+$month         = "";
+$day           = "";
+$gakunen       = "";
+$sex           = "";
+$pref          = "";
+$kidsname_kj_1 = "";
+$kidsname_kj_2 = "";
+$kidsname_kn_1 = "";
+$kidsname_kn_2 = "";
+$type          = "";
+$school        = "";
+$name_kj_1     = "";
+$name_kj_2     = "";
+$name_kn_1     = "";
+$name_kn_2     = "";
+$addr_cd_1     = "";
+$addr_cd_2     = "";
+$city          = "";
+$add           = "";
+$buil          = "";
+$tel           = "";
+$ctel          = "";
+$mail          = "";
+
+session_start();
+if(isset($_POST['session_unset'])){
+		unset($_SESSION);
+		unset($_POST);
+}
+session_write_close();
+if(isset($_SESSION)){
+	extract($_SESSION);
+}
+
+//お問い合わせ内容フォーム
+
+if($report1){
+	$report1_msg='<p class="marginlr1"><input type="checkbox" name="report1" value="コースについて" checked="checked" /><span class="marginlr2">コースについて</span></p>';
+}else{
+	$report1_msg='<p class="marginlr1"><input type="checkbox" name="report1" value="コースについて"/><span class="marginlr2">コースについて</span></p>';
+}
+if($report2){
+	$report2_msg='<p class="marginlr1"><input type="checkbox" name="report2" value="イベントについて" checked="checked" /><span class="marginlr2">イベントについて</span></p>';
+}else{
+	$report2_msg='<p class="marginlr1"><input type="checkbox" name="report2" value="イベントについて"/><span class="marginlr2">イベントについて</span></p>';
+}
+if($report3){
+	$report3_msg='<p class="marginlr1"><input type="checkbox" name="report3" value="入塾について"checked="checked" /><span class="marginlr2">入塾について</span></p>';
+}else{
+	$report3_msg='<p class="marginlr1"><input type="checkbox" name="report3" value="入塾について"/><span class="marginlr2">入塾について</span></p>';
+}
+if($report4){
+	$report4_msg='<p class="marginlr1"><input type="checkbox" name="report4" value="その他" checked="checked" /><span class="marginlr2">その他</span><input type="text" name="etc" size="60" value="'.$etc.'"/></p>';
+}else{
+	$report4_msg='<p class="marginlr1"><input type="checkbox" name="report4" value="その他"/><span class="marginlr2">その他</span><input type="text" name="etc" size="60" /></p>';
+}
+$inquiry_checkbox='
+<div class="box"><!--box start-->
+<table  class="bordergray">
+	<tr>
+		<td class="paddinglr2 bggray">
+			<p><em>お問い合せ内容(複数チェック可)</em>　<span class="red small">必須</span></p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td>
+						'.$report1_msg.'
+					</td>
+					<td>
+						'.$report2_msg.'
+					</td>
+					<td>
+						'.$report3_msg.'
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+					'.$report4_msg.'
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+</div><!--box end-->
+';
+
+
+if($demand1){
+	$demand1_msg='<p class="marginlr1"><input type="checkbox" name="demand1" value="資料を送付して欲しい" checked="checked" /><span class="marginlr2">資料を送付して欲しい</span></p>';
+}else{
+	$demand1_msg='<p class="marginlr1"><input type="checkbox" name="demand1" value="資料を送付して欲しい"/><span class="marginlr2">資料を送付して欲しい</span></p>';
+}
+if($demand2){
+	$demand2_msg='<p class="marginlr1"><input type="checkbox" name="demand2" value="詳細を知りたいので電話して欲しい" checked="checked" /><span class="marginlr2">詳細を知りたいので電話して欲しい</span></p>';
+}else{
+	$demand2_msg='<p class="marginlr1"><input type="checkbox" name="demand2" value="詳細を知りたいので電話して欲しい"/><span class="marginlr2">詳細を知りたいので電話して欲しい</span></p>';
+}
+if($demand3){
+	$demand3_msg='<p class="marginlr1"><input type="checkbox" name="demand3" value="詳細を知りたいので訪問したい" checked="checked" /><span class="marginlr2">詳細を知りたいので訪問したい</span></p>';
+}else{
+	$demand3_msg='<p class="marginlr1"><input type="checkbox" name="demand3" value="詳細を知りたいので訪問したい"/><span class="marginlr2">詳細を知りたいので訪問したい</span></p>';
+}
+if($demand4){
+	$demand4_msg='<p class="marginlr1"><input type="checkbox" name="demand4" value="質問内容に答えて欲しい" checked="checked" /><span class="marginlr2">質問内容に答えて欲しい</span></p>';
+}else{
+	$demand4_msg='<p class="marginlr1"><input type="checkbox" name="demand4" value="質問内容に答えて欲しい"/><span class="marginlr2">質問内容に答えて欲しい</span></p>';
+}
+
+//ご連絡方法フォーム
+$request_checkbox='
+<div class="box"><!--box start-->
+<table  class="bordergray">
+<tr>
+	<td class="paddinglr2 bggray">
+		<p><em>ご連絡方法</em>　<span class="red small">必須</span></p>
+	</td>
+</tr>
+<tr>
+	<td>
+	<table>
+		<tr>
+			<td>
+				'.$demand1_msg.'
+			</td>
+		</tr>
+		<tr>
+			<td>
+				'.$demand2_msg.'
+			</td>
+		</tr>
+		<tr>
+			<td>
+				'.$demand3_msg.'
+			</td>
+		</tr>
+		<tr>
+			<td>
+				'.$demand4_msg.'
+			</td>
+		</tr>
+	</table>
+	</td>
+</tr>
+</table>
+
+</div><!--box end-->
+';
+
+//ご質問内容
+$request_msg='
+<div class="box"><!--box start-->
+<table  class="bordergray">
+<tr>
+	<td class="paddinglr2 bggray">
+		<p><em>ご質問内容</em></p>
+	</td>
+</tr>
+<tr>
+	<td>
+	<table>
+		<tr>
+			<td>
+				<p class="center"><textarea name="inquiry" cols="65" rows="5" style="font-family:\'MS Pゴシック\';font-size:10pt;width:98%;">'.htmlspecialchars($inquiry).'</textarea></p>
+			</td>
+		</tr>
+	</table>
+	</td>
+</tr>
+</table>
+
+</div><!--box end-->
+';
+
+//生まれ年
+$max="";
+$min="";
+$max=date("Y")-20;//最高年齢
+$min=date("Y");//最少年齢
+$yearlist = '<option value="">---</option>';
+for($max;$max<=$min;$max++){
+	if($year==$max){
+		$yearlist.='<option value="'.$max.'" selected>'.$max.'</option>';
+	}else{
+		$yearlist.='<option value="'.$max.'">'.$max.'</option>';
+	}
+}
+//生まれ月
+$monthlist = '<option value="">---</option>';
+for($cnt=1;$cnt<=12;$cnt++){
+	if($month==$cnt){
+		$monthlist.='<option value="'.$cnt.'" selected>'.$cnt.'</option>';
+	}else{
+		$monthlist.='<option value="'.$cnt.'">'.$cnt.'</option>';
+	}
+}
+//生まれ日
+$daylist = '<option value="">---</option>';
+for($cnt=1;$cnt<=31;$cnt++){
+	if($day==$cnt){
+		$daylist.='<option value="'.$cnt.'" selected>'.$cnt.'</option>';
+	}else{
+		$daylist.='<option value="'.$cnt.'">'.$cnt.'</option>';
+	}
+}
+
+//学年
+$gakunenlist = '<option value="">---</option>';
+foreach($param_inq_gakunen["val"] as $key => $val) {
+	if ($gakunen == ""){
+		$gakunenlist .= '<option value="'.$key.'">'.$val.'</option>';
+	}else if ($gakunen==$key) {
+		$gakunenlist .= '<option value="'.$key.'" selected>'.$val.'</option>';
+	} else {
+		$gakunenlist .= '<option value="'.$key.'">'.$val.'</option>';
+	}
+}
+
+$sex_list="";
+if($sex=="男性"){
+	$sex_list='<p><input type="radio" name="sex" value="男性" checked="checked" /><span class="marginlr2">男性</span><input type="radio" name="sex" value="女性" /><span class="marginlr2">女性</span></p>';
+}elseif($sex=="女性"){
+	$sex_list='<p><input type="radio" name="sex" value="男性" /><span class="marginlr2">男性</span><input type="radio" name="sex" value="女性" checked="checked" /><span class="marginlr2">女性</span></p>';
+}else{
+	$sex_list='<p><input type="radio" name="sex" value="男性" checked="checked" /><span class="marginlr2">男性</span><input type="radio" name="sex" value="女性" /><span class="marginlr2">女性</span></p>';
+}
+
+
+$pref_rows=array("北海道","青森県","岩手県","宮城県","秋田県",
+				"山形県","福島県","茨城県","栃木県","群馬県",
+				"埼玉県","千葉県","東京都","神奈川県","新潟県",
+				"富山県","石川県","福井県","山梨県","長野県",
+				"岐阜県","静岡県","愛知県","三重県","滋賀県",
+				"京都府","大阪府","兵庫県","奈良県","和歌山県",
+				"鳥取県","島根県","岡山県","広島県","山口県",
+				"徳島県","香川県","愛媛県","高知県","福岡県",
+				"佐賀県","長崎県","熊本県","大分県","宮崎県",
+				"鹿児島県","沖縄県");
+
+$pref_list="";
+$pref_list='<option value="">都道府県</option>';
+foreach($pref_rows as $key=>$val){
+	if($pref==$val){
+		$pref_list.='<option value="'.$val.'" selected>'.$val.'</option>';
+	}else{
+		$pref_list.='<option value="'.$val.'">'.$val.'</option>';
+	}	
+}
+
+
+
+
+//▼▼▼▼▼▼▼▼▼お問い合わせ系フォーム▼▼▼▼▼▼▼▼▼
+$inquiry_form1='
+
+<div class="box"><!--box start-->
+	<p>ご連絡先等の情報をご記入下さい。</p>
+	<table>
+		<tr>
+			<td rowspan="2" class="tdform-a">
+				<p><em>お子様の氏名</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="kidsname_kj_1" value="'.$kidsname_kj_1.'"/> 名<input type="text" name="kidsname_kj_2" value="'.$kidsname_kj_2.'"/><span class="marginlr2">（漢字）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="kidsname_kn_1" value="'.$kidsname_kn_1.'"/> 名<input type="text" name="kidsname_kn_2" value="'.$kidsname_kn_2.'"/><span class="marginlr2">（フリガナ)</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>性 別</em></p>
+			</td>
+			<td class="tdform-b" >
+				'.$sex_list.'
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>生年月日</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><select class="select1" name="year">
+				'.$yearlist.'
+				</select>
+				<span class="marginr1">年</span>
+				<select name="month">
+				'.$monthlist.'
+				</select>
+				<span class="marginr1">月</span>
+				<select name="day">
+				'.$daylist.'
+				</select>
+				<span class="marginr1">日</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>学年</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b2">
+				<p>
+					<select name="gakunen">
+						'.$gakunenlist.'
+					</select>
+					　その他補足事項
+					<input type="text" name="gakunen_text" value="' . $gakunen_text .'">
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>お通いの学校名</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><input type="text" name="type" value="'.$type.'"/><span class="marginr1">　立　</span><input type="text" name="school" value="'.$school.'" size="40" />
+		<span class="marginr1"></span></p>
+		<p>（例：国立・私立・県立）　（学校名）</p>
+		</td>
+		</tr>
+		<tr>
+			<td rowspan="2" class="tdform-a">
+				<p><em>保護者の氏名</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="name_kj_1" value="'.$name_kj_1.'"/> 名<input type="text" name="name_kj_2" value="'.$name_kj_2.'"/>
+				<span class="marginlr2">（漢字）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="name_kn_1" value="'.$name_kn_1.'"/> 名<input type="text" name="name_kn_2" value="'.$name_kn_2.'"/>
+				<span class="marginlr2">（フリガナ）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>郵便番号</em></p>
+			</td>
+			<td class="tdform-b">
+				<p>〒 <input name="addr_cd_1" type="text" size="3" maxlength="3" value="'.$addr_cd_1.'"/><span class="marginlr1">-</span><input name="addr_cd_2" type="text" size="4" maxlength="4" value="'.$addr_cd_2.'"/>
+				<span class="postcode"><input type="button" value="住所取得" style="width:80px" onclick="return zipSearch1()" /></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>住所</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><select class="select2" name="pref">'.$pref_list.'</select></p>
+				<p><input type="text" name="city" value="'.$city.'" size="50" /></p>
+				<p>○○市・○○区・○○</p>
+				<p><input type="text" name="add" value="'.$add.'" size="50"/></p>
+				<p>町名番地</p><p><input type="text" name="Buil" value="'.$Buil.'" size="50"/></p>
+				<p>マンション・アパート名、部屋番号。</p>
+				<p><span class="red small">※資料送付をご希望の方は、必ずご記入ください。</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>電話番号</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p><input type="text" name="tel" value="'.$tel.'"/></p>
+				<p><span class="marginlr2">電話番号（例）03-○○○○-△△△△</span></p>
+<!--
+				<p><input type="text" name="ctel" value="'.$ctel.'"/>
+				<span class="marginlr2">携帯番号（例）090-□□□□-◇◇◇◇</span></p>
+				<p><span class="red small">※電話番号または携帯番号のいずれかひとつをご記入ください</span></p>
+-->
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>メールアドレス</em></p>
+			</td>
+			<td class="tdform-b">
+				<p>
+					<span class="marginlr2"><input type="text" name="mail" value="'.$mail.'" size="50"/></span>
+				</p>
+				<p><span class="red small">※メールの返信をご希望の方はご記入ください</span></p>
+			</td>
+		</tr>
+	</table>
+</div><!--box end-->
+';
+
+//▼▼▼▼▼▼▼▼▼資料請求用フォーム▼▼▼▼▼▼▼▼▼
+$inquiry_form2='
+
+<div class="box"><!--box start-->
+	<p>資料請求をご希望の方はお電話か、下記の資料請求フォームをご利用下さい。</p>
+	<table>
+		<tr>
+			<td rowspan="2" class="tdform-a">
+				<p><em>お子様の氏名</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="kidsname_kj_1" value="'.$kidsname_kj_1.'"/> 名<input type="text" name="kidsname_kj_2" value="'.$kidsname_kj_2.'"/><span class="marginlr2">（漢字）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="kidsname_kn_1" value="'.$kidsname_kn_1.'"/> 名<input type="text" name="kidsname_kn_2" value="'.$kidsname_kn_2.'"/><span class="marginlr2">（フリガナ)</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>性 別</em></p>
+			</td>
+			<td class="tdform-b" >
+				'.$sex_list.'
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>生年月日</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><select class="select1" name="year">
+				'.$yearlist.'
+				</select>
+				<span class="marginr1">年</span>
+				<select name="month">
+				'.$monthlist.'
+				</select>
+				<span class="marginr1">月</span>
+				<select name="day">
+				'.$daylist.'
+				</select>
+				<span class="marginr1">日</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>学年</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b2">
+				<p>
+					<select name="gakunen">
+						'.$gakunenlist.'
+					</select>
+					　その他補足事項
+					<input type="text" name="gakunen_text" value="' . $gakunen_text .'">
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>お通いの学校名</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><input type="text" name="type" value="'.$type.'"/><span class="marginr1">　立　</span><input type="text" name="school" value="'.$school.'" size="40" />
+		<span class="marginr1"></span></p>
+		<p>（例：国立・私立・県立）　（学校名）</p>
+		</td>
+		</tr>
+		<tr>
+			<td rowspan="2" class="tdform-a">
+				<p><em>保護者の氏名</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="name_kj_1" value="'.$name_kj_1.'"/> 名<input type="text" name="name_kj_2" value="'.$name_kj_2.'"/>
+				<span class="marginlr2">（漢字）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="name_kn_1" value="'.$name_kn_1.'"/> 名<input type="text" name="name_kn_2" value="'.$name_kn_2.'"/>
+				<span class="marginlr2">（フリガナ）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>郵便番号</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b2">
+				<p>〒 <input name="addr_cd_1" type="text" size="3" maxlength="3" value="'.$addr_cd_1.'"/><span class="marginlr1">-</span><input name="addr_cd_2" type="text" size="4" maxlength="4" value="'.$addr_cd_2.'"/>
+				<span class="postcode"><input type="button" value="住所取得" style="width:80px" onclick="return zipSearch1()" /></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>住所</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p><select class="select2" name="pref">'.$pref_list.'</select></p>
+				<p><input type="text" name="city" value="'.$city.'" size="50"/></p>
+				<p>○○市・○○区・○○</p>
+				<p><input type="text" name="add" value="'.$add.'" size="50"/></p>
+				<p>町名番地</p><p><input type="text" name="Buil" value="'.$Buil.'" size="50"/></p>
+				<p>マンション・アパート名、部屋番号。</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>電話番号</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p><input type="text" name="tel" value="'.$tel.'"/></p>
+				<p><span class="marginlr2">電話番号（例）03-○○○○-△△△△</span></p>
+<!--
+				<p><input type="text" name="ctel" value="'.$ctel.'"/></p>
+				<span class="marginlr2">携帯番号（例）090-□□□□-◇◇◇◇</span></p>
+				<p><span class="red small">※電話番号または携帯番号のいずれかひとつをご記入ください</span></p>
+-->
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>メールアドレス</em></p>
+			</td>
+			<td class="tdform-b">
+				<p>
+					<span class="marginlr2"><input type="text" name="mail" value="'.$mail.'" size="50"/></span>
+				</p>
+				<p><span class="red small">※メールの返信をご希望の方はご記入ください</span></p>
+			</td>
+		</tr>
+	</table>
+</div><!--box end-->
+	
+<div class="box"><!--box start-->
+	<table  class="bordergray">
+		<tr>
+			<td class="paddinglr2 bggray">
+				<p><em>ご質問などございましたら、お気軽にご記入下さい。</em></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<p class="center"><textarea name="inquiry" cols="65" rows="5" style="font-family:\'MS Pゴシック\';font-size:10pt;width:98%;">'.htmlspecialchars($inquiry).'</textarea></p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div><!--box end-->
+';
+
+
+
+//▼▼▼▼▼▼▼▼▼コース資料請求▼▼▼▼▼▼▼▼▼
+$inquiry_form3='
+
+<div class="box"><!--box start-->
+	<p>ご連絡先等の情報をご記入下さい。</p>
+	<table>
+		<tr>
+			<td rowspan="2" class="tdform-a">
+				<p><em>お子様の氏名</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="kidsname_kj_1" value="'.$kidsname_kj_1.'"/> 名<input type="text" name="kidsname_kj_2" value="'.$kidsname_kj_2.'"/><span class="marginlr2">（漢字）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="kidsname_kn_1" value="'.$kidsname_kn_1.'"/> 名<input type="text" name="kidsname_kn_2" value="'.$kidsname_kn_2.'"/><span class="marginlr2">（フリガナ)</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>性 別</em></p>
+			</td>
+			<td class="tdform-b" >
+				'.$sex_list.'
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>生年月日</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><select class="select1" name="year">
+				'.$yearlist.'
+				</select>
+				<span class="marginr1">年</span>
+				<select name="month">
+				'.$monthlist.'
+				</select>
+				<span class="marginr1">月</span>
+				<select name="day">
+				'.$daylist.'
+				</select>
+				<span class="marginr1">日</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>学年</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b2">
+				<p>
+					<select name="gakunen">
+						'.$gakunenlist.'
+					</select>
+					　その他補足事項
+					<input type="text" name="gakunen_text" value="' . $gakunen_text .'">
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>お通いの学校名</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><input type="text" name="type" value="'.$type.'"/><span class="marginr1">　立　</span><input type="text" name="school" value="'.$school.'" size="40" />
+		<span class="marginr1"></span></p>
+		<p>（例：国立・私立・県立）　（学校名）</p>
+		</td>
+		</tr>
+		<tr>
+			<td rowspan="2" class="tdform-a">
+				<p><em>保護者の氏名</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="name_kj_1" value="'.$name_kj_1.'"/> 名<input type="text" name="name_kj_2" value="'.$name_kj_2.'"/>
+				<span class="marginlr2">（漢字）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="name_kn_1" value="'.$name_kn_1.'"/> 名<input type="text" name="name_kn_2" value="'.$name_kn_2.'"/>
+				<span class="marginlr2">（フリガナ）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>郵便番号</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b2">
+				<p>〒 <input name="addr_cd_1" type="text" size="3" maxlength="3" value="'.$addr_cd_1.'"/><span class="marginlr1">-</span><input name="addr_cd_2" type="text" size="4" maxlength="4" value="'.$addr_cd_2.'"/>	
+				<span class="postcode"><input type="button" value="住所取得" style="width:80px" onclick="return zipSearch1()" /></span></p>
+			</td>
+		</tr>
+		<tr>
+		<td class="tdform-a">
+			<p><em>住所</em></p>
+			<p><span class="red small">必須</span></p>
+		</td>
+			<td class="tdform-b">
+				<p><select class="select2" name="pref">'.$pref_list.'</select></p>
+				<p><input type="text" name="city" value="'.$city.'" size="50"/></p>
+				<p>○○市・○○区・○○</p>
+				<p><input type="text" name="add" value="'.$add.'" size="50"/></p>
+				<p>町名番地</p><p><input type="text" name="Buil" value="'.$Buil.'" size="50"/></p>
+				<p>マンション・アパート名、部屋番号。</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>電話番号</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p><input type="text" name="tel" value="'.$tel.'"/></p>
+				<p><span class="marginlr2">電話番号（例）03-○○○○-△△△△</span></p>
+<!--
+				<p><input type="text" name="ctel" value="'.$ctel.'"/>
+				<span class="marginlr2">携帯番号（例）090-□□□□-◇◇◇◇</span></p>
+				<p><span class="red small">※電話番号または携帯番号のいずれかひとつをご記入ください</span></p>
+-->
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>メールアドレス</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><span class="marginlr2"><input type="text" name="mail" value="'.$mail.'" size="50"/></span></p>
+				<p><span class="red small">※メールの返信をご希望の方はご記入ください</span></p>
+
+			</td>
+		</tr>
+	</table>
+</div><!--box end-->
+
+<div class="box"><!--box start-->
+	<table  class="bordergray">
+		<tr>
+			<td class="paddinglr2 bggray">
+				<p><em>お問い合わせの内容をお書き下さい。</em></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<p class="center"><textarea name="inquiry" cols="65" rows="5" style="font-family:\'MS Pゴシック\';font-size:10pt;width:98%;">'.htmlspecialchars($inquiry).'</textarea></p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div><!--box end-->
+
+';
+
+//▼▼▼▼▼▼▼▼▼キャンペーン申し込み▼▼▼▼▼▼▼▼▼
+$inquiry_form4='
+
+<div class="box"><!--box start-->
+	<p>ご連絡先等の情報をご記入下さい。</p>
+	<table>
+		<tr>
+			<td rowspan="2" class="tdform-a">
+				<p><em>お子様の氏名</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="kidsname_kj_1" value="'.$kidsname_kj_1.'"/> 名<input type="text" name="kidsname_kj_2" value="'.$kidsname_kj_2.'"/><span class="marginlr2">（漢字）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="kidsname_kn_1" value="'.$kidsname_kn_1.'"/> 名<input type="text" name="kidsname_kn_2" value="'.$kidsname_kn_2.'"/><span class="marginlr2">（フリガナ)</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>性 別</em></p>
+			</td>
+			<td class="tdform-b" >
+				'.$sex_list.'
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>生年月日</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><select class="select1" name="year">
+				'.$yearlist.'
+				</select>
+				<span class="marginr1">年</span>
+				<select name="month">
+				'.$monthlist.'
+				</select>
+				<span class="marginr1">月</span>
+				<select name="day">
+				'.$daylist.'
+				</select>
+				<span class="marginr1">日</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>学年</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b2">
+				<p>
+					<select name="gakunen">
+						'.$gakunenlist.'
+					</select>
+					　その他補足事項
+					<input type="text" name="gakunen_text" value="' . $gakunen_text .'">
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>お通いの学校名</em></p>
+			</td>
+			<td class="tdform-b">
+				<p><input type="text" name="type" value="'.$type.'"/><span class="marginr1">　立　</span><input type="text" name="school" value="'.$school.'" size="40" />
+		<span class="marginr1"></span></p>
+		<p>（例：国立・私立・県立）　（学校名）</p>
+		</td>
+		</tr>
+		<tr>
+			<td rowspan="2" class="tdform-a">
+				<p><em>保護者の氏名</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="name_kj_1" value="'.$name_kj_1.'"/> 名<input type="text" name="name_kj_2" value="'.$name_kj_2.'"/>
+				<span class="marginlr2">（漢字）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-b">
+				<p>姓<input type="text" name="name_kn_1" value="'.$name_kn_1.'"/> 名<input type="text" name="name_kn_2" value="'.$name_kn_2.'"/>
+				<span class="marginlr2">（フリガナ）</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>郵便番号</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b2">
+				<p>〒 <input name="addr_cd_1" type="text" size="3" maxlength="3" value="'.$addr_cd_1.'"/><span class="marginlr1">-</span><input name="addr_cd_2" type="text" size="4" maxlength="4" value="'.$addr_cd_2.'"/>
+				<span class="postcode"><input type="button" value="住所取得" style="width:80px" onclick="return zipSearch1()" /></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>住所</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b">
+				<p><select class="select2" name="pref">'.$pref_list.'</select></p>
+				<p><input type="text" name="city" value="'.$city.'" size="50"/></p>
+				<p>○○市・○○区・○○</p>
+				<p><input type="text" name="add" value="'.$add.'" size="50"/></p>
+				<p>町名番地</p><p><input type="text" name="Buil" value="'.$Buil.'" size="50"/></p>
+				<p>マンション・アパート名、部屋番号。</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>電話番号</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b2">
+				<p><input type="text" name="tel" value="'.$tel.'"/></p>
+				<p><span class="marginlr2">電話番号（例）03-○○○○-△△△△</span></p>
+<!--
+				<p><input type="text" name="ctel" value="'.$ctel.'"/>
+				<span class="marginlr2">携帯番号（例）090-□□□□-◇◇◇◇</span></p>
+				<p><span class="red small">※電話番号または携帯番号のいずれかひとつをご記入ください</span></p>
+-->
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-a">
+				<p><em>メールアドレス</em></p>
+				<p><span class="red small">必須</span></p>
+			</td>
+			<td class="tdform-b2">
+				<p>
+					<span class="marginlr2"><input type="text" name="mail" value="'.$mail.'" size="50"/></span>
+				</p>
+			</td>
+		</tr>
+	</table>
+</div><!--box end-->
+
+<div class="box"><!--box start-->
+	<table  class="bordergray">
+		<tr>
+			<td class="paddinglr2 bggray">
+				<p><em>コメント欄</em></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<p class="center"><textarea name="inquiry" cols="65" rows="5" style="font-family:\'MS Pゴシック\';font-size:10pt;width:98%;">'.htmlspecialchars($inquiry).'</textarea></p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div><!--box end-->
+
+';
+
+$privacy="";
+if($arrHeaderView['sc_privacy']){
+	$privacy='
+<div class="box"><!--box start-->
+	<table>
+		<tr>
+			<td class="paddinglr2 bggray">
+				<p><em>個人情報の取扱いについて</em></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="bordergray">
+				<p class="center">
+					<textarea name="textarea" cols="65" rows="10" readonly="readonly" style="font-family:\'MS Pゴシック\';font-size:10pt;width:98%;">'.$arrHeaderView['sc_privacy'].'</textarea>
+				</p>
+			</td>
+		</tr>
+	</table>
+</div><!--box end-->
+
+<div class="box"><!--box start-->
+	<table>
+		<tr>
+			<td class="paddinglr2 bggray">
+				<p><em>「個人情報の取扱について」に同意いただける場合は、「同意する」にチェックを入れてください</em></p>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdform-b">
+				<p class="marginlr1">
+					<input type="checkbox" name="privacy" value="1" /><span class="marginlr2">同意する</span>
+				</p>
+			</td>
+		</tr>
+	</table>
+</div><!--box end-->
+';
+}
+
+//お問い合せ用ボタン
+$button1="";
+$button1='
+<div class="box"><!--box start-->
+	<p class="center">
+		<input type="image" src="share/images/bt_kakunin2'.$img_color.'.gif" alt="" onmouseover="this.src=\'share/images/bt_kakunin2b'.$img_color.'.gif\'" onmouseout="this.src=\'share/images/bt_kakunin2'.$img_color.'.gif\'" onclick="return inquiry_input_check1( this.form , this.form )" />
+	</p>
+</div><!--box end-->
+';
+
+//コース・キャンペーン問い合せ
+$button2="";
+$button2='
+<div class="box"><!--box start-->
+	<p class="center">
+		<input type="image" src="share/images/bt_kakunin2'.$img_color.'.gif" alt="" onmouseover="this.src=\'share/images/bt_kakunin2b'.$img_color.'.gif\'" onmouseout="this.src=\'share/images/bt_kakunin2'.$img_color.'.gif\'" onclick="return inquiry_input_check2( this.form , this.form )" />
+	</p>
+</div><!--box end-->
+';
+
+//資料請求、コース資料請求
+$button3="";
+$button3='
+<div class="box"><!--box start-->
+	<p class="center">
+		<input type="image" src="share/images/bt_kakunin2'.$img_color.'.gif" alt="" onmouseover="this.src=\'share/images/bt_kakunin2b'.$img_color.'.gif\'" onmouseout="this.src=\'share/images/bt_kakunin2'.$img_color.'.gif\'" onclick="return inquiry_input_check3( this.form , this.form )" />
+	</p>
+</div><!--box end-->
+';
+
+//キャンペーン申し込み用ボタン
+$button4="";
+$button4='
+<div class="box"><!--box start-->
+	<p class="center">
+		<input type="image" src="share/images/bt_kakunin2'.$img_color.'.gif" alt="" onmouseover="this.src=\'share/images/bt_kakunin2b'.$img_color.'.gif\'" onmouseout="this.src=\'share/images/bt_kakunin2'.$img_color.'.gif\'" onclick="return inquiry_input_check4( this.form , this.form )" />
+	</p>
+</div><!--box end-->
+';
+?>

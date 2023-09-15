@@ -1,0 +1,62 @@
+@charset "utf-8";
+/***********************************************/
+/* globalmenu                                  */
+/***********************************************/
+
+#globalmenuwrapper{
+	width:800px;
+	height:36px;
+}
+
+
+ul#globalmenu{
+	list-style:none;
+	width:100%;
+	margin-left:10px;
+}
+ul#globalmenu li{
+	list-style:none;
+	float:left;
+	padding-right:8px;
+}
+ul#globalmenu a{
+	display:block;
+}
+.globalmenu1 a{
+	width:171px;
+	height:28px;
+	display:block;
+	background-image: url(images/bt_home.gif);
+    background-position:0px 0px;
+}
+.globalmenu1 a:hover{
+	width:171px;
+	height:28px;
+    background-position:0px -28px;
+}
+
+.globalmenu2 a{
+	width:171px;
+	height:28px;
+	display:block;
+	background-image: url(images/bt_area.gif);
+    background-position:0px 0px;
+}
+.globalmenu2 a:hover{
+	width:171px;
+	height:28px;
+    background-position:0px -28px;
+}
+
+.globalmenu3 a{
+	width:171px;
+	height:28px;
+	display:block;
+	background-image: url(images/bt_station.gif);
+    background-position:0px 0px;
+}
+.globalmenu3 a:hover{
+	width:171px;
+	height:28px;
+    background-position:0px -28px;
+}

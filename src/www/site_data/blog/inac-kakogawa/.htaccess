@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_URI} !(^/$)
+RewriteCond %{REQUEST_URI} !(^/image/)
+RewriteCond %{REQUEST_URI} !(^/css/)
+RewriteRule ^(.*)$ / [R=301,L]

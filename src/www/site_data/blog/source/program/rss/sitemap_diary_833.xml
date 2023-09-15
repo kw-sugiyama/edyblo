@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://yamatotakada.waseiku.com/blog-20078/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 08 Jan 2011 04:11:19 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://yamatotakada.waseiku.com/blog-14497/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 17 Sep 2010 20:53:30 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://yamatotakada.waseiku.com/blog-13795/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 22 Jul 2010 19:48:18 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://yamatotakada.waseiku.com/blog-11678/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 02 Jun 2010 15:25:27 +0900</lastmod>
+    </url>
+</urlset>

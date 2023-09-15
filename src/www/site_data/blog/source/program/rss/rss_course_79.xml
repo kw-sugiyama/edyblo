@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>a</title>
+    <link>http://jukutown.com/sio/</link>
+    <copyright>マニュアル塾</copyright>
+    <description></description>
+    <item>
+      <title>高校進学コース　20:00開始21:20終了　火・木</title>
+      <link>http://jukutown.com/sio/course-detail-1712/</link>
+      <guid>http://jukutown.com/sio/course-detail-1712/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導。重要視される内申点の更なるアップ。繰り返し行う模擬テストで合格への最短ルートを発見。</description>
+      <pubDate>Mon, 22 Jun 2009 15:48:46 +0900</pubDate>
+    </item>
+    <item>
+      <title>私立中学受験コース　17:00開始18:20終了　随時</title>
+      <link>http://jukutown.com/sio/course-detail-1711/</link>
+      <guid>http://jukutown.com/sio/course-detail-1711/</guid>
+      <description>もう知識だけで闘える時代ではありません!!少子化とは言えども、増える一方の中学受験率。ここ近年、時代背景の変化と共に、中学受験に出題される問題の傾向も毎年変化しています。こうした変化にいち早く注目し、単に知識を詰め込むだけではなく、「自分で考える」ことを身に付ける教育にも力を入れています。</description>
+      <pubDate>Mon, 22 Jun 2009 15:48:25 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

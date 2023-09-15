@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>Juken school【新上橋】　</title>
+    <link>http://jukutown.com/jukenschool/</link>
+    <copyright>Juken School</copyright>
+    <description>「自主学習」と言われても難しいもの。でも,自主学習こそ、考えて動くことができ、「生きる力」を身につけることができます。</description>
+    <item>
+      <title>統一模試申込受付中</title>
+      <link>http://jukutown.com/jukenschool/blog-39860/</link>
+      <guid>http://jukutown.com/jukenschool/blog-39860/</guid>
+      <description>統一模試の受付を開始しました。今回は、中学1年生・2年生が対象です。今の達成度を確認してみましょう。</description>
+      <pubDate>Wed, 08 Feb 2012 16:21:25 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

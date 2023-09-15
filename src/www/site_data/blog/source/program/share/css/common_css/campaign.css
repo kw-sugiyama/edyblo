@@ -1,0 +1,1138 @@
+@charset "utf-8";
+
+/***********************************************/
+/* campaign box  navigation                    */
+/***********************************************/
+
+div.campaignbox_banner_green {
+	width:545px;
+	background-image: url(../images/banner_green.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_green {
+	font-size: 14px;
+	color: #99cc00;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_green {
+	font-size: 24px;
+	color: #99cc00;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_green {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 12px;
+	font-weight: bold;
+}
+
+#campaign4_banner_green {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_green a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_green a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_green a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_green a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_green a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_green a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_green {
+	width:84%;
+}
+
+.tdcampaignb_banner_green {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation blue               */
+/***********************************************/
+
+div.campaignbox_banner_blue {
+	width:545px;
+	background-image: url(../images/banner_blue.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_blue {
+	font-size: 14px;
+	color: #079CBC;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_blue {
+	font-size: 24px;
+	color: #079CBC;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_blue {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 12px;
+	font-weight: bold;
+}
+
+#campaign4_banner_blue {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_blue a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_blue a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_blue a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_blue a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_blue a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_blue a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_blue {
+	width:84%;
+}
+
+.tdcampaignb_banner_blue {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation  emerald           */
+/***********************************************/
+
+div.campaignbox_banner_emerald {
+	width:545px;
+	background-image: url(../images/banner_emerald.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_emerald {
+	font-size: 14px;
+	color: #07BD82;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_emerald {
+	font-size: 24px;
+	color: #07BD82;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_emerald {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_emerald {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_emerald a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_emerald a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_emerald a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_emerald a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_emerald a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_emerald a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_emerald {
+	width:84%;
+}
+
+.tdcampaignb_banner_emerald {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation  orange            */
+/***********************************************/
+
+div.campaignbox_banner_orange {
+	width:545px;
+	background-image: url(../images/banner_orange.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_orange {
+	font-size: 14px;
+	color: #BA6107;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_orange {
+	font-size: 24px;
+	color: #BA6107;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_orange {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_orange {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_orange a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_orange a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_orange a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_orange a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_orange a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_orange a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_orange {
+	width:84%;
+}
+
+.tdcampaignb_banner_orange {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation red                */
+/***********************************************/
+
+div.campaignbox_banner_red {
+	width:545px;
+	background-image: url(../images/banner_red.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_red {
+	font-size: 14px;
+	color: #BF0843;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_red {
+	font-size: 24px;
+	color: #BF0843;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_red {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_red {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_red a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_red a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#campaign3_banner_red a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_red a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_red a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_red a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_red {
+	width:84%;
+}
+
+.tdcampaignb_banner_red {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation banner_01_pop      */
+/* #0066CC	#0066CC	#808080	#808080* /
+/***********************************************/
+
+div.campaignbox_banner_01_pop {
+	width:545px;
+	background-image: url(../images/banner_01_pop.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_01_pop {
+	font-size: 14px;
+	color: #0066CC;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_01_pop {
+	font-size: 24px;
+	color: #0066CC;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_01_pop {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_01_pop {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_01_pop a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_01_pop a:visited {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_01_pop a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_01_pop a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign4_banner_01_pop a:visited {
+	color: #808080;
+}
+
+#campaign4_banner_01_pop a:hover {
+	color: #808080;
+}
+
+.tdcampaigna_banner_01_pop {
+	width:84%;
+}
+
+.tdcampaignb_banner_01_pop {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation banner_02_pop      */
+/* #FF6600	#FF6600	#808080	#808080 */
+/***********************************************/
+
+div.campaignbox_banner_02_pop {
+	width:545px;
+	background-image: url(../images/banner_02_pop.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_02_pop {
+	font-size: 14px;
+	color: #FF6600;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_02_pop {
+	font-size: 24px;
+	color: #FF6600;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_02_pop{ 
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_02_pop {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_02_pop a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_02_pop a:visited {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_02_pop a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_02_pop a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign4_banner_02_pop a:visited {
+	color: #808080;
+}
+
+#campaign4_banner_02_pop a:hover {
+	color: #808080;
+}
+
+.tdcampaigna_banner_02_pop {
+	width:84%;
+}
+
+.tdcampaignb_banner_02_pop {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation banner_11_spring      */
+/* #808080	#FF6666	#808080	#FFFFFF */
+/***********************************************/
+
+div.campaignbox_banner_11_spring {
+	width:545px;
+	background-image: url(../images/banner_11_spring.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_11_spring {
+	font-size: 14px;
+	color: #808080;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_11_spring {
+	font-size: 24px;
+	color: #FF6666;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_11_spring {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_11_spring {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_11_spring a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_11_spring a:visited {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_11_spring a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_11_spring a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_11_spring a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_11_spring a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_11_spring {
+	width:84%;
+}
+
+.tdcampaignb_banner_11_spring {
+	width:16%;
+	vertical-align: middle;
+}
+
+
+/***********************************************/
+/* campaign box  navigation banner_12_summer      */
+/* #808080	#339933	#808080	#FFFFFF */
+/***********************************************/
+
+div.campaignbox_banner_12_summer {
+	width:545px;
+	background-image: url(../images/banner_12_summer.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_12_summer {
+	font-size: 14px;
+	color: #808080;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_12_summer {
+	font-size: 24px;
+	color: #339933;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_12_summer {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_12_summer {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_12_summer a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_12_summer a:visited {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_12_summer a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_12_summer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_12_summer a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_12_summer a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_12_summer {
+	width:84%;
+}
+
+.tdcampaignb_banner_12_summer {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation banner_14_winter      */
+/* #808080	#6699CC	#808080	#808080 */
+/***********************************************/
+
+div.campaignbox_banner_14_winter {
+	width:545px;
+	background-image: url(../images/banner_14_winter.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_14_winter {
+	font-size: 14px;
+	color: #808080;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_14_winter {
+	font-size: 24px;
+	color: #6699CC;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_14_winter {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_14_winter {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_14_winter a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_14_winter a:visited {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign3_banner_14_winter a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_14_winter a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#campaign4_banner_14_winter a:visited {
+	color: #808080;
+}
+
+#campaign4_banner_14_winter a:hover {
+	color: #808080;
+}
+
+.tdcampaigna_banner_14_winter {
+	width:84%;
+}
+
+.tdcampaignb_banner_14_winter {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation banner_21_spring      */
+/* #996633	#FF6666	#996633	#FFFFFF */
+/***********************************************/
+
+div.campaignbox_banner_21_spring {
+	width:545px;
+	background-image: url(../images/banner_21_spring.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_21_spring {
+	font-size: 14px;
+	color: #996633;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_21_spring {
+	font-size: 24px;
+	color: #FF6666;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_21_spring {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_21_spring {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_21_spring a {
+	color: #996633;
+	text-decoration: none;
+}
+
+#campaign3_banner_21_spring a:visited {
+	color: #996633;
+	text-decoration: none;
+}
+
+#campaign3_banner_21_spring a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_21_spring a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_21_spring a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_21_spring a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_21_spring {
+	width:84%;
+}
+
+.tdcampaignb_banner_21_spring {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation banner_23_autumn      */
+/* #996633	#993300	#996633	#FFFFFF */
+/***********************************************/
+
+div.campaignbox_banner_23_autumn {
+	width:545px;
+	background-image: url(../images/banner_23_autumn.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_23_autumn {
+	font-size: 14px;
+	color: #996633;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_23_autumn {
+	font-size: 24px;
+	color: #993300;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_23_autumn {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_23_autumn {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_23_autumn a {
+	color: #996633;
+	text-decoration: none;
+}
+
+#campaign3_banner_23_autumn a:visited {
+	color: #996633;
+	text-decoration: none;
+}
+
+#campaign3_banner_23_autumn a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_23_autumn a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_23_autumn a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_23_autumn a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_23_autumn {
+	width:84%;
+}
+
+.tdcampaignb_banner_23_autumn {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation banner_24_winter      */
+/* #996633	#FF3300	#996633	#FFFFFF */
+/***********************************************/
+
+div.campaignbox_banner_24_winter {
+	width:545px;
+	background-image: url(../images/banner_24_winter.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_24_winter {
+	font-size: 14px;
+	color: #996633;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_24_winter {
+	font-size: 24px;
+	color: #FF3300;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_24_winter {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_24_winter {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_24_winter a {
+	color: #996633;
+	text-decoration: none;
+}
+
+#campaign3_banner_24_winter a:visited {
+	color: #996633;
+	text-decoration: none;
+}
+
+#campaign3_banner_24_winter a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_24_winter a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#campaign4_banner_24_winter a:visited {
+	color: #FFFFFF;
+}
+
+#campaign4_banner_24_winter a:hover {
+	color: #FFFFFF;
+}
+
+.tdcampaigna_banner_24_winter {
+	width:84%;
+}
+
+.tdcampaignb_banner_24_winter {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation banner_31_spring      */
+/* #808080	#00CC66	#FF6666	#FF6666 */
+/***********************************************/
+
+div.campaignbox_banner_31_spring {
+	width:545px;
+	background-image: url(../images/banner_31_spring.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_31_spring {
+	font-size: 14px;
+	color: #808080;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_31_spring {
+	font-size: 24px;
+	color: #00CC66;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_31_spring {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_31_spring {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_31_spring a {
+	color: #FF6666;
+	text-decoration: none;
+}
+
+#campaign3_banner_31_spring a:visited {
+	color: #FF6666;
+	text-decoration: none;
+}
+
+#campaign3_banner_31_spring a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_31_spring a {
+	color: #FF6666;
+	text-decoration: none;
+}
+
+#campaign4_banner_31_spring a:visited {
+	color: #FF6666;
+}
+
+#campaign4_banner_31_spring a:hover {
+	color: #FF6666;
+}
+
+.tdcampaigna_banner_31_spring {
+	width:84%;
+}
+
+.tdcampaignb_banner_31_spring {
+	width:16%;
+	vertical-align: middle;
+}
+
+/***********************************************/
+/* campaign box  navigation banner_32_summer      */
+/* #808080	#FF6633	#33CCCC	#33CCCC */
+/***********************************************/
+
+div.campaignbox_banner_32_summer {
+	width:545px;
+	background-image: url(../images/banner_32_summer.gif);
+	height: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#campaign1_banner_32_summer {
+	font-size: 14px;
+	color: #808080;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign2_banner_32_summer {
+	font-size: 24px;
+	color: #FF6633;
+	margin-left: 30px;
+	font-weight: bold;
+}
+#campaign3_banner_32_summer {
+	font-size: 12px;
+	margin-left: 193px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+#campaign4_banner_32_summer {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 7px;
+	text-align: left;
+}
+
+#campaign3_banner_32_summer a {
+	color: #33CCCC;
+	text-decoration: none;
+}
+
+#campaign3_banner_32_summer a:visited {
+	color: #33CCCC;
+	text-decoration: none;
+}
+
+#campaign3_banner_32_summer a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+#campaign4_banner_32_summer a {
+	color: #33CCCC;
+	text-decoration: none;
+}
+
+#campaign4_banner_32_summer a:visited {
+	color: #33CCCC;
+}
+
+#campaign4_banner_32_summer a:hover {
+	color: #33CCCC;
+}
+
+.tdcampaigna_banner_32_summer {
+	width:84%;
+}
+
+.tdcampaignb_banner_32_summer {
+	width:16%;
+	vertical-align: middle;
+}
+

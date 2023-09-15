@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>音楽広場にあ〜つまれ！みんな、まってるよー！</title>
+    <link>http://jukutown.com/dummy-sengendai/</link>
+    <copyright>リトミックランドせんげん台教室</copyright>
+    <description>越谷市にある音楽教室「リトミックランド　せんげん台教室」のホームページです。</description>
+    <item>
+      <title>秋の入会キャンペーン実施中！</title>
+      <link>http://jukutown.com/dummy-sengendai/blog-34902/</link>
+      <guid>http://jukutown.com/dummy-sengendai/blog-34902/</guid>
+      <description>秋の入会キャンペーン実施中！今なら入会金が０円に！！詳しくは教室まで、お気軽にお問い合わせください。</description>
+      <pubDate>Fri, 04 Nov 2011 22:09:13 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

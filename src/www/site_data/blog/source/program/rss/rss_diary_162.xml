@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>玉川学園教室</title>
+    <link>http://jukutown.com/will-tamagawa/</link>
+    <copyright>個別WILL玉川学園校</copyright>
+    <description></description>
+    <item>
+      <title>南行徳校OPEN！</title>
+      <link>http://jukutown.com/will-tamagawa/blog-302/</link>
+      <guid>http://jukutown.com/will-tamagawa/blog-302/</guid>
+      <description>関東エリアに１校新教室がOPENしました。</description>
+      <pubDate>Thu, 29 Jan 2009 22:34:18 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

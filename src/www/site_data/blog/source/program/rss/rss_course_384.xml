@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>つばさ育センター</title>
+    <link>http://jukutown.com/tsubaki/</link>
+    <copyright>つばさ育センター河辺校</copyright>
+    <description></description>
+    <item>
+      <title>小学生コース　:開始:終了　月〜金</title>
+      <link>http://jukutown.com/tsubaki/course-detail-1776/</link>
+      <guid>http://jukutown.com/tsubaki/course-detail-1776/</guid>
+      <description>「学習意欲」がわいて「勉強のリズム」が身に付ます。【授業時間】小学１〜３年　4:00〜4:50小学４〜６年　5:00〜6:00</description>
+      <pubDate>Sat, 01 Aug 2009 03:28:01 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　:開始:終了　月〜金</title>
+      <link>http://jukutown.com/tsubaki/course-detail-1777/</link>
+      <guid>http://jukutown.com/tsubaki/course-detail-1777/</guid>
+      <description>教科書準拠のテストを使い、中間・期末テスト対策などにより内申点のアップを図ります。年３回の全国実力テストと会場テストで、偏差値アップ・志望校判定を行い、進学相談を実施いたします。【授業時間】6:00〜7:50　又は　8:00〜9:20</description>
+      <pubDate>Tue, 07 Jul 2009 01:52:58 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

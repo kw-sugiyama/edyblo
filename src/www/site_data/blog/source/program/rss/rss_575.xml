@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>小中学生・高校生受験指導　</title>
+    <link>http://rainbow-english.net/</link>
+    <copyright>レインボー英語塾</copyright>
+    <description></description>
+    <item>
+      <title>小学生コース　:開始:終了　</title>
+      <link>http://rainbow-english.net/course-detail-3612/</link>
+      <guid>http://rainbow-english.net/course-detail-3612/</guid>
+      <description>フォニックスを学びながら中学英語に無理なく進めるように楽しく英語を学ぶクラスです。このクラスは遊びの英語ではなく、ゆっくりと中学英語につなげてゆく学習英語です。</description>
+      <pubDate>Mon, 15 Mar 2010 04:00:25 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校生コース　:開始:終了　</title>
+      <link>http://rainbow-english.net/course-detail-3614/</link>
+      <guid>http://rainbow-english.net/course-detail-3614/</guid>
+      <description>目標の大学に合格できるようしっかりした文法理解と高い英語長文長文読解力・英作文を書く力を養います。また英検準2級・2級合格を目指します。</description>
+      <pubDate>Mon, 15 Mar 2010 03:57:53 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　:開始:終了　</title>
+      <link>http://rainbow-english.net/course-detail-3613/</link>
+      <guid>http://rainbow-english.net/course-detail-3613/</guid>
+      <description>学校の教科書を使って予習・復習を中心にして英検などを受けながら単語力と基本構文理解を定着させます。わかりやすい文法説明によって英語の土台作りをして行きます。3年生までに英検3級以上の合格を目指します。</description>
+      <pubDate>Mon, 15 Mar 2010 03:43:17 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校生クラス　:開始:終了　</title>
+      <link>http://rainbow-english.net/course-detail-3101/</link>
+      <guid>http://rainbow-english.net/course-detail-3101/</guid>
+      <description>目標の大学に合格できるようしっかりした文法理解と高い英語長文読解力・英作文を書く力を養います。また英検2級や準1級の合格にも導きます。</description>
+      <pubDate>Wed, 03 Feb 2010 16:44:44 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生クラス　:開始:終了　</title>
+      <link>http://rainbow-english.net/course-detail-3100/</link>
+      <guid>http://rainbow-english.net/course-detail-3100/</guid>
+      <description>徹底した単語力と基本構文理解を定着させます。わかりやすい文法説明によって英語の土台作りをしていきます。この英語力が高校英語、大学受験につながります。またほとんどの生徒が英検3級を取りそれ以上に進む生徒もいます。</description>
+      <pubDate>Wed, 03 Feb 2010 16:40:07 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生クラス　:開始:終了　</title>
+      <link>http://rainbow-english.net/course-detail-3099/</link>
+      <guid>http://rainbow-english.net/course-detail-3099/</guid>
+      <description>中学英語に無理なく進めるように楽しく英語を学ぶクラスです。このクラスは遊びの英語ではなくゆっくりと中学英語につなげていく学習英語です。</description>
+      <pubDate>Wed, 03 Feb 2010 16:34:28 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

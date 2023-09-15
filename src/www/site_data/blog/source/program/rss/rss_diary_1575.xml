@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾ペガサス 住吉墨江教室</title>
+    <link>http://jukutown.com/dummy-pegasus-sumiyoshi/</link>
+    <copyright>学習塾ペガサス住吉墨江教室</copyright>
+    <description>住吉区住吉１丁目の学習塾ペガサス住吉墨江教室です。 個別学習のスタイルをとり、学年やカリキュラムを越えた復習（戻り学習）を勉強の柱とする学習塾です。</description>
+    <item>
+      <title>仮お知らせ - ここにタイトル</title>
+      <link>http://jukutown.com/dummy-pegasus-sumiyoshi/blog-73093/</link>
+      <guid>http://jukutown.com/dummy-pegasus-sumiyoshi/blog-73093/</guid>
+      <description>お知らせを簡単に掲載できます。お知らせを簡単に掲載できます。お知らせを簡単に掲載できます。</description>
+      <pubDate>Wed, 19 Feb 2014 20:22:24 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

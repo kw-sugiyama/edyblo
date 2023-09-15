@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>細井塾</title>
+    <link>http://jukutown.com/dummy-hosoijuku/</link>
+    <copyright>細井塾</copyright>
+    <description></description>
+    <item>
+      <title>お知らせサンプル</title>
+      <link>http://jukutown.com/dummy-hosoijuku/blog-40111/</link>
+      <guid>http://jukutown.com/dummy-hosoijuku/blog-40111/</guid>
+      <description>このようにお知らせが入ります。エディブロLiteではこのお知らせを週に１回まで更新（記事の追加）できます。</description>
+      <pubDate>Tue, 14 Feb 2012 16:06:29 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

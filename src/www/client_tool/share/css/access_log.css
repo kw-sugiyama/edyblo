@@ -1,0 +1,97 @@
+@import url(./base.css);
+
+#title {
+	width: 800px;
+	background-color: #20B2AA;
+	color: #FFFFFF;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+/*====================================================
+   日付指定テーブル
+====================================================*/
+#access_log{
+	width:600px;
+}
+
+#access_log table {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	width: 100%;
+}
+
+#access_log td {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 10px;
+	font-size:13px;
+}
+
+#access_log td em{
+	font-weight:normal;
+	font-size:12px;
+	color:#FF0000;
+	padding:5px;
+}
+
+#access_log th {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 6px solid #CCCCCC;
+	border-right: none;
+	background-color: #20B2AA;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding: 10px;	
+	width: 150px;
+	font-size:13px;
+}
+
+#access_log th.must{
+	border-left-color: #FF0000;
+}
+
+/*====================================================
+   アクセス解析テーブル
+====================================================*/
+#check_log{
+	width: 800px;
+	
+}
+
+#check_log table {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	font-size: 100%;
+	width: 100%;
+}
+
+#check_log td {
+	vartical-align: middle;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	font-size:13px;
+}
+
+#check_log th {
+	border: 1px solid #CCCCCC;
+	background-color: #20B2AA;
+	color:#FFFFFF;
+	padding: 5px;	
+	font-size:13px;
+}
+
+
+.btn_nosize{
+	color:#FFFFFF;
+	background-color:#20B2AA;
+}

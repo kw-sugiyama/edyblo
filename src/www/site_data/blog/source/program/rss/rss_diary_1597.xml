@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>個別学習のリエル　平戸教室</title>
+    <link>http://jukutown.com/dummy-rel/</link>
+    <copyright>個別学習のリエル平戸教室</copyright>
+    <description>横浜市栄区の学習塾・個別指導塾【個別学習のリエル平戸教室】</description>
+    <item>
+      <title>仮お知らせ - ここにタイトル</title>
+      <link>http://jukutown.com/dummy-rel/blog-75841/</link>
+      <guid>http://jukutown.com/dummy-rel/blog-75841/</guid>
+      <description>このようにお知らせ等を掲載できます。このようにお知らせ等を掲載できます。このようにお知らせ等を掲載できます。</description>
+      <pubDate>Mon, 28 Apr 2014 20:20:56 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

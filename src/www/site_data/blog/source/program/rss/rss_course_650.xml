@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>春期講習の参加生を募集中です！</title>
+    <link>http://g-zemi.info/</link>
+    <copyright>Ｇゼミナール</copyright>
+    <description>神奈川県秦野市の学習塾『Ｇゼミナール』のホームページです。秦野市で塾をお探しの方はこちらからどうぞ。</description>
+    <item>
+      <title>小学生コース（小学６年生）　:開始:終了　月・火・金</title>
+      <link>http://g-zemi.info/course-detail-3415/</link>
+      <guid>http://g-zemi.info/course-detail-3415/</guid>
+      <description>小学生コース　〜小学６年生対象〜【時間割】（小６）　英語(50分）　水曜日　16：30〜17：20　国語(50分）　水曜日　17：30〜18：20　算数(80分）　金曜日　17：00〜18：25　※１科目から受講可能です。</description>
+      <pubDate>Sun, 12 Feb 2023 15:39:58 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　:開始:終了　</title>
+      <link>http://g-zemi.info/course-detail-3416/</link>
+      <guid>http://g-zemi.info/course-detail-3416/</guid>
+      <description>中学生コース</description>
+      <pubDate>Wed, 27 Jan 2016 21:13:58 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

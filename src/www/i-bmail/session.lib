@@ -1,0 +1,68 @@
+<?PHP
+/****
+
+  ここでは、$user_id, $passwd の有効性はチェックせず、
+　セッション情報の確認のみ行う
+
+    成功した場合：$user_id, $passwd, $sess を設定
+    失敗した場合：$user_id, $passwd, $sess を "" に
+
+***/
+
+    function makeSessionLine($c, $u, $p, $t, $i) {
+        $p = str_replace( "=", "", base64_encode($p));
+        return trim("$c:$u:$p:$t:$i");
+    }
+
+    function makeSessionStr($u, $p) {
+        return md5("$u:$p");
+    }
+
+    /* パスワード情報の確認 */
+    if ( $user_id != "" and $passwd != "" and $sess == "" ){
+        $sess = makeSessionStr($user_id, $passwd);
+    }
+    $ctime = time();
+    $i = 0;
+    if ( $sess != "" && file_exists($sess_file) ){
+        $sess_list = file($sess_file);
+        for ($i = 0; $i < count($sess_list); $i++ ){
+	    list( $t, $u, $p, $e, $in) = split(":", $sess_list[$i], 6);
+	    $p = base64_decode($p);
+	    $s = makeSessionStr($u, $p);
+	    if ( ($ctime - $t) < 7 * 24 * 3600 && $s == $sess ) {
+	        $user_id = $u;
+	        if ( $passwd == "" ){
+		    $passwd = $p;
+	        }
+	        if ( $toaddr == "" ){
+		    $toaddr = $e;
+	        }
+	        if ( $interval == "" ){
+		    $interval = $in;
+	        }
+                $sess = makeSessionStr($user_id, $passwd);
+	        break;
+	    }
+        }
+    }
+
+    /* パスワード情報の更新 */
+    if ( $user_id != "" and $passwd != "" ){
+        $sess_list[$i] = makeSessionLine($ctime,$user_id,$passwd,$toaddr,$interval);
+        $fp = fopen($sess_file, "w");
+        if ($fp) {
+            for ($i = 0; $i < count($sess_list); $i++ ){
+                list( $t, $u, $p, $e, $in ) = split(":", $sess_list[$i], "6");
+                if ( $u != "" && $p != "" ){
+                    fputs( $fp, trim($sess_list[$i]) . "\n");
+                }
+            }
+            fclose($fp);
+        }
+    } else {
+       $user_id = "";
+       $passwd = "";
+       $sess = "";
+    }
+?>

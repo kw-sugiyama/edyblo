@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【英研ゼミナール】〜小学校入学から大学合格まで〜</title>
+    <link>http://eiken-zemi.com/</link>
+    <copyright>英研ゼミナール本部中央教室</copyright>
+    <description>嶺南を支え続ける学習塾。個人指導から集団学習まで幅垢教育プランをご提供いたします。</description>
+    <item>
+      <title>中学生コース（中学1年〜3年）　19:00開始21:00終了　月〜土</title>
+      <link>http://eiken-zemi.com/course-detail-4370/</link>
+      <guid>http://eiken-zemi.com/course-detail-4370/</guid>
+      <description>中学での学習内容から高度な発展学習まで指導。定期テスト対策は勿論、中3は堀な受験資料をもとに徹底した受験対策を行います。授業料（月額・税込）…後払いです：13，500円（週2回必修）</description>
+      <pubDate>Wed, 06 Nov 2019 18:51:28 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校生コース(高校1年〜3年)　20:00開始21:30終了　月〜土</title>
+      <link>http://eiken-zemi.com/course-detail-4369/</link>
+      <guid>http://eiken-zemi.com/course-detail-4369/</guid>
+      <description>高校での学習内容から入試レベルの問題まで，独自の効果的なカリュラムで指導します。小論文指導や面接指導をはじめ，センター試験科目外の内容でも志望大学合格まで，強力に支援いたします。（東大・京大等一流大学に多くの合格者を輩出・高い合格実績を残しています）授業料（月額・税込）…後払いです：週1回11，000円・週2回16，000円</description>
+      <pubDate>Wed, 06 Nov 2019 18:50:57 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース（小学1年〜5年）　17:00開始18:30終了　月〜金</title>
+      <link>http://eiken-zemi.com/course-detail-4371/</link>
+      <guid>http://eiken-zemi.com/course-detail-4371/</guid>
+      <description>乗の学習面を左右する大切な時期。しっかりとした学習習慣を身につけ、基礎学力の定着・柔軟な思考力・応用力を養います。授業料（月額・税込）　　1教科7，000円　　2教科12，000円　　3教科14，000円　安心の後払いです。</description>
+      <pubDate>Wed, 06 Nov 2019 18:50:23 +0900</pubDate>
+    </item>
+    <item>
+      <title>高卒検定支援コース　:開始:終了　月〜金　の13：00〜16：00の任意の時間</title>
+      <link>http://eiken-zemi.com/course-detail-4478/</link>
+      <guid>http://eiken-zemi.com/course-detail-4478/</guid>
+      <description>高卒検定を受けたいあなたへ諸々の事情で高校に行けなかったけれど，大学受験に取り組みたいという人へのコース。２０１２年度入試で当コースから，医科薬科への合格者が出ました。</description>
+      <pubDate>Wed, 12 Sep 2012 13:59:33 +0900</pubDate>
+    </item>
+    <item>
+      <title>ＥＣＣ学園高校サポート教室コース　:開始:終了　要　相談</title>
+      <link>http://eiken-zemi.com/course-detail-4479/</link>
+      <guid>http://eiken-zemi.com/course-detail-4479/</guid>
+      <description>高校を卒業した上で，大学受験に取り組みたいあなたへ</description>
+      <pubDate>Fri, 09 Jul 2010 14:37:01 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース（小学6年）　17:00開始18:30終了　月〜金</title>
+      <link>http://eiken-zemi.com/course-detail-4372/</link>
+      <guid>http://eiken-zemi.com/course-detail-4372/</guid>
+      <description>乗の学習面を左右する大切な時期。しっかりとした学習習慣を身につけ、基礎学力の定着・柔軟な思考力・応用力を養います。英語・・中学で困らないよう基礎的な文法表現を教えています。例年，１月までにほぼすべての生徒が，最低英検５級を取得し，自信を持って中学で英語に取り組んでいます。</description>
+      <pubDate>Thu, 17 Jun 2010 13:44:09 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

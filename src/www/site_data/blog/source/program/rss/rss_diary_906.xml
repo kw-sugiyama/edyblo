@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【サンプルアカデミー　○○教室】　〜○○市の学習塾・個別指導塾〜</title>
+    <link>http://kateikyoushi-habataki.com/</link>
+    <copyright>サンプルアカデミー○○教室</copyright>
+    <description>○○県○○市○○の学習塾・進学塾・個別指導塾の『サンプルアカデミー　○○教室』のホームページになります。</description>
+    <item>
+      <title>a</title>
+      <link>http://kateikyoushi-habataki.com/blog-18591/</link>
+      <guid>http://kateikyoushi-habataki.com/blog-18591/</guid>
+      <description>a</description>
+      <pubDate>Mon, 29 Nov 2010 20:15:24 +0900</pubDate>
+    </item>
+    <item>
+      <title>あ</title>
+      <link>http://kateikyoushi-habataki.com/blog-18561/</link>
+      <guid>http://kateikyoushi-habataki.com/blog-18561/</guid>
+      <description>a</description>
+      <pubDate>Thu, 25 Nov 2010 18:10:54 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページをオープンしました★</title>
+      <link>http://kateikyoushi-habataki.com/blog-14562/</link>
+      <guid>http://kateikyoushi-habataki.com/blog-14562/</guid>
+      <description>この度、教室のホームページがオープンいたしました。ここから、教室からのお知らせやスタッフの日記などさまざまな情報を発信していきます。よろしくお願いいたします。</description>
+      <pubDate>Thu, 25 Nov 2010 17:56:13 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

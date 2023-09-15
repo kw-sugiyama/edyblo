@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾ペガサス 住吉墨江教室</title>
+    <link>http://jukutown.com/dummy-pegasus-sumiyoshi/</link>
+    <copyright>学習塾ペガサス住吉墨江教室</copyright>
+    <description>住吉区住吉１丁目の学習塾ペガサス住吉墨江教室です。 個別学習のスタイルをとり、学年やカリュラムを越えた復習（戻り学習）を勉強の柱とする学習塾です。</description>
+    <item>
+      <title>受講コース（小学生）　:開始:終了　自由に選択でます</title>
+      <link>http://jukutown.com/dummy-pegasus-sumiyoshi/course-detail-9177/</link>
+      <guid>http://jukutown.com/dummy-pegasus-sumiyoshi/course-detail-9177/</guid>
+      <description>学習塾ペガサスでは、お子様ひとりひとりに合わせた受講コースを展開しています。お子様の生活スタイルや希望に合わせたコースや指導科目をご自由に選択いただけます。</description>
+      <pubDate>Wed, 19 Feb 2014 19:17:14 +0900</pubDate>
+    </item>
+    <item>
+      <title>受講コース（中学生）　:開始:終了　自由に選択でます</title>
+      <link>http://jukutown.com/dummy-pegasus-sumiyoshi/course-detail-9178/</link>
+      <guid>http://jukutown.com/dummy-pegasus-sumiyoshi/course-detail-9178/</guid>
+      <description>学習塾ペガサスでは、お子様ひとりひとりに合わせた受講コースを展開しています。お子様の生活スタイルや希望に合わせたコースや指導科目をご自由に選択いただけます。</description>
+      <pubDate>Wed, 19 Feb 2014 19:02:52 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

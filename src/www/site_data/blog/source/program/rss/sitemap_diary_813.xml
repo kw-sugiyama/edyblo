@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://okazaki.waseiku.com/blog-15603/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 13 Sep 2010 12:58:04 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://okazaki.waseiku.com/blog-12950/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 29 Jun 2010 19:24:51 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://okazaki.waseiku.com/blog-11422/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 28 May 2010 12:50:04 +0900</lastmod>
+    </url>
+</urlset>

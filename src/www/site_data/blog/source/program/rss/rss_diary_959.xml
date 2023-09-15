@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>學志館　能見台教室</title>
+    <link>http://jukutown.com/dummy-gakushikan/</link>
+    <copyright>學志館能見台校</copyright>
+    <description></description>
+    <item>
+      <title>ホームページを開設しました</title>
+      <link>http://jukutown.com/dummy-gakushikan/blog-17643/</link>
+      <guid>http://jukutown.com/dummy-gakushikan/blog-17643/</guid>
+      <description>このたび、新しくホームページを開設しました。随時更新していくので、ぜひご覧ください！</description>
+      <pubDate>Mon, 01 Nov 2010 20:01:01 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

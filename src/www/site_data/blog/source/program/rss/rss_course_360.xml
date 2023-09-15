@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>タナカ・ゼミ</title>
+    <link>http://jukutown.com/tanaka-semi/</link>
+    <copyright>タナカ・ゼミ</copyright>
+    <description></description>
+    <item>
+      <title>パソコンをあなたの秘書に　:開始:終了　</title>
+      <link>http://jukutown.com/tanaka-semi/course-detail-1697/</link>
+      <guid>http://jukutown.com/tanaka-semi/course-detail-1697/</guid>
+      <description></description>
+      <pubDate>Sat, 20 Jun 2009 22:46:51 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学受験コース　:開始:終了　火・木・土</title>
+      <link>http://jukutown.com/tanaka-semi/course-detail-1585/</link>
+      <guid>http://jukutown.com/tanaka-semi/course-detail-1585/</guid>
+      <description>もう知識だけで闘える時代ではありません!!少子化とは言えども、増える一方の中学受験率。ここ近年、時代背景の変化と共に、中学受験に出題される問題の傾向も毎年変化しています。こうした変化にいち早く注目し、単に知識を詰め込むだけではなく、「自分で考える」ことを身に付ける教育にも力を入れています。</description>
+      <pubDate>Fri, 12 Jun 2009 20:33:33 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

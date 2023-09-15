@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>Vseed　陣塾</title>
+    <link>http://jukutown.com/vseed/</link>
+    <copyright>Vseed陣塾</copyright>
+    <description></description>
+    <item>
+      <title>小学生コース　16:00開始18:30終了　月・火・木・金曜日</title>
+      <link>http://jukutown.com/vseed/course-detail-1260/</link>
+      <guid>http://jukutown.com/vseed/course-detail-1260/</guid>
+      <description>小学校の内容を級別に分けたテストを使用する、無学年進級式授業を行います。繰り返し学習で確実に理解することを目指します。学年に関係なく、つまづいているところからのスタートとなります。しっかりした基本が身に付くので、中学へスムーズに進むことがでます。宿題では全ての教科の基礎となる漢字に特に力を入れています。</description>
+      <pubDate>Fri, 15 May 2009 20:02:07 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　:開始:終了　</title>
+      <link>http://jukutown.com/vseed/course-detail-1261/</link>
+      <guid>http://jukutown.com/vseed/course-detail-1261/</guid>
+      <description>標準レベルのテストを使用し、確実な学力の定着と定期テストの点数のアップを目指します。基礎練習をもっとしたい生徒や応用問題をやっていたい生徒には、プリントを追加で用意いたします。学習方法や学習スケジュールの的確な立て方も指導し、目標高校の合格を目指します。</description>
+      <pubDate>Fri, 15 May 2009 19:54:44 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校生コース　:開始:終了　</title>
+      <link>http://jukutown.com/vseed/course-detail-1262/</link>
+      <guid>http://jukutown.com/vseed/course-detail-1262/</guid>
+      <description>高校生は学校によるカリュラムがそれぞれ異なるため、個別指導にて対応いたします。内容は学校の進度に合わせての授業、または大学入試に向けての指導など、ご希望にあわせて設定いたします。・授業は１対１、または１対２の形式で行います。・授業時間は生徒・保護者様と相談の上決定いたします。例えば学校授業対応の場合、　テスト前に集中して授業を組むことも可能です。・数名の募集となりますので、状況によってはお断りさせていただく場合があります。</description>
+      <pubDate>Fri, 15 May 2009 19:52:47 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>imai room</title>
+    <link>http://jukutown.com/dummy-imai/</link>
+    <copyright>今井学習塾（練習用）</copyright>
+    <description></description>
+    <item>
+      <title>中学受験コース（小４〜小６年生対象）　15:00開始20:00終了　</title>
+      <link>http://jukutown.com/dummy-imai/course-detail-9075/</link>
+      <guid>http://jukutown.com/dummy-imai/course-detail-9075/</guid>
+      <description>中学受験対策コースです。苦手教科を克服し、志望校合格に向けて頑張っていましょう！</description>
+      <pubDate>Thu, 19 Dec 2013 17:01:06 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生標準コース（小１〜小６年生対象）　15:00開始20:00終了　</title>
+      <link>http://jukutown.com/dummy-imai/course-detail-9078/</link>
+      <guid>http://jukutown.com/dummy-imai/course-detail-9078/</guid>
+      <description>小１〜小６年生対象で、基礎からしっかりと学び、応用でるようになっていくコースです。</description>
+      <pubDate>Thu, 19 Dec 2013 16:59:44 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学標準コース（中１･中２対象）　17:00開始22:00終了　</title>
+      <link>http://jukutown.com/dummy-imai/course-detail-9077/</link>
+      <guid>http://jukutown.com/dummy-imai/course-detail-9077/</guid>
+      <description>苦手教科克服、受験に向けての対策コースです。基本的に、中学１年生･中学２年生が対象となっております。</description>
+      <pubDate>Thu, 19 Dec 2013 16:48:54 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校入試対策コース（中学3年生対象）　16:00開始22:00終了　月〜土</title>
+      <link>http://jukutown.com/dummy-imai/course-detail-9076/</link>
+      <guid>http://jukutown.com/dummy-imai/course-detail-9076/</guid>
+      <description>志望校合格のために、1年間集中して受験対策をしています。苦手な教科を克服していましょう！</description>
+      <pubDate>Thu, 19 Dec 2013 16:40:56 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

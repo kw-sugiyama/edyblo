@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>コスモゼミナール</title>
+    <link>http://jukutown.com/cosmo/</link>
+    <copyright>コスモゼミナール</copyright>
+    <description>熊谷市赤城町にある、小学生・中学生専門の学習塾・進学塾です。公立中学・高校でトップを目指す塾です。 受験・テスト対策など、プロ講師が親切丁寧に指導しています。</description>
+    <item>
+      <title>小学生コース　17:00開始18:10終了　</title>
+      <link>http://jukutown.com/cosmo/course-detail-995/</link>
+      <guid>http://jukutown.com/cosmo/course-detail-995/</guid>
+      <description>塾長を中心としたプロ教師（職人講師）による授業を行っております。熊谷で一番まじめな塾です。他の職業とのかけもち講師やアルバイト講師はおりません。授業の質・教材の質が違います。だから学習効果が違います。曜日等ご都合の阿場合は、遠慮なくご相談ください。授業欠席やわからないことなどについての補習は無制限で無料で実施しております。 </description>
+      <pubDate>Mon, 20 Apr 2009 13:51:44 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　19:00開始21:20終了　</title>
+      <link>http://jukutown.com/cosmo/course-detail-994/</link>
+      <guid>http://jukutown.com/cosmo/course-detail-994/</guid>
+      <description>塾長を中心としたプロ教師（職人講師）による授業を行っている熊谷で一番まじめな塾です。他の職業とのかけもち講師やアルバイト講師はおりません。だから、授業の質・教材の質が違います。学習効果が違います。各教科とも、前回の授業の復習から入ります。テストの直前の土曜日・日曜日に対策講習会を行っています。とくに７時間耐久勉強会は毎回たくさんの生徒に利用されています。授業の前後は自習室として塾をご利用いただけます。もちろん先生がいますからわからないところは質問していただけます。理科・社会をご希望の方はご相談ください。曜日等ご都合の阿場合は、遠慮なくご相談ください。</description>
+      <pubDate>Mon, 20 Apr 2009 13:51:38 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

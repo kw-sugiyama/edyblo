@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習塾BEST ONE（ベストワン）　〜水戸市の学習塾・個別指導塾〜</title>
+    <link>http://jukutown.com/dummy-bestone/</link>
+    <copyright>学習塾 BEST ONE（ベストワン）</copyright>
+    <description>水戸市の学習塾・個別指導塾『学習塾BEST ONE（ベストワン）』です。小学生・中学生を対象に、受験指導・テスト対策・内申点対策を行っています。</description>
+    <item>
+      <title>中学生本科コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-bestone/course-detail-11160/</link>
+      <guid>http://jukutown.com/dummy-bestone/course-detail-11160/</guid>
+      <description>だれもがヒーロー、ヒロインになれる最強学習法正しい学習法を身につければ短期間であなたのお子さまの成績は上がる！！</description>
+      <pubDate>Wed, 07 Nov 2018 22:26:02 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生本科コース　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-bestone/course-detail-11161/</link>
+      <guid>http://jukutown.com/dummy-bestone/course-detail-11161/</guid>
+      <description>ベストワンが目指す「高校合格への道」</description>
+      <pubDate>Wed, 07 Nov 2018 17:40:43 +0900</pubDate>
+    </item>
+    <item>
+      <title>中間テスト対策</title>
+      <link>http://jukutown.com/dummy-bestone/diary-detail-125620/</link>
+      <guid>http://jukutown.com/dummy-bestone/diary-detail-125620/</guid>
+      <description>こんばんは。教務主任の松本です。さて、ベストワンでは定期テストの３週間前から定期テスト対策を行っているため、連日満席となっております。今週、テスト範囲が発表されましたが、すでに学校ワークが終わり、予想問題に取り組む生徒が続々と出ています。</description>
+      <pubDate>Mon, 05 Nov 2018 17:07:41 +0900</pubDate>
+    </item>
+    <item>
+      <title>新教研テスト（１０／７）</title>
+      <link>http://jukutown.com/dummy-bestone/diary-detail-125621/</link>
+      <guid>http://jukutown.com/dummy-bestone/diary-detail-125621/</guid>
+      <description>こんにちは。教室長の鈴木です。本日、中学３年生が新教研テストを受験しています。新教研テストは茨城県内で３０年以上の実績を持ち、県立高校入試問題を想定した問題・難易度なので、現時点での実力を把握するには最適です。また、これまでに蓄積されたデータを元にした志望校判定はとても信頼できます。ベストワンの中学３年生は、この新教研テストを受けることで、自分の不得意な分野・単元を把握し、我々講師も一緒になってそれを克服するための道筋を描きます。そのようにして、各自の志望校合格を目指す受験指導を行っております。</description>
+      <pubDate>Mon, 05 Nov 2018 17:05:56 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>秀学館ゼミナールのご案内</title>
+    <link>http://jukutown.com/shugakukan/</link>
+    <copyright>秀学館ゼミナール</copyright>
+    <description></description>
+    <item>
+      <title>小学生コース　:開始:終了　</title>
+      <link>http://jukutown.com/shugakukan/course-detail-2949/</link>
+      <guid>http://jukutown.com/shugakukan/course-detail-2949/</guid>
+      <description>秀学館ゼミナールの授業は基本重視です。講師は情熱を持って真剣に授業を行っています。「なるほど、よくわかった。」と感動する授業です。</description>
+      <pubDate>Fri, 15 Jan 2010 16:09:46 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　:開始:終了　</title>
+      <link>http://jukutown.com/shugakukan/course-detail-2950/</link>
+      <guid>http://jukutown.com/shugakukan/course-detail-2950/</guid>
+      <description>クラスは2クラス編成です。特進クラスと進学クラスに分かれています。特進クラスは太高、太女、太東上位レベルです。進学クラスはそれに準ずるレベルとなります。つまり習熟度別クラス編成です。生徒の理解度により入れ替えも行います。※中3は9月より土曜特訓講座が始まります。(午後3:00〜6:20 輿)※中1・2年生の理・社はeトレ(個別演習システム)で実施します。 </description>
+      <pubDate>Fri, 15 Jan 2010 16:07:21 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

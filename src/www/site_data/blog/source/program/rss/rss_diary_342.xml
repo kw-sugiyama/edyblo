@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ペガサス東和塾の教室ご案内</title>
+    <link>http://jukutown.com/towajuku/</link>
+    <copyright>ペガサス東和塾</copyright>
+    <description>東京都足立区東和の学習塾・進学塾・個別指導塾「ペガサス東和塾」のホームページになります。足立区周辺で塾お探しの方は必見！</description>
+    <item>
+      <title>ＨＰリニューアルをしました！！</title>
+      <link>http://jukutown.com/towajuku/blog-1243/</link>
+      <guid>http://jukutown.com/towajuku/blog-1243/</guid>
+      <description>ＨＰをリニューアルをしましたので、今後こちらに随時新着情報をお知らせします！</description>
+      <pubDate>Fri, 05 Jun 2009 20:22:27 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

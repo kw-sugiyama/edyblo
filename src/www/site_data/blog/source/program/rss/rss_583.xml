@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【サンプル進学塾　立川教室】 （エディブロ）</title>
+    <link>http://soleil-pes.com/</link>
+    <copyright>サンプル進学塾立川教室</copyright>
+    <description></description>
+    <item>
+      <title>私立中学受験コース　:開始:終了　</title>
+      <link>http://soleil-pes.com/course-detail-3105/</link>
+      <guid>http://soleil-pes.com/course-detail-3105/</guid>
+      <description>もう知識だけで闘える時代ではありません!!ここ近年、時代背景の変化と共に、中学受験に出題される問題の傾向も毎年変化しています。こうした変化にいち早く注目し、単に知識を詰め込むだけではなく、「自分で考える」ことを身に付ける教育にも力を入れています。</description>
+      <pubDate>Thu, 04 Feb 2010 14:35:25 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校進学コース　:開始:終了　</title>
+      <link>http://soleil-pes.com/course-detail-3106/</link>
+      <guid>http://soleil-pes.com/course-detail-3106/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導。重要視される内申点の更なるアップ。繰り返し行う模擬テストで合格への最短ルートを発見。</description>
+      <pubDate>Thu, 04 Feb 2010 14:35:07 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

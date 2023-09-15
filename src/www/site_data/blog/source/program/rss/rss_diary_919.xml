@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【慶應マナビック】　〜川崎市高津区下作延の学習塾・個別指導塾〜</title>
+    <link>http://jukutown.com/manabicc/</link>
+    <copyright>慶應マナビック</copyright>
+    <description>神奈川県川崎市高津区下作延の学習塾･進学塾･個別指導塾の『慶應マナビック』のホームページになります。</description>
+    <item>
+      <title>ブログ更新中</title>
+      <link>http://jukutown.com/manabicc/blog-42054/</link>
+      <guid>http://jukutown.com/manabicc/blog-42054/</guid>
+      <description>慶應マナビック塾長のブログはこちら！</description>
+      <pubDate>Thu, 29 Mar 2012 11:01:20 +0900</pubDate>
+    </item>
+    <item>
+      <title>特設ページを開設いたしました！</title>
+      <link>http://jukutown.com/manabicc/blog-15441/</link>
+      <guid>http://jukutown.com/manabicc/blog-15441/</guid>
+      <description>慶應マナビックの特設ページを開設いたしました。随時更新していきますので、是非皆さんご覧下さい。</description>
+      <pubDate>Tue, 14 Sep 2010 14:31:51 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

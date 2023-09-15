@@ -1,0 +1,212 @@
+<?PHP
+  
+    $primary_mime_type = array("テキスト", "MULTIPART", "MSG", "データ", "音", "画像", "動画", "その他"); 
+    $sub_mime_type = array("MSWORD"		=> "WORD",
+			   "VND.MS-WORD"	=> "WORD",
+			   "X-MSWORD"		=> "WORD",
+			   "MSEXCEL"		=> "EXCEL",
+			   "VND.MS-EXCEL"	=> "EXCEL",
+			   "X-MSEXCEL"		=> "EXCEL",
+			   "OCTET-STREAM"	=> "DATA",
+			   "GIF"		=> "画像",
+			   "JPEG"		=> "画像",
+			   "JPG"		=> "画像",
+			   "BMP"		=> "画像",
+			   "RFC822"		=> "メール",
+			   "HTML"		=> "HTML",
+			   "X-ZIP-COMPRESSED"	=> "圧縮",
+		     );
+
+    function parseDate($date) {
+        $month_table = array("Jan"=> 1 ,"Feb"=> 2 ,"Mar"=> 3 ,"Apr"=> 4,
+			     "May"=> 5 ,"Jun"=> 6 ,"Jul"=> 7 ,"Aug"=> 8,
+			     "Sep"=> 9 ,"Oct"=>10 ,"Nov"=>11 ,"Dec"=>12);
+        $date = preg_replace('/\w+,\s*/',"",$date);
+        list($day, $mon, $year, $time, $time_ofs) = explode(" ", $date);
+        $mon = $month_table[$mon];
+        list($hour, $min, $sec) = explode(":", $time);
+        return array($sec,$min,$hour,$day,$mon,$year);         
+    }
+
+    function nl2br2($s) {
+	return str_replace('<br />', '<BR>', nl2br($s));
+    }
+
+    function zen2han($s, $code = "") {
+	global $internal_encoding, $use_hankaku;
+	if ($code == "")  $code = $internal_encoding;
+	if ($use_hankaku){
+	    $s = i18n_ja_jp_hantozen($s, 'rnak', $code);
+	}
+	return $s;
+    }
+
+    function han2zen($s, $code = "") {
+	global $internal_encoding;
+	if ($code == "")  $code = $internal_encoding;
+	return i18n_ja_jp_hantozen($s, 'KV', $code);
+    }
+
+    function i18n_htmlSpecialChars( $str ){
+        global $internal_encoding;
+        return htmlSpecialChars(i18n_convert($str, $internal_encoding, "AUTO"));
+    }
+
+    function i18n_mime_htmlSpecialChars( $str ){
+        global $internal_encoding;
+        return htmlSpecialChars(i18n_convert(i18n_mime_header_decode($str), $internal_encoding, "AUTO"));
+    }
+
+    function getUA() {
+        global $HTTP_USER_AGENT, $HTTP_X_UP_DEVCAP_MAX_PDU;
+        $ua_list = explode("/", $HTTP_USER_AGENT);
+        $size = 0;
+        switch ($ua_list[0]) {
+        case 'ASTEL':
+        case 'DoCoMo':
+            $size = substr($ua_list[3], 1);
+            break;
+        case 'UP.Browser':
+            $size = $HTTP_X_UP_DEVCAP_MAX_PDU * 0.9;
+            break;
+        case 'PDXGW':
+            $size = 5632;
+            break;
+        case 'J-PHONE':
+            $size = 6 * 1024;
+            break;
+        }
+        return array($ua_list[0], $size);
+    }
+
+    function trimStr($string, $len) {
+	if ( strlen($string) > $len ){
+	    $s = mb_strcut($string, 0, $len -4);
+            $string = $s . "...";
+	}
+	return $string;
+    }
+
+    function parseMime(&$mbody, &$body, &$attach, &$imap, $msgno, $flg, $pos) {
+	global $internal_encoding, $primary_mime_type, $sub_mime_type;
+
+	if (! is_array($body))  $body = array();
+	if (! is_array($attach))  $attach = array();
+
+	$pre = $pos ? $pos . "." : "";
+        $n = count($mbody->parts);
+	if ( $n > 0){
+            while( list($index, $part) = each($mbody->parts) ){
+                $part->type += 0;
+		$pos2 = $pre . ($index + 1);
+		if ($part->type == 1 && $part->subtype == "RELATED"){
+        	    list($body, $attach) = parseMime($part, $body, $attach, $imap, $msgno, $flg, $pos);
+		} elseif ($part->type == 1){
+        	    list($body, $attach) = parseMime($part, $body, $attach, $imap, $msgno, $flg, $pos2);
+		} elseif ($part->type == 2 && $part->subtype == "RFC822"){
+        	    list($body, $attach) = parseMime($part, $body, $attach, $imap, $msgno, $flg, $pos2);
+		} elseif ($part->type == 0 && $part->subtype == "PLAIN"){
+		    $s = imap_fetchbody($imap, $msgno, $pos2 , $flg);
+		    if($part->encoding == 3) {
+			$s = imap_base64($s);
+		    } elseif($part->encoding == 4) {
+			$s = imap_qprint($s);
+		    }
+		    $body[] = trim(i18n_convert($s , $internal_encoding, "AUTO")) . "\n\n" ;
+	        } else {
+		    $type = "[添付] ";
+		    $name = "";
+                    while ( list(, $param) = each($part->parameters)) {
+                        if (strtoupper($param->attribute) == "NAME") {
+                            $name = trim(i18n_convert( i18n_mime_header_decode($param->value) , $internal_encoding, "AUTO"));
+                            break;
+                        }
+                    }
+		    if ( $name == "" ){
+			if ( $part->ifdescription ) {
+		            $name = trim(i18n_convert( i18n_mime_header_decode($$part->description) , $internal_encoding, "AUTO"));
+			} else {
+		            $name = "(記述なし)";
+			}
+		    }
+
+		    if ($sub_mime_type[$part->subtype] != ""){
+		        $type = "[" . $sub_mime_type[$part->subtype] . "] ";
+		    } else {
+		        $type = "[" . $primary_mime_type[$part->type] . "/" . $part->subtype . "]";
+
+		    }
+		    $attach[] = $type . $name;
+                }
+            }
+	} else {
+	    $body[] = trim( i18n_convert(imap_body($imap, $msgno, $flg), $internal_encoding, "AUTO"));
+	}
+
+        return array($body, $attach);
+    }
+
+    function getMailBody(&$imap, $msgno, $flg, $hsize, $HRmode = TRUE) {
+	global $internal_encoding, $primary_mime_type, $sub_mime_type;
+
+	list($ua, $maxchar) = getUA();
+	$maxchar = $maxchar - $hsize - 128;
+
+	$body_a = array();
+	$attach_a = array();
+        $mbody = imap_fetchstructure($imap, $msgno, $flg);
+	parseMime($mbody, $body_a, $attach_a, $imap, $msgno, $flg, "");
+
+	# 添付ファイル
+	if (count($attach_a) > 0){
+	    while( list($i, $s) = each($attach_a) ){
+	        $attach_a[$i] = htmlSpecialChars(zen2han($s));
+	    }
+	    $attach_n = strlen( nl2br2(join("\n", $attach_a)) );
+	    if ($attach_n > ($maxchar / 2) && $maxchar > 0){
+	        $attach = zen2han( count($attach_a) . "個の添付ファイル" );
+	        $attach_n = strlen($attach);
+	    } else {
+	        $attach = join("\n", $attach_a);
+	    }
+	    if ($attach_n + 6 >= $maxchar && $maxchar > 0){
+                $attach = "";
+	    } else {
+	        $maxchar -= $attach_n + 6;
+	    }
+	} else {
+	    $attach = "";
+	}
+
+	# 本文
+	while (list($i, $s) = each($body_a)){
+	    $s0 = zen2han($s);
+	    $work = htmlSpecialChars($s0);
+	    $len = strlen(nl2br2($work));
+
+	    while ($len > $maxchar && $maxchar > 0){
+		$n = strlen($s0) - ($len - $maxchar);
+		$s0 = mb_strcut($s0, 0, $n);
+	        $work = htmlSpecialChars($s0) . "...";
+	        $len = strlen(nl2br2($work));
+	    }
+	    $body_a[$i] = $work;
+	}
+
+	if ($HRmode){
+	    $body = zen2han(join("<HR>", $body_a));
+	    $body = nl2br2( $body . "<HR>" . $attach );
+	} else {
+	    $body = zen2han(join("\n----\n", $body_a));
+	    $body = $body . "\n----\n" . $attach;
+	}
+	return $body;
+    }
+
+    function  delete_mail($msg_num) {
+	if (imap_delete($imap, $msg_num) == TRUE ) {
+	print "メールを削除しました。";
+	exit;
+	}
+    }		
+?>

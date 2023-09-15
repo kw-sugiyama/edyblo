@@ -1,0 +1,58 @@
+<?php require_once( SYS_PATH."templates/portal/portal_header.tpl" ); ?>
+
+<body>
+
+<?php require_once( SYS_PATH."templates/portal/portal_container.tpl" ); ?>
+
+<div id="main"><!--main start-->
+<div id="mainleft"><!--mainleft start-->
+
+<p class="topicpath"><strong><a href="/">HOME</a></strong><span class="paddinglr1">&gt;</span><strong>運営会社</strong></p><!--topic path-->
+
+<h3>運営会社</h3><!--search start-->
+<div class="box">
+<div class="box2">
+<p class="icon_sitemap">会社名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;株式会社ノアング</p>
+<p>&nbsp;</p>
+<p class="icon_sitemap">所在地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〒１５０ー００６１<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;東京都渋谷区初台２−３−３　アルテ代々木公園</p>
+<p>&nbsp;</p>
+<p class="icon_sitemap">メール&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?=$param_mail_portal_inq["to_addr_direct"]?></p>
+<p>&nbsp;</p>
+<p class="icon_sitemap">設立年月&nbsp;&nbsp;&nbsp;２０１４年８月</p>
+<p>&nbsp;</p>
+<p class="icon_sitemap">資本金&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;４,０００,０００円</p>
+<p>&nbsp;</p>
+<p class="icon_sitemap">事業内容&nbsp;&nbsp;&nbsp;・学習塾ポータルサイト『<a href="http://jukutown.com/" target="_blank">Jukutown（塾タウン）</a>』の運営<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;・学習塾向けホームページ作成サービス『<a href="http://noang.com/edyblo/" target="_blank">Edyblo（エディブロ）</a>』
+<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;・学習塾専門アルバイトサイト『<a href="http://jukudebaito.com/" target="_blank">塾でバイト</a>』の運営--></p>
+<p>&nbsp;</p>
+<p class="icon_sitemap">ＵＲＬ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://noang.com/" target="_blank">http://noang.com/</a></p>
+</div>
+
+</div><!--search end-->
+<!--box end-->
+
+<!--to pagetop start--> 
+<?php require_once( SYS_PATH."templates/portal/portal_main_footer.tpl" ); ?>
+<!--to pagetop end--> 
+
+</div><!--mainleft end-->
+
+
+<div id="mainright"><!--mainright start-->
+<?php require_once( SYS_PATH."templates/portal/portal_right_menu.tpl" ); ?>
+</div><!--mainright end-->    
+        
+</div><!--main end-->    
+
+<div id="footerwrapper"><!--footerwrapper start-->
+
+</div><!--footerwrapper end-->
+<?php require_once( SYS_PATH."edy/portal_footer.tpl" ); ?>
+</div><!--container end-->
+
+<?php require_once( SYS_PATH."templates/portal/portal_analytics.tpl" ); ?>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>日能研リーグ（Ｎリーグ）町田教室の教室ご案内</title>
+    <link>http://jukutown.com/sample-n/</link>
+    <copyright>サンプル進学塾新横浜教室（Nリーグ）</copyright>
+    <description></description>
+    <item>
+      <title>小学5年生コース　:開始:終了　</title>
+      <link>http://jukutown.com/sample-n/course-detail-2919/</link>
+      <guid>http://jukutown.com/sample-n/course-detail-2919/</guid>
+      <description>入試で出題される単元や必要な項目のすべてを、一通り学んでいく期間です。この時期の内容は、入試合格の基礎になります。</description>
+      <pubDate>Fri, 08 Jan 2010 20:20:34 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学4年生コース　:開始:終了　</title>
+      <link>http://jukutown.com/sample-n/course-detail-2915/</link>
+      <guid>http://jukutown.com/sample-n/course-detail-2915/</guid>
+      <description>中学入試を考える子ども達のカリキュラムのスタートです。基礎的な内容を中心に、中学入試への学び方を創っていく時期になります。</description>
+      <pubDate>Thu, 07 Jan 2010 17:14:42 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学6年生コース　:開始:終了　</title>
+      <link>http://jukutown.com/sample-n/course-detail-2920/</link>
+      <guid>http://jukutown.com/sample-n/course-detail-2920/</guid>
+      <description>■前期/2月〜7月：5年生までに学んだ内容に対し、視点を変えて取り組むことで、より力を伸ばします。■後期/9月〜1月：全科目とも問題演習中心となり、これまでに学んだ内容を確実に得点に結びつけていきます。</description>
+      <pubDate>Thu, 07 Jan 2010 17:11:46 +0900</pubDate>
+    </item>
+    <item>
+      <title>新ホームページを開設致しました </title>
+      <link>http://jukutown.com/sample-n/diary-detail-6799/</link>
+      <guid>http://jukutown.com/sample-n/diary-detail-6799/</guid>
+      <description>新しいホームページを開設致しました。随時更新していきますので、是非皆さんご覧下さい。</description>
+      <pubDate>Thu, 07 Jan 2010 17:12:14 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

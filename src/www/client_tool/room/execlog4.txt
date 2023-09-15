@@ -1,0 +1,39 @@
+X-Powered-By: PHP/4.4.2
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-type: text/html
+
+<HTML>
+  <HEAD>
+    <TITLE>不動産ブログ - エラー</TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+    <STYLE type="text/css">
+    <!--
+      A{ color: black}
+      A:hover { color: red }
+    //-->
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <div align="center">
+      <table width="400" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+	  <td>
+            <br><br>
+            <div align="center">
+              <font size="3" color="#FF6600">
+                <FORM name="error_back" method="POST" action="room_main.php" target="_self">
+                <P>システムエラーが発生しました。<br />管理者へ相談して下さい。</P>
+                <P><</P>
+                <P></P>
+                <INPUT type="submit" value="戻る" />
+                </FORM>
+              </FONT>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </BODY>
+</HTML>

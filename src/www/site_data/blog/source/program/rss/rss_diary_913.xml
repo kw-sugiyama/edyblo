@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>早稲田育英ゼミナール　王子神谷教室</title>
+    <link>http://ojikamiya.waseiku.com/</link>
+    <copyright>早稲田育英ゼミナール王子神谷教室</copyright>
+    <description>東京都北区神谷の学習塾・進学塾・個別指導塾『早稲田育英ゼミナール王子神谷教室』のホームページです。</description>
+    <item>
+      <title>講師募集中！</title>
+      <link>http://ojikamiya.waseiku.com/blog-16155/</link>
+      <guid>http://ojikamiya.waseiku.com/blog-16155/</guid>
+      <description>      大学生・既卒者委細面談。詳しくは教室までご連絡下さい！</description>
+      <pubDate>Wed, 29 Sep 2010 00:54:25 +0900</pubDate>
+    </item>
+    <item>
+      <title>定期試験対策！</title>
+      <link>http://ojikamiya.waseiku.com/blog-15827/</link>
+      <guid>http://ojikamiya.waseiku.com/blog-15827/</guid>
+      <description>９月１１日(土)･１８日(土)の両日、午後１時〜５時まで定期考査勉強会を実施しました。内申点UPに頑張ろう！次回は１１月に予定。無料です。外部生もどうぞ！</description>
+      <pubDate>Sat, 18 Sep 2010 21:47:42 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページを開設しました！</title>
+      <link>http://ojikamiya.waseiku.com/blog-15174/</link>
+      <guid>http://ojikamiya.waseiku.com/blog-15174/</guid>
+      <description>王子神谷教室専用のホームページを開設しました！講習会のお知らせや、先生の日記など、役立つ情報を随時更新してきます！ぜひご覧くださいね！</description>
+      <pubDate>Thu, 02 Sep 2010 10:41:13 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

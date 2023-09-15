@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>エフイーアイ・フォーラム</title>
+    <link>http://jukutown.com/forum/</link>
+    <copyright>フォーラム塾</copyright>
+    <description></description>
+    <item>
+      <title>新ホームページを開設しました。</title>
+      <link>http://jukutown.com/forum/blog-1002/</link>
+      <guid>http://jukutown.com/forum/blog-1002/</guid>
+      <description>新ホームページを開設いたしました。随時更新していきますので、ぜひご覧になってください！</description>
+      <pubDate>Mon, 18 May 2009 22:48:44 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

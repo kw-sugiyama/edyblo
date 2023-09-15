@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>≪早稲田スクール≫〜千葉市緑区おゆみ野の学習塾〜</title>
+    <link>http://wasedaschool.net/</link>
+    <copyright>早稲田スクール</copyright>
+    <description>千葉市緑区おゆみ野の学習塾・進学塾・個別指導塾の早稲田スクールのホームページになります。千葉市おゆみ野で塾をお探しの方はこちらから。（千葉学習塾協同組合加盟塾）</description>
+    <item>
+      <title>塾長ブログ</title>
+      <link>http://wasedaschool.net/blog-20968/</link>
+      <guid>http://wasedaschool.net/blog-20968/</guid>
+      <description>塾長ブログをご覧ください。http://ameblo.jp/wasedaschool/</description>
+      <pubDate>Thu, 28 Jul 2011 16:31:51 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

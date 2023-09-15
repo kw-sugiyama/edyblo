@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>あすなろ学園</title>
+    <link>http://jukutown.com/asunaro/</link>
+    <copyright>あすなろ学園</copyright>
+    <description></description>
+    <item>
+      <title>小学生コース　:開始:終了　</title>
+      <link>http://jukutown.com/asunaro/course-detail-1318/</link>
+      <guid>http://jukutown.com/asunaro/course-detail-1318/</guid>
+      <description>◆基礎学力の定着を図るため、復習を中心とした学習を行います。</description>
+      <pubDate>Fri, 22 May 2009 13:32:49 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生コース　:開始:終了　</title>
+      <link>http://jukutown.com/asunaro/course-detail-1319/</link>
+      <guid>http://jukutown.com/asunaro/course-detail-1319/</guid>
+      <description>◆最重要の英数に重点をおいた時間割です。</description>
+      <pubDate>Fri, 22 May 2009 13:19:57 +0900</pubDate>
+    </item>
+    <item>
+      <title>個別指導　:開始:終了　</title>
+      <link>http://jukutown.com/asunaro/course-detail-1320/</link>
+      <guid>http://jukutown.com/asunaro/course-detail-1320/</guid>
+      <description>◆クラス授業に馴染まれない生徒さんは１対１か１対２で個別指導を実施します。</description>
+      <pubDate>Fri, 22 May 2009 13:19:01 +0900</pubDate>
+    </item>
+    <item>
+      <title>全国学力測定　:開始:終了　</title>
+      <link>http://jukutown.com/asunaro/course-detail-1321/</link>
+      <guid>http://jukutown.com/asunaro/course-detail-1321/</guid>
+      <description>当校では全国余私塾が多数参加している育尋と大阪進研が主催の全国学力テストを学年により年に2〜5回実施し、定期的な学力判定と受験生の進路指導に活用します。</description>
+      <pubDate>Fri, 22 May 2009 12:58:30 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

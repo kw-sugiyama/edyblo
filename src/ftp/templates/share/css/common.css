@@ -1,0 +1,68 @@
+@charset "utf-8";
+/***********************************************/
+/* initialize                                   */
+/***********************************************/
+
+* {
+	margin:0;
+	padding:0;
+	}	
+body {
+	color: #000;
+	background-color: #eaf7fa;
+	}
+img {
+	border: none;
+	}
+hr {
+	display: none;
+	}
+h1,h2,h3,h4,h5,h6,p,dt,dl,dd,ul,li{
+	font-family: "ＭＳ ゴシック", "Osaka-等幅";
+	font-size: 12px;
+	font-weight:normal;
+	font-style:normal;
+	color:#333333;
+	line-height:1.5;
+	}
+
+a{
+	color: #61B9D8;
+	text-decoration:none;
+	}
+
+a:visited{
+	color: #61B9D8;
+}
+
+a:hover{
+  color: #FF6600;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+	}
+
+table{
+	border-collapse:collapse;
+	width:100%;
+	}
+
+th,td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	vertical-align:top;
+	}
+
+.clear{
+	clear:both;
+	}
+	
+.nodisplay {
+	display: none;
+}
+
+.floatleft {
+	float: left;
+}

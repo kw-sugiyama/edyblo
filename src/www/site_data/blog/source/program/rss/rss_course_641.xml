@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ガウディア　東陽教室　【新規開校：3月16日】　</title>
+    <link>http://jukutown.com/gaudia-toyo/</link>
+    <copyright>ガウディア東陽教室</copyright>
+    <description>小学生を対象にした新しい学習教室『ガウディア』東陽教室のホームページです。</description>
+    <item>
+      <title>gaudia学習プログラム　:開始:終了　平日２回</title>
+      <link>http://jukutown.com/gaudia-toyo/course-detail-3381/</link>
+      <guid>http://jukutown.com/gaudia-toyo/course-detail-3381/</guid>
+      <description>ガウディアの学習プログラムは、「導入問題」→「基礎問題」→「発展問題」というプロセスを通して、3つの力が身につくよう設計されています。1.理解する力＝問題の意味を読み取る2.発見する力＝解答するために必要なポイントに気づく3.表現する力＝正解までの道筋を組み立て、答えを導ばすこの学習プロセスを繰り返すことにより、得た知識や情報を活用でる力＝使える力が身につくのです。</description>
+      <pubDate>Thu, 25 Feb 2010 16:22:40 +0900</pubDate>
+    </item>
+    <item>
+      <title>国語のカリュラム　:開始:終了　</title>
+      <link>http://jukutown.com/gaudia-toyo/course-detail-3380/</link>
+      <guid>http://jukutown.com/gaudia-toyo/course-detail-3380/</guid>
+      <description>■ 低学年から「文法・語彙」の基礎を固め長文読解で活用しています。■ 多くの物語や説明文に触れ、場面設定や情景を想像しながら学習します。■ イラストをふんだんに使い、楽しく学習でます。</description>
+      <pubDate>Thu, 25 Feb 2010 16:18:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>算数のカリュラム　:開始:終了　</title>
+      <link>http://jukutown.com/gaudia-toyo/course-detail-3379/</link>
+      <guid>http://jukutown.com/gaudia-toyo/course-detail-3379/</guid>
+      <description>■ 計算だけではなく、図形やグラフなど、小学校の学習項目をほぼ網羅しています。■ 多くの文章題に触れ、場面設定や読解力を養います。■ 計算方法だけでなく、たし算やひせとは何かといった概念から学習します。</description>
+      <pubDate>Thu, 25 Feb 2010 16:13:20 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

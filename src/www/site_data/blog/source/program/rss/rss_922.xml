@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>≪早稲田スクール≫〜千葉市緑区おゆみ野の学習塾〜</title>
+    <link>http://wasedaschool.net/</link>
+    <copyright>早稲田スクール</copyright>
+    <description>千葉市緑区おゆみ野の学習塾・進学塾・個別指導塾の早稲田スクールのホームページになります。千葉市おゆみ野で塾をお探しの方はこちらから。（千葉学習塾協同組合加盟塾）</description>
+    <item>
+      <title>塾長ブログ</title>
+      <link>http://wasedaschool.net/blog-20968/</link>
+      <guid>http://wasedaschool.net/blog-20968/</guid>
+      <description>塾長ブログをご覧ください。http://ameblo.jp/wasedaschool/</description>
+      <pubDate>Thu, 28 Jul 2011 16:31:51 +0900</pubDate>
+    </item>
+    <item>
+      <title>大学受験コース　:開始:終了　</title>
+      <link>http://wasedaschool.net/course-detail-4827/</link>
+      <guid>http://wasedaschool.net/course-detail-4827/</guid>
+      <description>難関大学（早稲田・千葉大・ＭＡＲＣＨを目標）。個別学校対応指導（高１・２）（推薦・ＡＯ）有り。学ぶ姿勢を身につけた大学生として送り出すことを責務とした指導。</description>
+      <pubDate>Fri, 28 Jan 2011 17:52:40 +0900</pubDate>
+    </item>
+    <item>
+      <title>高校受験コース　:開始:終了　月曜日〜日曜日</title>
+      <link>http://wasedaschool.net/course-detail-4826/</link>
+      <guid>http://wasedaschool.net/course-detail-4826/</guid>
+      <description>ワンランク上の高校を目指すための徹底指導。重要視される内申点の更なるアップ。繰り返し行う模擬テストで合格への最短ルートを発見。難関高校、人気進学校を目指しています。テスト対策講座も充実しております。「やる気・努力する姿勢」を重視し、自ら学習する生徒に育てていきます。</description>
+      <pubDate>Fri, 28 Jan 2011 17:56:42 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学錬成コース　:開始:終了　学年・教科により異なります</title>
+      <link>http://wasedaschool.net/course-detail-4821/</link>
+      <guid>http://wasedaschool.net/course-detail-4821/</guid>
+      <description>基礎の充実をベースに、思考力・論理力の育成を目指します。中学入学時に上位を目指す指導です。小学校から学んでいた生徒が、有吉中学年１位を獲得しました</description>
+      <pubDate>Fri, 28 Jan 2011 17:57:05 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

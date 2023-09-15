@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>○○スクール　多摩教室</title>
+    <link>http://jukutown.com/dummy-muto2/</link>
+    <copyright>サンプル進学塾（練習用）</copyright>
+    <description>東大合格１の実力！！難関突破を目指すなら○○スクール</description>
+    <item>
+      <title>平成２２年度　合格実績！！</title>
+      <link>http://jukutown.com/dummy-muto2/blog-25377/</link>
+      <guid>http://jukutown.com/dummy-muto2/blog-25377/</guid>
+      <description>この春卒業された先輩方の進学先でございます！！・○○大学…２名・○×大学…９名・Ｇ女学院大学…７名・？理科大学…２名先輩につづく皆さまの活躍をご期待しています！！</description>
+      <pubDate>Wed, 20 Apr 2011 19:22:40 +0900</pubDate>
+    </item>
+    <item>
+      <title>新生活いかがお過ごしですか？</title>
+      <link>http://jukutown.com/dummy-muto2/blog-25359/</link>
+      <guid>http://jukutown.com/dummy-muto2/blog-25359/</guid>
+      <description>新学期が始まり、20日目となりました。皆さまは充実した新生活を送っていますか？しっかりと勉強をしていますか？去年の自分の学習に納得できなかった生徒もこれを機に心機一転、新しい気持ちで学生生活を送ってはいかがでしょうか？皆さまにとって実りのある一年が送れるよう祈っています。また、そのためにも良いスタートを切れるよう祈っています！！</description>
+      <pubDate>Wed, 20 Apr 2011 14:53:21 +0900</pubDate>
+    </item>
+    <item>
+      <title>東北太平洋沖地震による影響</title>
+      <link>http://jukutown.com/dummy-muto2/blog-25355/</link>
+      <guid>http://jukutown.com/dummy-muto2/blog-25355/</guid>
+      <description>標記の件につき、クオリアは前日に続き３月１５日（火）の授業をすべて休講といたしました。明日以降の開講状況につきましては、別途ご案内いたします。塾生の皆様は引き続き、くれぐれも安全に配慮し、気をつけて過ごしてください。 </description>
+      <pubDate>Wed, 20 Apr 2011 13:23:44 +0900</pubDate>
+    </item>
+    <item>
+      <title>ベーシックコース　:開始:終了　月、水</title>
+      <link>http://jukutown.com/dummy-muto2/course-detail-5917/</link>
+      <guid>http://jukutown.com/dummy-muto2/course-detail-5917/</guid>
+      <description>大学受験を控え、『正直勉強にあまり自信がない』方、本格的な受験勉強を始める前に基礎力をしっかり身につけたい生徒のためのコースです。</description>
+      <pubDate>Wed, 20 Apr 2011 13:13:14 +0900</pubDate>
+    </item>
+    <item>
+      <title>アドバンスコース　:開始:終了　火、木</title>
+      <link>http://jukutown.com/dummy-muto2/course-detail-5918/</link>
+      <guid>http://jukutown.com/dummy-muto2/course-detail-5918/</guid>
+      <description>難関大学を目指す生徒のためのコースです。学年平均あたりのレベルから難関大学の入試で勝負できるレベルまで上げるカリキュラムを当コースでは用意させていただいてます。</description>
+      <pubDate>Wed, 20 Apr 2011 13:17:12 +0900</pubDate>
+    </item>
+    <item>
+      <title>エリートコース　:開始:終了　月、金</title>
+      <link>http://jukutown.com/dummy-muto2/course-detail-5919/</link>
+      <guid>http://jukutown.com/dummy-muto2/course-detail-5919/</guid>
+      <description>最難関大学をはじめ、当コースを受講された9割の生徒はそれぞれの第一志望である難関大学に合格しています。先輩の活躍に続けるよう皆さんの挑戦と努力を期待しております。当コースであなたも一年後に○○大生になってみませんか？</description>
+      <pubDate>Wed, 20 Apr 2011 15:26:25 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

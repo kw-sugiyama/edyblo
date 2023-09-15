@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^<http://narimasu-juku.com/>$ <http://www.fcacademy-english.com/> [R=302,L]
+</IfModule>

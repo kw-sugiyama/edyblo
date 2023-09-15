@@ -1,0 +1,143 @@
+###########################################################
+# php version setting
+AddHandler x-httpd-php442 .php
+
+
+###########################################################
+# php.ini directory
+suPHP_ConfigPath /usr/home/p1097003/html/
+
+
+###########################################################
+# other setting
+<Files ~ "\.ini$">
+	deny from all
+</Files>
+<Files ~ "^\.ht">
+	deny from all
+</Files>
+
+
+###########################################################
+# mod_rewrite setting
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase   /
+#RewriteCond   %{REQUEST_FILENAME} !-f
+#RewriteCond   %{REQUEST_FILENAME} !-d
+
+
+########################################################################################################
+# portal setting
+
+# client_tool
+#RewriteRule   ^client_tool/share/css/login.css                      client_tool/share/css/login.css?%{QUERY_STRING} [L]
+#RewriteRule   ^after_field.php$                                     site_data/portal/after_field.php?%{QUERY_STRING} [L]
+#RewriteRule   ^/$                                                    mentenance.html?%{QUERY_STRING} [L]
+#RewriteRule   ^client_tool/$                                         mentenance.html?%{QUERY_STRING} [L]
+#RewriteRule   ^admin_tool/$                                          mentenance.html?%{QUERY_STRING} [L]
+#RewriteRule   ^([a-z0-9-]+)/$                                        mentenance.html?%{QUERY_STRING} [L]
+
+# search result
+RewriteRule   ^kenbunroku/([a-z]{1}.*)$                             kenbunroku/$1?%{QUERY_STRING} [L]
+
+# search result
+RewriteRule   ^phpinfo.php$                                         site_data/portal/phpinfo.php?%{QUERY_STRING} [L]
+
+# search result
+RewriteRule   ^kiyaku/$                                             site_data/portal/portal_tpl_control.php?tpl_flg=kiyaku%{QUERY_STRING} [L]
+RewriteRule   ^kiyaku/([a-z]{1}.*)$                                 site_data/portal/$1?%{QUERY_STRING} [L]
+RewriteRule   ^sitemap/$                                            site_data/portal/portal_tpl_control.php?tpl_flg=sitemap%{QUERY_STRING} [L]
+RewriteRule   ^sitemap/([a-z]{1}.*)$                                site_data/portal/$1?%{QUERY_STRING} [L]
+RewriteRule   ^privacy/$                                            site_data/portal/portal_tpl_control.php?tpl_flg=privacy%{QUERY_STRING} [L]
+RewriteRule   ^privacy/([a-z]{1}.*)$                                site_data/portal/$1?%{QUERY_STRING} [L]
+RewriteRule   ^com-pro/$                                            site_data/portal/portal_tpl_control.php?tpl_flg=com-pro%{QUERY_STRING} [L]
+RewriteRule   ^com-pro/([a-z]{1}.*)$                                site_data/portal/$1?%{QUERY_STRING} [L]
+RewriteRule   ^forcom/$                                             site_data/portal/portal_tpl_control.php?tpl_flg=forcom%{QUERY_STRING} [L]
+RewriteRule   ^forcom/([a-z]{1}.*)$                                 site_data/portal/$1?%{QUERY_STRING} [L]
+
+# diary
+RewriteRule   ^diary/$                                              site_data/portal/portal_diary.php?%{QUERY_STRING} [L]
+RewriteRule   ^diary/([a-z]{1}.*)$                                  site_data/portal/$1?%{QUERY_STRING} [L]
+
+# search result
+RewriteRule   ^inquiry/([a-z]{1}.*)$                                site_data/portal/$1?%{QUERY_STRING} [L]
+RewriteRule   ^inquiry/$                                            site_data/portal/portal_inquiry.php?%{QUERY_STRING} [L]
+
+# search result
+RewriteRule   ^psearch-result/page-([0-9]+)\.html$                  site_data/portal/portal_build_list.php?p=$1&%{QUERY_STRING} [L]
+RewriteRule   ^psearch-result/([a-z]{1}.*)$                         site_data/portal/$1?%{QUERY_STRING} [L]
+
+# search map pages
+RewriteRule   ^psearch-map/$                                        site_data/portal/portal_search_map.php?%{QUERY_STRING} [L]
+RewriteRule   ^psearch-map/([a-z]{1}.*)$                            site_data/portal/$1?%{QUERY_STRING} [L]
+
+# search pages
+RewriteRule   ^psearch-com-([a-z]+)/([a-z]{1}.*)$                   site_data/portal/$2?page_flg=$1&%{QUERY_STRING} [L]
+RewriteRule   ^psearch-com-([a-z]+)/$                               site_data/portal/portal_search_com.php?page_flg=$1&%{QUERY_STRING} [L]
+
+# search pages
+RewriteRule   ^psearch-([a-z]+)/([a-z]{1}.*)$                       site_data/portal/$2?page_flg=$1&%{QUERY_STRING} [L]
+RewriteRule   ^psearch-([a-z]+)/$                                   site_data/portal/portal_search.php?page_flg=$1&%{QUERY_STRING} [L]
+
+# company pages
+RewriteRule   ^pcompany-list/page-([0-9]+)\.html$                   site_data/portal/portal_company_list.php?p=$1&%{QUERY_STRING} [L]
+RewriteRule   ^pcompany-list/([a-z]{1}.*)$                          site_data/portal/$1?%{QUERY_STRING} [L]
+
+# index
+RewriteRule   ^share/(.*)$                                          site_data/portal/share/$1 [L]
+RewriteRule   ^$                                                    site_data/portal/portal_index.php?{QUERY_STRING} [L]
+
+#####################################################################################################################
+# blog setting
+
+# MapTest
+RewriteRule   ^([a-z0-9-]+)/MapTest.php$                             site_data/blog/MapTest.php?%{QUERY_STRING} [L]
+
+# company
+RewriteRule   ^([a-z0-9-]+)/company/([a-z]{1}.*)$                    site_data/blog/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/company/$                                site_data/blog/com_detail.php?cl=$1&%{QUERY_STRING} [L]
+
+# kojin
+RewriteRule   ^([a-z0-9-]+)/kojin/([a-z]{1}.*)$                      site_data/blog/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/kojin/$                                  site_data/blog/kojin.php?cl=$1&%{QUERY_STRING} [L]
+
+# inquiry
+RewriteRule   ^([a-z0-9-]+)/inquiry/([a-z]{1}.*)$                    site_data/blog/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/inquiry/$                                site_data/blog/inquiry.php?cl=$1&%{QUERY_STRING} [L]
+
+# application
+RewriteRule   ^([a-z0-9-]+)/applicate/([a-z]{1}.*)$                  site_data/blog/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/applicate/$                              site_data/blog/applicate.php?cl=$1&%{QUERY_STRING} [L]
+
+# search
+RewriteRule   ^([a-z0-9-]+)/search-result/page-([0-9]+)\.html$       site_data/blog/build_list.php?cl=$1&p=$2&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/search-result/([a-z]{1}.*)$              site_data/blog/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/search-([a-z]+)/([a-z]{1}.*)$            site_data/blog/$3?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/search-([a-z]+)/$                        site_data/blog/search.php?cl=$1&page_flg=$2&%{QUERY_STRING} [L]
+
+# room_detail
+RewriteRule   ^([a-z0-9-]+)/room-([0-9]+)/([a-z]{1}.*)$              site_data/blog/$3?cl=$1&room_id=$2&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/room-([0-9]+)/$                          site_data/blog/build_detail.php?cl=$1&rid=$2&%{QUERY_STRING} [L]
+
+# category - build
+RewriteRule   ^([a-z0-9-]+)/cate-build-([0-9]+)/page-([0-9]+)\.html$ site_data/blog/build_list.php?mode=category&cl=$1&cid=$2&p=$3&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/cate-build-([0-9]+)/([a-z]{1}.*)$        site_data/blog/$3?mode=category&cid=$2&cl=$1&%{QUERY_STRING} [L]
+
+# category - diary
+RewriteRule   ^([a-z0-9-]+)/cate-diary-([0-9]+)/page-([0-9]+).html$  site_data/blog/staff_diary_list.php?cl=$1&cid=$2&p=$3&m=cate&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/cate-diary-([0-9]+)/([a-z]{1}.*)$        site_data/blog/$3?mode=category&cid=$2&cl=$1&%{QUERY_STRING} [L]
+
+# diary - list_all
+RewriteRule   ^([a-z0-9-]+)/diary-all/page\-([0-9]+).html$           site_data/blog/staff_diary_list.php?cl=$1&p=$2&m=all&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/diary-all/([a-z]{1}.*)$                  site_data/blog/$2?cl=$1&%{QUERY_STRING} [L]
+
+# diary - detail
+RewriteRule   ^([a-z0-9-]+)/diary-detail-([0-9]+)/([a-z]{1}.*)$      site_data/blog/$3?cl=$1&diary_id=$2&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/diary-detail-([0-9]+)/$                  site_data/blog/staff_diary.php?cl=$1&diary_id=$2&%{QUERY_STRING} [L]
+
+# portal - index
+RewriteRule   ^([a-z0-9-]+)/(.*)$                                    site_data/blog/$2?cl=$1&%{QUERY_STRING} [L]
+RewriteRule   ^([a-z0-9-]+)/$                                        site_data/blog/index.php?cl=$1 [L]
+
+

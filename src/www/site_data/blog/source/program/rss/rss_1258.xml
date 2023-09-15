@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>益田学習塾　オフィシャルホームページ　〜新宿区新宿の学習塾・個別指導塾〜</title>
+    <link>http://jukutown.com/dummy-masuda/</link>
+    <copyright>益田学習塾</copyright>
+    <description>益田塾オフィシャル・ホームページ。埼玉県久喜市南栗橋にある個別指導式の学習塾です。小４から中３まで。英検・漢検・数検などの準会場認定校。</description>
+    <item>
+      <title>個別指導式　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-masuda/course-detail-6989/</link>
+      <guid>http://jukutown.com/dummy-masuda/course-detail-6989/</guid>
+      <description>家庭教師と同じように先生が隣で教えてくれる個別指導です。</description>
+      <pubDate>Wed, 04 Apr 2012 20:14:54 +0900</pubDate>
+    </item>
+    <item>
+      <title>習熟学習　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-masuda/course-detail-6991/</link>
+      <guid>http://jukutown.com/dummy-masuda/course-detail-6991/</guid>
+      <description>授業で学んだことをしっかりと定着させるための時間です。</description>
+      <pubDate>Wed, 04 Apr 2012 20:14:15 +0900</pubDate>
+    </item>
+    <item>
+      <title>習熟学習オプション　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-masuda/course-detail-6993/</link>
+      <guid>http://jukutown.com/dummy-masuda/course-detail-6993/</guid>
+      <description>みなさんの学習スタイルに合わせて選べるオプションコースです。</description>
+      <pubDate>Wed, 04 Apr 2012 20:13:44 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

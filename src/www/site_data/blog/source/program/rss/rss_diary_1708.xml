@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>アシストさくら塾　〜千葉市稲毛区の学習塾・個別指導塾〜</title>
+    <link>http://assist-sakurajuku.com/</link>
+    <copyright>アシストさくら塾</copyright>
+    <description></description>
+    <item>
+      <title>高校生に朗報！</title>
+      <link>http://assist-sakurajuku.com/blog-101727/</link>
+      <guid>http://assist-sakurajuku.com/blog-101727/</guid>
+      <description>地元で大手予備校講師の講義が受けられます。８月の開講を目指して現在準備中です。</description>
+      <pubDate>Sun, 17 Jul 2016 21:48:23 +0900</pubDate>
+    </item>
+    <item>
+      <title>夏に差をつける</title>
+      <link>http://assist-sakurajuku.com/blog-101668/</link>
+      <guid>http://assist-sakurajuku.com/blog-101668/</guid>
+      <description>中学３年生　勝負の夏です！中学２年生　特訓の夏です！中学１年生　差をつける夏です！小 学 生    　苦手克服の夏です！「夏期講習生募集」のページをごらんください。　　　</description>
+      <pubDate>Thu, 07 Jul 2016 11:49:07 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

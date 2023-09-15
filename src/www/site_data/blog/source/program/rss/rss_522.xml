@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ガウディア　東尾久三丁目教室</title>
+    <link>http://higashiogu.gaudia-web.com/</link>
+    <copyright>ガウディア東尾久三丁目教室</copyright>
+    <description>小学生を対象にした新しい学習教室『ガウディア』東尾久三丁目教室のホームページです。</description>
+    <item>
+      <title>年末年始休暇のお知らせ</title>
+      <link>http://higashiogu.gaudia-web.com/blog-6456/</link>
+      <guid>http://higashiogu.gaudia-web.com/blog-6456/</guid>
+      <description>≪年末年始休暇のお知らせ≫ガウディア東尾久３丁目教室では、12月27日〜1月5日の間、年末年始休暇期間のため教室をお休みいたします。上記期間のご連絡は、お手数ですが1月6日以降にお願いいたします。</description>
+      <pubDate>Sat, 26 Dec 2009 14:02:30 +0900</pubDate>
+    </item>
+    <item>
+      <title>東尾久三丁目教室のホームページができました。</title>
+      <link>http://higashiogu.gaudia-web.com/blog-5560/</link>
+      <guid>http://higashiogu.gaudia-web.com/blog-5560/</guid>
+      <description>このたび、東尾久三丁目教室のホームページができました！ぜひご覧ください。</description>
+      <pubDate>Fri, 04 Dec 2009 21:18:01 +0900</pubDate>
+    </item>
+    <item>
+      <title>算数のカリキュラム　:開始:終了　</title>
+      <link>http://higashiogu.gaudia-web.com/course-detail-2770/</link>
+      <guid>http://higashiogu.gaudia-web.com/course-detail-2770/</guid>
+      <description>■ 計算だけではなく、図形やグラフなど、小学校の学習項目をほぼ網羅しています。■ 多くの文章題に触れ、場面設定や読解力を養います。■ 計算方法だけでなく、たし算やひき算とは何かといった概念から学習します。</description>
+      <pubDate>Fri, 04 Dec 2009 20:58:49 +0900</pubDate>
+    </item>
+    <item>
+      <title>国語のカリキュラム　:開始:終了　</title>
+      <link>http://higashiogu.gaudia-web.com/course-detail-2761/</link>
+      <guid>http://higashiogu.gaudia-web.com/course-detail-2761/</guid>
+      <description>■ 低学年から「文法・語彙」の基礎を固め長文読解で活用していきます。■ 多くの物語や説明文に触れ、場面設定や情景を想像しながら学習します。■ イラストをふんだんに使い、楽しく学習できます。</description>
+      <pubDate>Fri, 04 Dec 2009 21:00:51 +0900</pubDate>
+    </item>
+    <item>
+      <title>gaudia学習プログラム　:開始:終了　平日２回</title>
+      <link>http://higashiogu.gaudia-web.com/course-detail-2760/</link>
+      <guid>http://higashiogu.gaudia-web.com/course-detail-2760/</guid>
+      <description>ガウディアの学習プログラムは、「導入問題」→「基礎問題」→「発展問題」というプロセスを通して、3つの力が身につくよう設計されています。1.理解する力＝問題の意味を読み取る2.発見する力＝解答するために必要なポイントに気づく3.表現する力＝正解までの道筋を組み立て、答えを導き出すこの学習プロセスを繰り返すことにより、得た知識や情報を活用できる力＝使える力が身につくのです。</description>
+      <pubDate>Fri, 04 Dec 2009 21:06:06 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>まんてん教室 （アップ学習会グループの新しい学習塾）</title>
+    <link>http://jukutown.com/manten/</link>
+    <copyright>まんてん教室</copyright>
+    <description>まんてん教室は、個別指導専門の直営教室数大阪No.1のアップ学習会を運営する(株)パーソナル・サポートの小学生向け少人数学習塾です。</description>
+    <item>
+      <title>まんてん教室夏休みのお知らせ</title>
+      <link>http://jukutown.com/manten/blog-30714/</link>
+      <guid>http://jukutown.com/manten/blog-30714/</guid>
+      <description>まんてん教室は、8月12日(金)〜8月17日(水)の間お休みとなります。たくさん遊んで夏休みを楽しんでください。そして18日から、まんてん教室で一生懸命勉強しましょう！また元気な皆に会えることを楽しみにしています。</description>
+      <pubDate>Fri, 05 Aug 2011 14:56:20 +0900</pubDate>
+    </item>
+    <item>
+      <title>特設サイトをオープンしました</title>
+      <link>http://jukutown.com/manten/blog-27181/</link>
+      <guid>http://jukutown.com/manten/blog-27181/</guid>
+      <description>このたびまんてん教室の特設サイトをオープンしました。今後、随時更新していきたいと思いますので、ぜひご覧ください。</description>
+      <pubDate>Fri, 27 May 2011 15:24:11 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

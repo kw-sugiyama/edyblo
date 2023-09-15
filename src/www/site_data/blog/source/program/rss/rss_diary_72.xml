@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>教室基本情報</title>
+    <link>http://jukutown.com/kanda/</link>
+    <copyright>神田サンプル塾秋葉原教室</copyright>
+    <description>こちらは塾専用ホームページ作成サービス「エディブロ」のサンプルページです。神田サンプル塾・秋葉原教室は架空の塾です。</description>
+    <item>
+      <title>ホームページを開設致しました。</title>
+      <link>http://jukutown.com/kanda/blog-67/</link>
+      <guid>http://jukutown.com/kanda/blog-67/</guid>
+      <description>神田サンプル塾のホームページを開設致しました。コースのご案内や講習の情報など、さらに講師の日記などをお届けする予定です。今後とも、ぜひご覧ください。</description>
+      <pubDate>Wed, 16 Jul 2008 21:30:25 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

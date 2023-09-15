@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://miraijuku.info/blog-30287/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 27 Jul 2011 22:57:11 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://miraijuku.info/blog-28315/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 20 Jul 2011 20:38:40 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://miraijuku.info/course-detail-6181/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 01 Jul 2011 22:25:22 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://miraijuku.info/course-detail-6182/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 01 Jul 2011 23:09:39 +0900</lastmod>
+    </url>
+</urlset>

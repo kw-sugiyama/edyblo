@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>日本教育フォーラム　仙台校</title>
+    <link>http://jef-sendai.com/</link>
+    <copyright>日本教育フォーラム仙台校</copyright>
+    <description></description>
+    <item>
+      <title>在宅指導コース　:開始:終了　火曜日休館日</title>
+      <link>http://jef-sendai.com/course-detail-2092/</link>
+      <guid>http://jef-sendai.com/course-detail-2092/</guid>
+      <description>現在、大手予備校で活躍しているスーパー講師陣が、現役高校生の目線で現役合格を目指す、最高の講義を作り上げました。それを地域、環禁係なく自宅にいながら受講することが出来るコースです。</description>
+      <pubDate>Mon, 14 Sep 2009 16:59:21 +0900</pubDate>
+    </item>
+    <item>
+      <title>個別指導コース　13:00開始22:00終了　日・月・水・金・土</title>
+      <link>http://jef-sendai.com/course-detail-2093/</link>
+      <guid>http://jef-sendai.com/course-detail-2093/</guid>
+      <description>現在の学力状況、穴の開ゑ合、残された時間に応じて、生徒一人一人完全個別のカリュラムで指導を行います。</description>
+      <pubDate>Fri, 11 Sep 2009 14:45:44 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

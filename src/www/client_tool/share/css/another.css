@@ -1,0 +1,63 @@
+@import url(./base.css);
+
+#title {
+	width: 600px;
+	background-color: #20B2AA;
+	color: #FFFFFF;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+#estate{
+	width:700px;
+}
+
+#estate table {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	width: 100%;
+}
+
+#estate td {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 10px;
+	font-size:13px;
+}
+
+#estate td em{
+	font-weight:normal;
+	font-size:12px;
+	color:#FF0000;
+	padding:5px;
+}
+
+#estate th {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 6px solid #CCCCCC;
+	border-right: none;
+	background-color: #20B2AA;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding: 10px;	
+	width: 150px;
+	font-size:13px;
+}
+
+#estate th.must{
+	border-left-color: #FF0000;
+}
+
+.btn_nosize{
+	color:#FFFFFF;
+	background-color:#20B2AA;
+}

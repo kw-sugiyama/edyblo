@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://nagao.gaudia-web.com/blog-9163/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 02 Apr 2010 13:28:52 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://nagao.gaudia-web.com/blog-8754/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Wed, 17 Mar 2010 15:36:49 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://nagao.gaudia-web.com/blog-8680/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 15 Mar 2010 13:37:19 +0900</lastmod>
+    </url>
+</urlset>

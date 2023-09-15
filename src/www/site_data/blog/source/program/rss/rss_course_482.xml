@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>猪瀬綜合セミナー</title>
+    <link>http://jukutown.com/inose-seminar/</link>
+    <copyright>猪瀬綜合セミナー猿島教室</copyright>
+    <description>茨城県坂東市沓掛の学習塾『猪瀬綜合セミナー』のホームページです。</description>
+    <item>
+      <title>高校部　:開始:終了　</title>
+      <link>http://jukutown.com/inose-seminar/course-detail-2545/</link>
+      <guid>http://jukutown.com/inose-seminar/course-detail-2545/</guid>
+      <description>５〜７名の少人数制指導です。基本的に英語と数学の指導ですが、その他の質問がある場合は、いつでも指導いたします。</description>
+      <pubDate>Wed, 11 Nov 2009 17:42:33 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学受験科コース　:開始:終了　</title>
+      <link>http://jukutown.com/inose-seminar/course-detail-2542/</link>
+      <guid>http://jukutown.com/inose-seminar/course-detail-2542/</guid>
+      <description>「私立中学を受験したい」というお子様にお勧めのコースです。</description>
+      <pubDate>Thu, 05 Nov 2009 13:47:03 +0900</pubDate>
+    </item>
+    <item>
+      <title>通常授業クラス　:開始:終了　</title>
+      <link>http://jukutown.com/inose-seminar/course-detail-2543/</link>
+      <guid>http://jukutown.com/inose-seminar/course-detail-2543/</guid>
+      <description>黒板を使用した一斉授業となっております。</description>
+      <pubDate>Thu, 05 Nov 2009 13:46:54 +0900</pubDate>
+    </item>
+    <item>
+      <title>個別指導クラス　:開始:終了　</title>
+      <link>http://jukutown.com/inose-seminar/course-detail-2544/</link>
+      <guid>http://jukutown.com/inose-seminar/course-detail-2544/</guid>
+      <description>カリュラム別の個人指導となっております。</description>
+      <pubDate>Thu, 05 Nov 2009 13:37:48 +0900</pubDate>
+    </item>
+    <item>
+      <title>Ａコース・Ｂコース　:開始:終了　</title>
+      <link>http://jukutown.com/inose-seminar/course-detail-2535/</link>
+      <guid>http://jukutown.com/inose-seminar/course-detail-2535/</guid>
+      <description>「学校の国語・算数の教科をしっかり理解したい！」というお子様にお勧めのコースです。ＡコースとＢコースの２つのコースを設けております。</description>
+      <pubDate>Thu, 05 Nov 2009 12:53:25 +0900</pubDate>
+    </item>
+    <item>
+      <title>Ｅコース　:開始:終了　</title>
+      <link>http://jukutown.com/inose-seminar/course-detail-2541/</link>
+      <guid>http://jukutown.com/inose-seminar/course-detail-2541/</guid>
+      <description>「中学に入って遅れないよう、早いうちから英語を学習したい」というお子様にお勧めのコースです。</description>
+      <pubDate>Thu, 05 Nov 2009 12:53:16 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

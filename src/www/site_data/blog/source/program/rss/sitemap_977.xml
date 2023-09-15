@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://e-soukei.com/blog-22008/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Sat, 19 Feb 2011 16:07:00 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://e-soukei.com/blog-18559/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 29 Nov 2010 19:04:14 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://e-soukei.com/course-detail-5189/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 26 Nov 2010 15:02:38 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://e-soukei.com/course-detail-5195/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 26 Nov 2010 15:41:58 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://e-soukei.com/course-detail-5188/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 30 Nov 2010 19:11:59 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://e-soukei.com/course-detail-5190/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 30 Nov 2010 19:26:53 +0900</lastmod>
+    </url>
+</urlset>

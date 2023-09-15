@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ホープ伸学院</title>
+    <link>http://jukutown.com/hopeshin/</link>
+    <copyright>ホープ伸学院田奈教室</copyright>
+    <description>ホープ伸学院は横浜市青葉区田奈町にある個別指導塾です。ホープ伸学院は、頑張って勉強した努力が報われることを一番大切に思っています。</description>
+    <item>
+      <title>後期中間テストで平均で２４．９点アップ！</title>
+      <link>http://jukutown.com/hopeshin/blog-70543/</link>
+      <guid>http://jukutown.com/hopeshin/blog-70543/</guid>
+      <description>２０１３年１１月　後期中間テストで、在塾生の受講科目　入塾直前の点数対比　平均で２４．９点アップ！</description>
+      <pubDate>Mon, 16 Dec 2013 12:44:44 +0900</pubDate>
+    </item>
+    <item>
+      <title>前期中間テストで平均27点アップ！！</title>
+      <link>http://jukutown.com/hopeshin/blog-63673/</link>
+      <guid>http://jukutown.com/hopeshin/blog-63673/</guid>
+      <description>ホープ伸学院では今回の中間テストで、在塾生の受講科目が、入塾直前の点数対比で平均27点アップしました！！</description>
+      <pubDate>Wed, 26 Jun 2013 15:08:45 +0900</pubDate>
+    </item>
+    <item>
+      <title>2013年　高校入試　全員第一志望校に合格しました！</title>
+      <link>http://jukutown.com/hopeshin/blog-58962/</link>
+      <guid>http://jukutown.com/hopeshin/blog-58962/</guid>
+      <description>ホープ伸学院では、2013年高校入試で、塾生全員が第一志望校に合格しました！</description>
+      <pubDate>Tue, 19 Mar 2013 16:58:41 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

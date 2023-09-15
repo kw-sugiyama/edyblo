@@ -1,0 +1,108 @@
+@import url(./base.css);
+
+#title {
+	width: 840px;
+	background-color: #20B2AA;
+	color: #FFFFFF;
+	margin: 5px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#title2 {
+	width: 850px;
+	background-color: #20B2AA;
+	color: #FFFFFF;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+#blog{
+	width:840px;
+}
+
+#blog table {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	width: 100%;
+}
+
+#blog td {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 0px;
+	font-size:13px;
+}
+
+#blog td.noline {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#blog td.noline725 {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	width:700px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#blog td em{
+	font-weight:normal;
+	font-size:12px;
+	color:#FF0000;
+	padding:0px;
+}
+
+#blog th {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 6px solid #CCCCCC;
+	border-right: none;
+	background-color: #20B2AA;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding: 0px;	
+	width: 150px;
+	font-size:13px;
+}
+
+#blog th.must{
+	border-left-color: #FF0000;
+}
+
+#blog .inptxt{
+	width: 250px;
+}
+
+#blog td.layout{
+	text-align: left;
+	padding: 0 0 0 0px;
+}
+
+#blog #layout table{
+	border: 0;
+}
+
+#blog #layout td{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.btn_nosize{
+	color:#FFFFFF;
+	background-color:#20B2AA;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://kofu.jukutown.com/course-detail-1030/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Fri, 17 May 2013 20:43:00 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kofu.jukutown.com/course-detail-1028/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 27 Apr 2009 16:09:07 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kofu.jukutown.com/course-detail-1029/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 27 Apr 2009 16:08:41 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kofu.jukutown.com/course-detail-850/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Mon, 27 Apr 2009 15:47:23 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kofu.jukutown.com/course-detail-851/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 23 Apr 2009 20:06:42 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://kofu.jukutown.com/course-detail-849/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Thu, 23 Apr 2009 18:42:03 +0900</lastmod>
+    </url>
+</urlset>

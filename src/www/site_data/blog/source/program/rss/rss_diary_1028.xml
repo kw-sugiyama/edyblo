@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>スタンフィールド学院</title>
+    <link>http://jukutown.com/st-gakuin/</link>
+    <copyright>スタンフィールド学院</copyright>
+    <description>スタンフィールド学院は川崎市高津区にある学習塾です。すこやかに育つ教育をモットーとしています。</description>
+    <item>
+      <title>ホームページを開設しました！</title>
+      <link>http://jukutown.com/st-gakuin/blog-21279/</link>
+      <guid>http://jukutown.com/st-gakuin/blog-21279/</guid>
+      <description>みなさん、こんにちは！スタンフィールド学院です。この度、ホームページを新たに立ち上げました。今後もいろいろなお知らせを更新していきますので、ぜひご覧ください！今後ともよろしくお願いいたします。</description>
+      <pubDate>Thu, 10 Feb 2011 14:45:00 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

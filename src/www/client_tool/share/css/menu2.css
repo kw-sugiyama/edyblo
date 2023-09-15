@@ -1,0 +1,139 @@
+@import url(base2.css);
+
+
+body{
+	height: 100%;
+	font-size: 75%;
+	font-family: "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3","Hiragino Kaku Gothic Pro","MS P¥´¥·¥Ã¥¯",sans-serif;
+	line-heigth: 1.5;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #C0C0C0;
+}
+
+p{
+	margin: 5px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 12;
+}
+
+p.contents{
+	margin: 5px 0px 10px 0px;
+}
+
+#navigation a:link {
+	color: #f60;
+}
+
+#navigation a:visited {
+	color: #f60;
+}
+
+#navigation a:active {
+	color: #f60;
+}
+
+#navigation a:hover {
+	color: #c00;
+}
+
+#navigation a{
+	color:#f60;
+}
+
+h3 {
+	background: url(images/title_bg.gif) no-repeat;
+	color: #000 ;
+	font-size: 14px ;
+	margin: 10px 0px 0px 0px;
+	padding: 7px 0px 0px 18px;
+	height: 30px;
+	clear: both;
+}
+
+#navigation{
+	width: 180px;
+	margin: 10px 0px 10px 0px;
+}
+
+#navigation ul{
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	text-align: left;
+}
+
+#navigation li{
+	widht: 172px;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li .hp_link{
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#navigation #back{
+	width: 120px;
+	border: 1px solid #FF0000;
+	padding: 1px;
+}
+
+#navigation .bt_menu{
+	font-weight: bold;
+	text-indent: 20px;
+	padding: 5px 0;
+	background : url(./images/category_b.gif) no-repeat;
+	background-color: #FFFFFF;
+	display: block;
+	width: 172px !important;
+	height: 26px;
+	color: #333333;
+	font-size: 12px;
+}
+
+a.boldlink{
+	font-weight: bold;
+}
+
+.title{
+	font-weight: bold;
+}
+
+/***********************************************/
+/* school box                                  */
+/***********************************************/
+#boxtop{
+	background-image:url(images/topic_top.gif);
+	width: 600px;
+	height: 7px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-repeat: no-repeat;
+	background-position: left bottom
+	}
+
+.boxmiddle{
+	background-image:url(images/topic_middle.gif);
+	width: 600px;
+	background-repeat:repeat-y;
+	padding: 0px 15px 0px 15px;;
+	margin: 0px 0px 0px 0px;
+	}
+	
+.boxmiddle p{
+	padding: 2px 2px 2px 2px;
+	margin: 2px 2px 2px 2px;
+	}
+	
+#boxbottom{
+	background-image:url(images/topic_bottom.gif);
+	width: 600px;
+	height: 7px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>オンデマンドDVD映像予備校　【COMPO Studio】</title>
+    <link>http://jukutown.com/gakusyo/</link>
+    <copyright>学匠</copyright>
+    <description>岡山市表町の、新世代の学習法である映像講義を用いたDVD映像講義予備校です。高校生、大学受験生対象。COMPO講座・河合サテライト講座から受講でます。</description>
+    <item>
+      <title>COMPO講座　:開始:終了　</title>
+      <link>http://jukutown.com/gakusyo/course-detail-976/</link>
+      <guid>http://jukutown.com/gakusyo/course-detail-976/</guid>
+      <description>　高校学習や大学受験学習に必要な内容を単元別に整理したDVD学習（映像学習）です。よくある「単に先生が映像である」ものではなく、一人一人の状況に応じて必要な講義を選択し、知識を組立てていく（COMPOSE）ことがでます。　例えば、センター試験数学1A第二問対策を集中して学習したい！とか、英語を一からやり直したい（1年生の4月レベルから）なんて事も短時間ででてしまうのです。まさに動く参考書（参考書や問題集の文字列が講義映像に置すわる）です。</description>
+      <pubDate>Wed, 22 Apr 2009 21:25:20 +0900</pubDate>
+    </item>
+    <item>
+      <title>河合サテライト講座　:開始:終了　</title>
+      <link>http://jukutown.com/gakusyo/course-detail-979/</link>
+      <guid>http://jukutown.com/gakusyo/course-detail-979/</guid>
+      <description>ご存知、河合塾が発信する衛星通信講座です。ひとつひとつが丁寧に制作された講義で、コンピュータグラフィックスや資料映像が堀で、「映像講義とは何か」の問いかけにひとつの答えを示したものです。岡山市内ではCOMPO Studioでしか受講でません。受講費用・講座名などの詳細は河合サテライトHPかCOMPO Studioまで問い合わせてください。</description>
+      <pubDate>Wed, 22 Apr 2009 21:25:04 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

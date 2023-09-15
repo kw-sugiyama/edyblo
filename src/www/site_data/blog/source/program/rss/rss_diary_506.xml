@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>英数マスタープログラムについて</title>
+    <link>http://jukutown.com/eisupro/</link>
+    <copyright>英数マスタープログラム</copyright>
+    <description></description>
+    <item>
+      <title>ホームページを新しく開設しました！</title>
+      <link>http://jukutown.com/eisupro/blog-4907/</link>
+      <guid>http://jukutown.com/eisupro/blog-4907/</guid>
+      <description>ついにホームページを新しく開設いたしました。今後、開催されたイベントのご報告やお知らせもホームページに掲載していきますので、ぜひご覧くださいね！今後ともよろしくお願いいたします。</description>
+      <pubDate>Mon, 16 Nov 2009 15:08:25 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

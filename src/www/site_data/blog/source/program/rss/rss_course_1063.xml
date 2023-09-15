@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>SKY STEP 教育　≪千葉県認可≫千葉学習塾協同組合加盟優良塾</title>
+    <link>http://skystep-up.com/</link>
+    <copyright>SKY STEP 教育　（スカイステップ教育）</copyright>
+    <description>SKY STEP 教育は千葉県市原市君塚にある学習塾です。≪千葉県認可≫千葉学習塾協同組合加盟優良塾。</description>
+    <item>
+      <title>時間別フリーコース　:開始:終了　月曜日〜土曜日から選択</title>
+      <link>http://skystep-up.com/course-detail-5874/</link>
+      <guid>http://skystep-up.com/course-detail-5874/</guid>
+      <description>１週間あたりの勉強時間が選べます。曜日・時間帯は自由に設定でます(月単位)※病気による欠席などの振替がでるので便利です(2週間以内)</description>
+      <pubDate>Wed, 12 Feb 2014 22:06:33 +0900</pubDate>
+    </item>
+    <item>
+      <title>毎日学習コース　:開始:終了　月〜金の５日間</title>
+      <link>http://skystep-up.com/course-detail-5875/</link>
+      <guid>http://skystep-up.com/course-detail-5875/</guid>
+      <description>毎日SSKで勉強でます。教科・時間帯は自由に選択でます。費用もお得です。※毎日学習コースでは、欠席の場合の振替はでません。</description>
+      <pubDate>Wed, 12 Feb 2014 22:00:14 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

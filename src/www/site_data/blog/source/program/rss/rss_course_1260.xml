@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>新学フォーラム　〜津田沼の学習塾・個別指導塾〜</title>
+    <link>http://shingakuforum.net/</link>
+    <copyright>新学フォーラム津田沼本部教室</copyright>
+    <description>津田沼にある小中学生のための学習塾です。「対話重視型教育TM」「オーダーメイドの個別指導」 をモットーにした授業を行っています。</description>
+    <item>
+      <title>土曜特設講座のご案内　15:00開始20:00終了　土</title>
+      <link>http://shingakuforum.net/course-detail-7013/</link>
+      <guid>http://shingakuforum.net/course-detail-7013/</guid>
+      <description>困ったらいつでも質問でる自習形式の「５科目道場」、英単語を浴びるように学ぶことで自然と身に着く「英単語シャワー」、受験生向けの理社を中心とした「小集団の講座」の３本立て！学習塾新学フォーラムならではの体制で受験生を強力バックアップ！</description>
+      <pubDate>Sat, 28 Apr 2012 19:39:11 +0900</pubDate>
+    </item>
+    <item>
+      <title>通常授業のご案内　15:00開始21:30終了　月〜金</title>
+      <link>http://shingakuforum.net/course-detail-7010/</link>
+      <guid>http://shingakuforum.net/course-detail-7010/</guid>
+      <description>【プロの専任講師が指導する本科授業】講師１人：生徒３人以内のオーダーメイドの個別指導です。担任制ではありませんので、講師との相説気になりません。講師の数は受講生と数に応じてスライド(増減)します。</description>
+      <pubDate>Sat, 28 Apr 2012 18:38:50 +0900</pubDate>
+    </item>
+    <item>
+      <title>底力講座のご案内　16:00開始20:30終了　月〜金</title>
+      <link>http://shingakuforum.net/course-detail-7011/</link>
+      <guid>http://shingakuforum.net/course-detail-7011/</guid>
+      <description>【基礎基本を身につける底力講座】自立学習型で、基礎基本(底力)を身につけ、うっかりミスを根絶させるための講座です。 </description>
+      <pubDate>Sat, 28 Apr 2012 18:38:25 +0900</pubDate>
+    </item>
+    <item>
+      <title>映像教材　15:00開始21:30終了　</title>
+      <link>http://shingakuforum.net/course-detail-7014/</link>
+      <guid>http://shingakuforum.net/course-detail-7014/</guid>
+      <description>自習室を始め、津田沼本部教室では常設で５台以上備えています。予習も復習も、弱点の補強も思いのまま！ご自身の理解度、都合に合わせ自由に使えます。もちろん定期テスト対策にも使えます。映像に対応した問題プリントの出力も可能なので、見ているだけでなく実際に解くことで飽ることなく理解が深まります。塾生であればいつでも自由にご利用いただけますので、ご自由にご利用ください。</description>
+      <pubDate>Sat, 28 Apr 2012 18:38:01 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

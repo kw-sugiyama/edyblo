@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>REX【渋沢スクール】</title>
+    <link>http://jukutown.com/rex-shibusawa/</link>
+    <copyright>REX渋沢スクール</copyright>
+    <description></description>
+    <item>
+      <title>小学生　選べる3コース　:開始:終了　</title>
+      <link>http://jukutown.com/rex-shibusawa/course-detail-375/</link>
+      <guid>http://jukutown.com/rex-shibusawa/course-detail-375/</guid>
+      <description>目指すコース・通える曜日でコース選択がでます。</description>
+      <pubDate>Fri, 23 Jan 2009 20:37:15 +0900</pubDate>
+    </item>
+    <item>
+      <title>aaaaaaaa　:開始:終了　</title>
+      <link>http://jukutown.com/rex-shibusawa/course-detail-376/</link>
+      <guid>http://jukutown.com/rex-shibusawa/course-detail-376/</guid>
+      <description></description>
+      <pubDate>Fri, 23 Jan 2009 19:57:28 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

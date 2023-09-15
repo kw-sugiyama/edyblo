@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>教室情報</title>
+    <link>http://jukutown.com/ies/</link>
+    <copyright>I・E・Sスクール</copyright>
+    <description>　IESスクールは、個別指導と少人数制授業の学習塾です。小学生から、社会人までご希望に応じます。</description>
+    <item>
+      <title>高校生・高卒生対象のコースです。　16:00開始21:30終了　月曜日から土曜日まで（講習中は別です。）</title>
+      <link>http://jukutown.com/ies/course-detail-492/</link>
+      <guid>http://jukutown.com/ies/course-detail-492/</guid>
+      <description>数学は数学検定一級を持っている先生、英語は英語で本を書いた先生など実力十分です。歯科大学合格者を出した実績もあります。</description>
+      <pubDate>Sat, 18 Jul 2009 02:08:18 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学生対象のコースです。　16:00開始21:30終了　月曜日から土曜日まで（講習中は別です。）</title>
+      <link>http://jukutown.com/ies/course-detail-491/</link>
+      <guid>http://jukutown.com/ies/course-detail-491/</guid>
+      <description>生徒一人ひとりの学力に応じて学習の速度を調整します。毎回、小テストを実施し、宿題は生徒の希望に応じて量を調整します。</description>
+      <pubDate>Fri, 17 Jul 2009 16:56:56 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生対象のコースです。　16:00開始21:30終了　月曜日〜土曜日（講習は別です。）</title>
+      <link>http://jukutown.com/ies/course-detail-490/</link>
+      <guid>http://jukutown.com/ies/course-detail-490/</guid>
+      <description>先生と生徒の相征ぴったり合って小学３〜４年に入塾して高校まで在籍している生徒も何人もいます。</description>
+      <pubDate>Fri, 17 Jul 2009 16:53:15 +0900</pubDate>
+    </item>
+    <item>
+      <title>実用英語検定（英検）の対策講座です。　13:00開始22:00終了　月曜日から土曜日まで（講習中は別です。）</title>
+      <link>http://jukutown.com/ies/course-detail-1748/</link>
+      <guid>http://jukutown.com/ies/course-detail-1748/</guid>
+      <description>先生には、留学の経験をもち英語で本を書いた先生もおり、実力十分です。乗の就職をも利にする英検の資格はぜひとっておたいものです。</description>
+      <pubDate>Fri, 17 Jul 2009 16:42:30 +0900</pubDate>
+    </item>
+    <item>
+      <title>日本漢字能力検定（漢検）の対策講座です。　13:00開始22:00終了　</title>
+      <link>http://jukutown.com/ies/course-detail-1823/</link>
+      <guid>http://jukutown.com/ies/course-detail-1823/</guid>
+      <description>当塾からも多数の検定合格者が出ています。もちろん、試験会場は当塾です。</description>
+      <pubDate>Fri, 17 Jul 2009 16:37:16 +0900</pubDate>
+    </item>
+    <item>
+      <title>実用数学技能検定（数検）の対策講座です。　13:00開始22:00終了　</title>
+      <link>http://jukutown.com/ies/course-detail-1822/</link>
+      <guid>http://jukutown.com/ies/course-detail-1822/</guid>
+      <description>数検一級をもっている先生もいます。先生の実力は十分です。必要に応じて人材派遣会社からふさわしい人を派遣してもらいます。</description>
+      <pubDate>Fri, 17 Jul 2009 16:29:50 +0900</pubDate>
+    </item>
+    <item>
+      <title>日本語文章能力検定（文検）の対策講座です。　13:00開始22:00終了　月曜日から</title>
+      <link>http://jukutown.com/ies/course-detail-1824/</link>
+      <guid>http://jukutown.com/ies/course-detail-1824/</guid>
+      <description>日本語も文章能力検定も受けてみるとなかなか深みがあります。</description>
+      <pubDate>Fri, 17 Jul 2009 16:28:05 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

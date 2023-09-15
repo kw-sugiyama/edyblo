@@ -1,0 +1,49 @@
+
+channel{
+	display:block;
+	margin:10px;
+	padding:5px;
+	color:Blue;
+	background:#E0FFFF;
+	border:2px double Gray;
+}
+
+title{
+	display:block;
+	font-size:larger;
+	margin:10px;
+}
+
+link{
+	display:block;
+	font-size:smaller;
+	margin:10px;
+}
+
+item{
+	display:block;
+	margin:10px;
+	padding:5px;
+	color:black;
+	background:#F0F8FF;
+	border:1px solid Gray;
+}
+
+description {
+	display:block;
+	font-size:smarller;
+	margin:10px;
+}
+
+pubDate{
+	display:block;
+	font-size:smarller;
+	margin:10px;
+}
+
+user{
+	display:block;
+	font-size:smarller;
+	margin:10px;
+}
+

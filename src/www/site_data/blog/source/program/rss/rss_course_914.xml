@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>【林塾　玉縄教室】　〜鎌倉市岡本の学習塾・進学塾〜　</title>
+    <link>http://jukutown.com/dummy-hayashijuku/</link>
+    <copyright>林塾玉縄教室</copyright>
+    <description></description>
+    <item>
+      <title>小学部　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-hayashijuku/course-detail-4779/</link>
+      <guid>http://jukutown.com/dummy-hayashijuku/course-detail-4779/</guid>
+      <description>〜小学部の概要〜　◆対象：小学４〜６年生　◆教科：算数・国語（６年生は９月より英・数・国の３教科）　◆時間帯：　　４年生…週１日(計100分)　　５年生…週２日(計200分)　　６年生…週３日(計300分)※学年ごとの指導方針は下拠ご覧ください。</description>
+      <pubDate>Thu, 02 Sep 2010 11:17:37 +0900</pubDate>
+    </item>
+    <item>
+      <title>中学部　:開始:終了　</title>
+      <link>http://jukutown.com/dummy-hayashijuku/course-detail-4780/</link>
+      <guid>http://jukutown.com/dummy-hayashijuku/course-detail-4780/</guid>
+      <description>〜中学部の概要〜　◆対象：小学１〜３年生　◆教科：数学・英語・国語・理科・社会　◆時間帯：週３日(計400分)※学年ごとの指導方針は下拠ご覧ください。</description>
+      <pubDate>Thu, 02 Sep 2010 11:15:45 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

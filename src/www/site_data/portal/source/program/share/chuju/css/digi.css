@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+#index h2#title04 {
+	clear: both;
+	height: 50px;
+	text-indent: -9999px;
+	margin: 0 0 0 10px;
+	background: url(../images/index_h2-04.jpg) 0 0 no-repeat;
+}
+#exam #title01 {
+	background: url(../images/exam_h2-01.jpg) 0 0 no-repeat;
+}
+#exam #title02 {
+	background: url(../images/exam_h3-01.jpg) 0 0 no-repeat;
+	height: 40px;
+	margin: 0;
+	padding: 0
+}
+#exam #title03 {
+	background: url(../images/exam_h3-02.jpg) 0 0 no-repeat;
+	height: 40px;
+	margin: 0;
+	padding: 0
+}
+#exam #title04 {
+	background: url(../images/exam_h3-03.jpg) 0 0 no-repeat;
+	height: 40px;
+	margin: 0;
+	padding: 0
+}
+#exam .dotted {
+	border: 4px dotted #f8b65f;
+	margin: 10px 25px 10px 25px;
+}
+#exam .section h4 {
+	color:#F00;
+	font-weight:bold;
+	text-indent:0;
+	width:552px;
+	height:30px;
+	text-indent:-9999px;
+	display:block;
+}
+#exam .section #title02-1 {
+	background:url(../images/exam_img01.jpg) top left no-repeat;
+}
+#exam .section #title02-2 {
+	background:url(../images/exam_img02.jpg) top left no-repeat;
+}
+#exam .section #title04-1 {
+	background:url(../images/exam_img03.jpg) top left no-repeat;
+}
+#exam .section #title04-2 {
+	background:url(../images/exam_img04.jpg) top left no-repeat;
+}
+#exam .section dl {
+	padding:0;
+	background:#F9FECF;
+	border:dotted 3px #BDDA96;
+	padding:10px;
+	margin:0 0 20px 0;
+}
+#exam .section dl p {
+	padding:0px;
+	line-height:130%;
+	margin:5px;
+}
+#exam .section dl p.orange {
+	padding:0px;
+	line-height:130%;
+	margin:5px;
+	color:#FF6600;
+	font-weight: bold;
+}
+
+#exam .section dl dd {
+	padding:0px;
+	line-height:130%;
+	margin:0;
+}
+#exam .section dl dt {
+	margin:0;
+	padding:0;
+	padding-top:0px;
+}
+#exam .section .note {
+	color:#999;
+}
+#exam .section .txt_01 {
+	color:#F90;
+	margin:10px 0 5px 0px;
+	padding:5px 0px 5px 20px;
+	display:block;
+	background:url(../images/exam_icon01.gif) 0px 5px no-repeat;
+	font-weight:bold;
+}
+#exam .section .txt_03 {
+	color:#F90;
+	margin:10px 0 5px 0px;
+	padding:5px 0px 5px 0px;
+	display:block;
+	font-weight:bold;
+}
+#exam .section .txt_01-1 {
+	color:#556D77;
+	margin:10px 0 5px 0px;
+	padding:5px 0px 5px 20px;
+	background:url(../images/exam_icon02.gif) 0px 5px no-repeat;
+	display:block;
+	font-weight:bold;
+}
+#exam .section .bol_T {
+	border-top:dashed 1px #BBE0B6;
+	padding-top:5px;
+}
+#exam .section .txt_02 {
+	font-weight:bold;
+}
+#exam .section .txt_02_2 {
+	font-weight:bold;
+	color:#369925;
+}
+#exam .refer {
+}
+#exam .refer p {
+	margin: 0 0 15px;
+}
+#exam .refer .refer_title {
+	margin: 3px 8px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #FFE8B8;
+	margin: 0 0 10px;
+}
+#exam .refer table {
+	margin: 0;
+	border: 3px solid #FFE8B8;
+	color: #A86132;
+	background:#FFF;
+}
+#exam .refer table tr th, #exam .refer table tr td, {
+ margin: 0;
+ border: 1px solid #FFE8B8;
+ background: #FFFECC;
+}
+#exam .refer table tr th {
+	background: #F29C33;
+	color: #FFF;
+}
+#exam .refer table tr.colored td {
+	background: #FFFFDD;
+}
+#exam .refer .tb01 {
+	width:525px;
+	margin-top:10px;
+	background:#FFF;
+}
+#exam .refer .tb01 .col1 {
+	width:13%;
+}
+#exam .refer .tb01 .col1_r {
+	font-weight:bold;
+	text-align:center;
+}
+#exam .refer .tb01 .col2, #exam .refer .tb01 .col3 {
+	width:45%;
+}
+#exam .exam_box02 {
+	border:dashed 1px #F60;
+	background:#FF9;
+	padding:10px;
+	color:#62665B;
+	margin:5px 0 5px 0;
+	display:block;
+}
+#exam .exam_box02 b {
+	color:#F60;
+	font-size:16px;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ううううううう</title>
+    <link>http://jukutown.com/hiroshima/</link>
+    <copyright>サンプル学習塾広島教室</copyright>
+    <description></description>
+    <item>
+      <title>お弁当を選んでください</title>
+      <link>http://jukutown.com/hiroshima/blog-6117/</link>
+      <guid>http://jukutown.com/hiroshima/blog-6117/</guid>
+      <description>以下のリンクからお弁当を選んでください。お弁当選択はこちら</description>
+      <pubDate>Wed, 16 Dec 2009 17:21:11 +0900</pubDate>
+    </item>
+    <item>
+      <title>ああああああ</title>
+      <link>http://jukutown.com/hiroshima/blog-659/</link>
+      <guid>http://jukutown.com/hiroshima/blog-659/</guid>
+      <description>あああああああああああああああああああああああああああああああああああああ</description>
+      <pubDate>Fri, 17 Apr 2009 17:38:47 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

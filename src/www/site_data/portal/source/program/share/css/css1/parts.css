@@ -1,0 +1,1221 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***********************************************/
+/* text                                       */
+/***********************************************/
+
+h2 {
+	padding-left: 18px;
+	padding-right: 18px;
+	}
+
+h3 {
+	margin-top:20px;
+	width:544px;
+	height:37px;
+	background-image:url(images/bg_h3.gif);
+	background-repeat:no-repeat;
+	line-height:2;
+	margin-left:10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #23AEE5;
+	padding-left: 35px;
+	padding-top: 4px;
+	}
+
+h3.orange {
+	margin-top:20px;
+	width:544px;
+	height:37px;
+	background-image:url(images/bg_h3orange.gif);
+	background-repeat:no-repeat;
+	line-height:2;
+	margin-left:10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ee8100;
+	padding-left: 35px;
+	padding-top: 4px;
+	}
+
+h3.privacy{
+	margin-top:20px;
+	width:570px;
+	height:32px;
+	background-image:url(images/bg_topic.gif);
+	background-repeat:no-repeat;
+	line-height:2;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+p.arrow{
+	background-image:url(images/icon_arrow02.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+	padding-left: 20px;
+	text-decoration: underline;
+	}
+
+p.area { 
+	line-height:2.0;
+
+	}
+
+p.area label{
+	display: block;
+	float: left;
+	width: 110px;
+	}
+
+p.area label.pl{
+	display: block;
+	float: left;
+	width: 180px;
+	}
+
+
+p.arrow a{
+	color:#333333;
+	text-decoration:underline;
+	}
+
+p.arrow a:hover{
+  color: #FF6600;
+}
+
+.font1{
+	font-size:18px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.blue {
+	color:#009999;
+		}
+.blue2 {
+	color: #003399;
+}
+.pink {
+	color:#ff6699;
+	}
+.white{
+	color:#FFFFFF;
+	}
+.orange{
+	color:#FF6600;
+}
+
+
+.red {
+	color:#FF0000;
+	}
+.small{
+	font-size:10px;
+	}
+.large{
+	font-size:14px;
+	}
+.large2{
+	font-size:18px;
+	font-family: Impact,Charcoal
+	}
+
+.large3{
+	font-size:16px;
+	}
+
+/***********************************************/
+/* search box                                */
+/***********************************************/
+
+.keywordsearch{
+	width:568px;
+	height:321px;
+	margin-left:10px;
+	margin-right:10px;
+	background-image: url(images/searchagain_resized.gif);
+	margin-top: 20px;
+	background-repeat: no-repeat;
+}
+
+.keywordsearchbox{
+	width: 568px;
+	height: 90px;
+}
+
+.areaselect{
+	padding-top: 50px;
+	padding-left: 250px;
+	}
+
+.gladeselect{
+	height: 30px;
+	width: 568px;
+	}
+
+
+.keywordsearchbox2{
+	width: 568px;
+	height: 40px;
+}
+
+.keywordsearchbox3{
+	width: 568px;
+	height: 85px;
+}
+
+.searchbuttonbig
+	{
+	margin-top: 10px;
+	margin-left: 165px;
+	}
+
+
+.areasearch{
+	width:567px;
+	height:330px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(images/areasearch.gif);
+	margin-top: 20px;
+}
+
+.areasearch2{
+	width:567px;
+	height:330px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(images/areasearch2.gif);
+	margin-top: 20px;
+}
+
+.areasearch3{
+	width:567px;
+	height:394px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(images/areasearch3.gif);
+	margin-top: 20px;
+}
+
+.areasearch4_01{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+	height: 30px;
+	width: 567px;
+	background-image: url(images/areasearch4_01.gif);
+}
+
+.areasearch4_02{
+	margin-left:auto;
+	margin-right:auto;
+	width: 567px;
+	background-image: url(images/areasearch4_02.gif);
+	background-repeat: repeat-y;
+	}
+
+.areasearch4_03{
+	margin-left:auto;
+	margin-right:auto;
+	width: 567px;
+	height:6px;
+	background-image: url(images/areasearch4_03.gif);
+	background-repeat: no-repeat;
+	}
+
+
+.arealist{
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+
+.stationsearch{
+	width:567px;
+	height:61px;
+	margin-left:11px;
+	margin-right:12px;
+	background-image: url(images/linesearch.gif);
+	margin-top: 20px;
+}
+.freewordsearch{
+	width:567px;
+	height:61px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(images/freeword.gif);
+	margin-top: 20px;
+}
+
+.searchagain{
+	width:704px;
+	height:321px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(images/searchagain.gif);
+	margin-top: 20px;
+}
+
+.searchagainbox{
+	width: 704px;
+	height: 90px;
+}
+
+.areaselect2{
+	padding-top: 53px;
+	padding-left: 250px;
+	}
+
+.gladeselect2{
+	height: 32px;
+	width: 358px;
+	font-family: "ＭＳ ゴシック", "Osaka－等幅";
+	padding-top: 23px;
+	padding-left: 210px;
+	float: none;
+	font-size: 12px;
+	display: inline-block;
+	}
+
+.gladeselect3{
+	height: 55px;
+	width: 411px;
+	padding-top: 15px;
+	padding-left: 157px;
+	}
+
+
+
+.searchagainbox2{
+	width: 704px;
+	height: 55px;
+}
+
+.guidance{
+	padding-top: 22px;
+	padding-left: 250px;
+	}
+
+.searchagainbox3{
+	width: 568px;
+}
+
+.searchagainbutton
+	{
+	margin-top: 12px;
+	margin-left: 230px;
+	}
+
+
+
+.search1{
+	border: 1px solid #CCCCCC;
+	}
+
+.search1 th{
+	padding:13px;
+	text-align: left;
+	background-color: #E0E0E0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	width: 30%;
+	}
+	
+.search1 td{
+	padding:10px;
+	text-align: left;
+	width: 70%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-color: #FFFFFF;
+	}
+
+.search2{
+	border: 1px solid #CCCCCC;
+	}
+	
+.search2 td{
+	padding:10px;
+	text-align: left;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-color: #FFFFFF;
+	}
+
+.search3{
+	border: 1px solid #CCCCCC;
+	}
+
+.search3 th{
+	padding:10px;
+	text-align: left;
+	background-color: #E0E0E0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	width: 100%;
+	}
+	
+.search3 td{
+	padding:10px;
+	text-align: left;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-color: #FFFFFF;
+	}
+
+.inputarea{
+	height: 20px;
+	width: 160px;
+	}
+
+.inputarea2{
+	height: 20px;
+	width: 120px;
+	}
+
+.inputarea3{
+	height: 20px;
+	width: 300px;
+	}
+
+
+
+.inputbox{
+	width: 160px;
+	margin-top: 18px;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 250px;
+	}
+
+.searchbutton
+	{
+	float: left;
+	width: 111px;
+	margin-top: 9px;
+	padding-left: 25px;
+	}
+
+.submit1{
+	margin-top:20px;
+	text-align:center
+	}
+
+.flash{
+	padding-top: 32px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 3px;
+	}	
+
+.flash2{
+	padding-top: 40px;
+	padding-bottom: 0px;
+	padding-left: 70px;
+	}
+
+.flash3{
+	padding-left: 30px;
+	padding-top: 20px;
+	}		
+	
+/***********************************************/
+/* schoolinfo                                      */
+/***********************************************/
+.schoolinfo{
+	width:567px;
+	background-color: #FFFFFF;
+	height: auto;
+	/*float: left;*/
+	margin: 10px;
+	background-image: url(images/kennsakuline01.gif);
+	background-repeat: repeat;
+}
+
+.schoolinfo2{
+	width:563px;
+	height: auto;
+	margin-top: 10px;
+}
+
+.schoolinfo3{
+	width:567px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(images/bg_schoolinfo2_03.gif);
+	height: 1px;
+}
+
+
+.schoolheader{
+	height: auto;
+	width: 559px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666666;
+	padding: 2px;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	background-image: url(images/bg_schoolinfo_01.gif);
+	background-repeat: repeat;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.schoolheader p{
+	color:#928177;
+	font-size:18px;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 1;
+}
+
+.schoolname {
+	height: auto;
+	width: 559px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #66CCFF;
+	padding: 2px;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.schoolname p{
+	font-size:20px;
+	font-weight: bold;
+	color:#3EA0CD;
+	line-height: 1;
+}
+
+.schoolmark {
+	height: 59px;
+	width: 78px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.schoolicon {
+	height: auto;
+	width:559px;
+	padding: 2px;
+	background-image: url(images/bg_schoolinfo_01_2.gif);
+	background-repeat: repeat;
+	text-indent: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+
+.schoolchara{
+	width:auto;
+	height: auto;
+	font-size: 12px;
+	color: #333333;
+	line-height: 17px;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	margin-left: 10px;
+	margin-right: 10px;
+	font-style: normal;
+}
+
+.schooldetail{
+	width:527px;
+	background-repeat: no-repeat;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	padding: 2px;
+	clear: both
+}
+
+.todetail{
+	width:128px;
+	height:63px;
+	padding-left: 10px;
+	}
+
+.todetail a{
+	display:block;
+	width:128px;
+	height:63px;
+	background-image:url(images/bt_detail.gif);
+	background-repeat: no-repeat;
+	}
+
+.todetail a:hover{
+	display:block;
+	width:128px;
+	height:63px;
+	background-image:url(images/bt_detail.gif);
+	background-repeat: no-repeat;
+	background-position:0px -62px
+	}
+
+
+/***********************************************/
+/* box                                       */
+/***********************************************/
+.box{
+	margin-left:12px;
+	margin-right:30px;
+	margin-top: 10px;
+}
+
+.box2{
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+	padding: 20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.box3{
+	margin-left:14px;
+	margin-right:30px;
+	margin-top: 20px;
+}
+
+.box4{
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.box5{
+	background-color: #FFFFFF;
+	padding: 50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.box6{
+	margin-left:30px;
+	margin-right:30px;
+	margin-top: 10px;
+}
+
+.box7{
+	margin-left:0px;
+	margin-right:30px;
+	margin-top: 10px;
+}
+
+.box8{
+	background-color: #FFFFFF;
+	padding: 20px 20px 20px 14px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.imagebox{
+	width:218px;
+	height: 147px;
+	float: left;
+	text-align:center;
+	margin-bottom:2px;
+}
+
+.imagebox2{
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+}
+
+.school_image1{
+	vertical-align:middle;
+	float:none;
+}
+
+.school_image2{
+	vertical-align:middle;
+	margin-left:-1px;
+}
+
+
+
+.borderblue{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #009999;
+}
+
+.borderbluedot{
+	border-bottom-width: 1px;
+	border-bottom-style:dotted;
+	border-bottom-color: #009999;
+
+}
+
+.bordergray{
+	border: 1px solid #CCCCCC;
+	}
+	
+.bordergraydotted{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+	}
+.bggray{
+	background-color:#E0E0E0;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-color:#FFFFFF;
+	}
+
+.bggray2{
+	background-color:#E0E0E0;
+	border-bottom-color:#E0E0E0;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	}
+
+.bgblue{
+	background-color:#71c5d8;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-color:#FFFFFF;
+	}
+
+.bgwhite{
+	background-color:#FFFFFF;
+	}
+
+/***********************************************/
+/* layout                                       */
+/***********************************************/
+
+.margintlr1{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:50px;
+	}
+
+.margint1{
+	margin-top:5px;
+	}
+
+.margint2{
+	margin-top:10px;
+	}
+.margint3{
+	margin-top:4px;
+	}
+.margint4{
+	margin-top:6px;
+	}
+
+.margint5{
+	margin-top:20px;
+	}
+.marginr1{
+	margin-right:10px;
+	}
+.marginr2{
+	margin-right:5px;
+	}
+.marginbr1{
+	margin-right:10px;
+	margin-bottom:10px;
+	}
+
+.marginl1{
+	margin-left:20px;
+	}
+
+.marginlr1{
+	margin-left:10px;
+	margin-right: 10px;
+	}
+
+.marginlr2{
+	margin-left:3px;
+	margin-right: 10px;
+	}
+	
+.marginb1{
+	margin-bottom:5px;
+	}
+
+.paddingl1{
+	padding-left:5px;
+	}
+
+.paddinglr1{
+	padding-left:5px;
+	padding-right:5px;
+	}
+
+.paddinglr2{
+	padding-left:15px;
+	padding-right: 15px;
+	}
+
+.paddinglr3{
+	padding-left:18px;
+	padding-right: 18px;
+	}
+		
+.paddingt1{
+	padding-top:10px;
+	}
+
+.paddingt2{
+	padding-top:2px;
+	}
+.paddingt3{
+	padding-top:20px;
+	}
+
+
+.paddingtb1{
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+
+.paddingr1{
+	padding-right:20px;
+	}
+
+.paddingr2{
+	padding-right:10px;
+	}
+
+.padding1{
+	padding: 10px;
+	}
+
+.paddingtrl{
+	padding:10px 25px 0px 40px;
+	}
+
+.paddingtrl2{
+	padding:10px 15px 0px 30px;
+	}
+
+.paddingb1{
+	padding-bottom:20px;
+	}
+
+
+.nopadding {
+	padding:0px;
+	}
+
+.widthauto{
+	width:auto;
+	}
+
+.widthfull{
+	width:100%;
+	}
+
+.center{
+	text-align:center;
+	}
+
+.center2{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.right{
+	text-align:right;
+	}
+
+.middle{
+	vertical-align:middle;
+	}
+
+/***********************************************/
+/* table        		                       */
+/***********************************************/
+
+.topic{
+	border-collapse:collapse;
+	width:540px;
+	word-break:break-all;
+	height: auto;
+	font-size: 12px;
+	color: #66CCFF;
+	font-style: normal;
+	}
+
+.td1a{
+	width:23%;
+	}
+
+.td1b{
+	width:77%;
+	}
+
+.td2a{
+	width:3%;
+	vertical-align: middle;
+	padding-top: 5px;
+	height: auto;
+	position: relative;
+	}
+
+.td2b{
+	width:20%;
+	padding-top: 5px;
+	vertical-align: top;
+	height: auto;
+	position: relative;
+	}
+
+.td2c{
+	width:80%;
+	padding-top: 5px;
+	height: auto;
+	position: relative;
+	}
+
+.td3a{
+	width:30%;
+	}
+
+.td3b{
+	width:70%;
+	}
+
+.td4a{
+	width:35%;
+	}
+
+.td4b{
+	width:65%;
+	}
+
+.td5a{
+	width:25%;
+	}
+
+.td5b{
+	width:75%;
+	}
+
+.td6a{
+	width:15%;
+	}
+
+.td6b{
+	width:35%;
+	}
+
+.td7a{
+	width:38%;
+	}
+
+.td7b{
+	width:62%;
+	}
+	
+.td7z{
+	width:38%;
+	vertical-align:top;
+	}
+
+.td8a{
+	width:535px;
+	}
+
+.td9a{
+	width:270px;
+	}
+
+.td10a{
+	width:50%;
+	}
+
+.tableforh3noback{
+	width:555px;
+	height:34px;
+	background-image:url(images/main_topic_bg_1.gif);
+	background-repeat:no-repeat;
+	margin-bottom:3px;
+	}
+
+.tableforh4noback{
+	width:535px;
+	height:29px;
+	background-image: url(images/main_topic_bg3_1.gif);
+	background-repeat:no-repeat;
+	}
+
+.tdosusumeleft{
+	width:160px;
+	padding: 10px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-right-color: #A7D2E5;
+	border-bottom-color: #A7D2E5;
+	vertical-align:top;
+	}
+
+.tdosusumeleft2{
+	width:160px;
+	padding: 10px;
+	border-right-width: 1px;
+	border-top-style: none;
+	border-right-style: dashed;
+	border-left-style: none;
+	border-right-color: #A7D2E5;
+	}
+
+.tdosusumeright{
+	width:160px;
+	padding: 10px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-bottom-color: #A7D2E5;
+	}
+
+.tdosusumeright2{
+	width:160px;
+	padding: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	}
+
+/***********************************************/
+/* form						                   */
+/***********************************************/
+
+.tdform-a{
+	width:23%;
+	vertical-align:middle;
+	text-align:center;
+	background-color:#E0E0E0;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-color:#FFFFFF;
+	padding: 10px;
+	}
+
+.tdform-a p{
+	line-height:2;
+	}
+
+.tdform-b{
+	width:77%;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	}
+
+.tdform-b p{
+	line-height:2;
+	}
+
+.select1{
+	width:60px;
+	}
+
+.select2{
+	width:90px;
+	}
+
+
+/***********************************************/
+/* to pagetop                                  */
+/***********************************************/
+.pagetop {
+	text-align: right;
+	margin-top:20px;
+	padding-right: 15px;
+	margin-bottom: 20px;
+}
+
+
+/***********************************************/
+/* topic path                                  */
+/***********************************************/
+.topicpath {
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 10px;
+	color: #A4968E;
+}
+.topicpath a:link{
+	color: #A4968E;
+}
+
+.topicpath a:visited{
+	color: #A4968E;
+}
+
+.topicpath a:hover{
+  	color: #FF6600;
+}
+
+/***********************************************/
+/* pagenavi                                  */
+/***********************************************/
+
+.pagenavi{
+	margin-top: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: auto;
+	width: 567px;
+	/*float: left;*/
+}
+
+.pagenavileft{
+	color: #A4968E;
+	float:left;
+}
+
+.pagenaviright{
+	color: #A4968E;
+	float:right;
+	text-align: right;
+}
+
+.pagenaviright a{
+	color: #A4968E;
+}
+
+.pagenaviright a:hover{
+	color: #FF6600;
+}
+
+/***********************************************/
+/* item      		                           */
+/***********************************************/
+.item_ex{
+	background-image: url(images/bg_graycircle.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	padding-right:10px;
+	}
+
+/***********************************************/
+/* sitemap      		                       */
+/***********************************************/
+
+.icon_sitemap{
+	background-image: url(images/icon_sitemap.gif);
+	background-repeat: no-repeat;
+	background-position: 1px 4px;
+	padding-left: 18px;
+	}
+
+p.icon_sitemap a{
+	color:#333333;
+	text-decoration:underline;
+	}
+
+p.icon_sitemap a:hover{
+  color: #FF6600;
+}
+
+.icon_sitemap2{
+	background-image: url(images/bg_graycircle.gif);
+	background-repeat: no-repeat;
+	background-position: 1px 6px;
+	padding-left: 18px;
+	}
+
+p.icon_sitemap2 a{
+	color:#333333;
+	}
+
+p.icon_sitemap2 a:hover{
+  color: #FF6600;
+}
+.topbox01 {
+	background-repeat: no-repeat;
+	height: 356px;
+	width: 568px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-image: url(images/keywordsearch.gif);
+	float: none;
+}
+.topbox02 {
+	height: 40px;
+	width: 568px;
+}
+.topbox03 {
+	height: 42px;
+	width: 318px;
+	padding-top: 30px;
+	padding-left: 250px;
+	display: inline-block;
+	float: none;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 12px;
+}
+.topbox04 {
+	height: 80px;
+	width: 388px;
+	padding-top: 20px;
+	padding-left: 180px;
+}
+
+
+/***********************************************/
+/* 追加分                                      */
+/***********************************************/
+.style1 {
+	font-size: 18px;
+	color: #666666;
+	font-weight: bold;
+	height: auto;
+	width: 567px;
+}
+.kekka {
+	width: 567px;
+	height: 3px;
+	background-image: url(images/kekka.gif);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	font-size: 0px;
+	line-height: 0px;
+}
+.kekkaul {
+	height: 1px;
+	width: 567px;
+	background-image: url(images/kennsakuline02.gif);
+	background-repeat: repeat-x;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.title_logo{
+	cursor:pointer;
+	margin-top:23px;
+	margin-left:20px;
+	float:left
+}

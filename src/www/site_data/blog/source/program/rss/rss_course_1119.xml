@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>さんぷる学習塾　練習用</title>
+    <link>http://jukutown.com/dummy-yamada/</link>
+    <copyright>サンプル進学塾（アーカイブ用）</copyright>
+    <description></description>
+    <item>
+      <title>おすすめコース　14:00開始15:20終了　</title>
+      <link>http://jukutown.com/dummy-yamada/course-detail-6158/</link>
+      <guid>http://jukutown.com/dummy-yamada/course-detail-6158/</guid>
+      <description>もう知識だけで戦える時代ではありません！ここ近年、時代背景の変化と共に、中学受験で出題される問題の傾向も変化しています。&lt;table border=&quot;1&quot; bordercolor=&quot;#333333&quot;&gt;&lt;tr&gt;&lt;td&gt;データセル1&lt;/td&gt;&lt;td&gt;データセル2&lt;/td&gt;&lt;td&gt;データセル3&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <pubDate>Mon, 24 Mar 2014 16:31:23 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

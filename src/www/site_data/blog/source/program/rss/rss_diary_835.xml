@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>早稲田育英ゼミナール　粟生教室</title>
+    <link>http://ao.waseiku.com/</link>
+    <copyright>早稲田育英ゼミナール粟生教室</copyright>
+    <description></description>
+    <item>
+      <title>３月２４日合格実績おめでとう！</title>
+      <link>http://ao.waseiku.com/blog-24797/</link>
+      <guid>http://ao.waseiku.com/blog-24797/</guid>
+      <description>茨木西高校　合格おめでとう！</description>
+      <pubDate>Sat, 09 Apr 2011 17:49:38 +0900</pubDate>
+    </item>
+    <item>
+      <title>2011年春　合格実績　おめでとう！</title>
+      <link>http://ao.waseiku.com/blog-22560/</link>
+      <guid>http://ao.waseiku.com/blog-22560/</guid>
+      <description>豊中高校　文理関西大倉高校　特進雲雀丘学園高校　選抜特進追手門学院高校　英数類箕面自由学園高校　特進大阪高校　総合進学</description>
+      <pubDate>Wed, 02 Mar 2011 18:55:13 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページを開設しました！</title>
+      <link>http://ao.waseiku.com/blog-11731/</link>
+      <guid>http://ao.waseiku.com/blog-11731/</guid>
+      <description>粟生教室専用のホームページを開設しました！講習会のお知らせや、先生の日記など、役立つ情報を随時更新してきます！ぜひご覧くださいね！</description>
+      <pubDate>Thu, 03 Jun 2010 14:38:53 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/***********************************************/
+/* globalmenu                                  */
+/***********************************************/
+
+#globalmenuwrapper{
+	width:800px;
+	height:40px;
+	margin-left:13px;
+	background-image: url(images/global_bg_5.gif);
+}
+
+ul#globalmenu{
+	list-style:none;
+	width:100%;
+}
+ul#globalmenu li{
+	list-style:none;
+	float:left;
+	width:160px;
+}
+ul#globalmenu a{
+	display:block;
+	color:#FFFFFF;
+	width:130px;
+	height:25px;
+	padding-top: 12px;
+	padding-left: 30px;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+
+.globalmenu1 a{
+	display:block;
+	background-image: url(images/global_bg_left_5.gif);
+    background-position:0px 0px;
+}
+.globalmenu1 a:hover{
+    background-position:0px -40px;
+}
+
+.globalmenu2 a{
+	display:block;
+	background-image: url(images/global_bg_middle_5.gif);
+    background-position:0px 0px;
+}
+.globalmenu2 a:hover{
+    background-position:0px -40px;
+}
+
+.globalmenu3 a{
+	display:block;
+	background-image: url(images/global_bg_middle_5.gif);
+    background-position:0px 0px;
+}
+.globalmenu3 a:hover{
+    background-position:0px -40px;
+}
+
+.globalmenu4 a{
+	display:block;
+	background-image: url(images/global_bg_middle_5.gif);
+    background-position:0px 0px;
+}
+.globalmenu4 a:hover{
+    background-position:0px -40px;
+}
+
+.globalmenu5 a{
+	display:block;
+	background-image: url(images/global_bg_right_5.gif);
+    background-position:0px 0px;
+}
+.globalmenu5 a:hover{
+    background-position:0px -40px;
+}

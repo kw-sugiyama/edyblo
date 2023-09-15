@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>碧南みなみ学習塾</title>
+    <link>http://hekinan-minami.com/</link>
+    <copyright>碧南みなみ学習塾</copyright>
+    <description>碧南 南中学区の学習塾　碧南みなみ学習塾</description>
+    <item>
+      <title>中学生コース　:開始:終了　火曜〜金曜</title>
+      <link>http://hekinan-minami.com/course-detail-8829/</link>
+      <guid>http://hekinan-minami.com/course-detail-8829/</guid>
+      <description>『全ては定期テストで結果を出すため』南中の授業進度に合わせて授業を行い、南中の定期テストに全力を注いで指導します。週２回通塾の５科目指導で全面サポートしています。</description>
+      <pubDate>Sat, 13 Jan 2018 13:31:37 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース　:開始:終了　火曜〜金曜</title>
+      <link>http://hekinan-minami.com/course-detail-8828/</link>
+      <guid>http://hekinan-minami.com/course-detail-8828/</guid>
+      <description>勉強のやり方・習慣を身に付けて “自分でやる”という姿勢を育てる勉強のやり方を身に付けておくことで効率的な学習が可能になります。「時間ばかりかかる」「成果が見えない」これらは子ども自身が一番辛いこと。だからこそ勉強のやり方を身に付けるということは学習習慣の定着にもつながるのです。では、勉強のやり方を身に付けるポイントとは？  ...それは“自分でやる”ということです。</description>
+      <pubDate>Sun, 23 Nov 2014 20:57:45 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

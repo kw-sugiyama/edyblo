@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ニッケンアカデミー</title>
+    <link>http://jukutown.com/nikken/</link>
+    <copyright>ニッケンアカデミー</copyright>
+    <description></description>
+    <item>
+      <title>各教室のホームページ</title>
+      <link>http://jukutown.com/nikken/blog-68/</link>
+      <guid>http://jukutown.com/nikken/blog-68/</guid>
+      <description>■エディースタッフ教室</description>
+      <pubDate>Tue, 02 Jun 2009 14:35:26 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

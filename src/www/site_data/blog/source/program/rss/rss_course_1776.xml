@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>学習教室 向学舎　〜北名古屋市の学習塾です〜</title>
+    <link>http://jukutown.com/kougakusha-aichi/</link>
+    <copyright>学習教室　向学舎</copyright>
+    <description>北名古屋市の学習塾【学習教室 向学舎】のホームページです。受験対策、定期テスト・内申点対策など、中学生に指導しています。無料送迎も実施中（夜間のみ）。</description>
+    <item>
+      <title>中学生コース　19:00開始21:50終了　</title>
+      <link>http://jukutown.com/kougakusha-aichi/course-detail-10686/</link>
+      <guid>http://jukutown.com/kougakusha-aichi/course-detail-10686/</guid>
+      <description>英語・数学の予習を中心に集団授業（週２回）＋問題演習（週１回）を行います。理科・社会・国語はテスト週間中に実施するテスト対策授業にて集中して行います。　令和５年度の時間割と年間講習料は下砧ようになります。&lt;a href=&quot;http://jukutown.com//cl_img/img_list/1776/35671.pdf&quot; target=&quot;_blank&quot;&gt;中３生&lt;/a&gt;&lt;a href=&quot;http://jukutown.com//cl_img/img_list/1776/35672.pdf&quot; target=&quot;_blank&quot;&gt;中２生&lt;/a&gt;&lt;a href=&quot;http://jukutown.com//cl_img/img_list/1776/35673.pdf&quot; target=&quot;_blank&quot;&gt;中１生&lt;/a&gt;</description>
+      <pubDate>Fri, 18 Aug 2023 15:28:32 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学生コース　17:00開始18:30終了　</title>
+      <link>http://jukutown.com/kougakusha-aichi/course-detail-10687/</link>
+      <guid>http://jukutown.com/kougakusha-aichi/course-detail-10687/</guid>
+      <description>１（講師）対３（生徒）程度の個別スタイルで行いますので、予習復習どちらにも対応いたします。</description>
+      <pubDate>Sat, 22 Oct 2022 17:11:07 +0900</pubDate>
+    </item>
+    <item>
+      <title>小学英語コース　:開始:終了　</title>
+      <link>http://jukutown.com/kougakusha-aichi/course-detail-10967/</link>
+      <guid>http://jukutown.com/kougakusha-aichi/course-detail-10967/</guid>
+      <description>小学校の授業で使われる「We Can!」に準拠した教材を使い小学校の授業ペースに合わせて進めます。</description>
+      <pubDate>Tue, 26 Dec 2017 15:44:20 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+    <loc>http://jukutown.com/gaudia-sample/blog-5088/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 26 Jan 2010 16:45:51 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://jukutown.com/gaudia-sample/blog-3226/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 08 Dec 2009 18:28:59 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://jukutown.com/gaudia-sample/course-detail-440/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 01 Dec 2009 21:50:54 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://jukutown.com/gaudia-sample/course-detail-2651/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 01 Dec 2009 21:55:46 +0900</lastmod>
+    </url>
+    <url>
+    <loc>http://jukutown.com/gaudia-sample/course-detail-2652/</loc>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>Tue, 01 Dec 2009 21:57:58 +0900</lastmod>
+    </url>
+</urlset>

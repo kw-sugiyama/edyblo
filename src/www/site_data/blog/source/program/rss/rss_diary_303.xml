@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>ウエキ塾・ウエキ啓心館</title>
+    <link>http://jukutown.com/ueki/</link>
+    <copyright>ウエキ塾・ウエキ啓心館</copyright>
+    <description>大分県中津市の学習塾『ウエキ塾』『ウエキ啓心館』のホームページです。ウエキ塾は個別対応と一斉授業を組み合わせた塾です。</description>
+    <item>
+      <title>新ホームページを開設いたしました。</title>
+      <link>http://jukutown.com/ueki/blog-993/</link>
+      <guid>http://jukutown.com/ueki/blog-993/</guid>
+      <description>この度、ウエキ塾の新ホームページを開設いたしました。今後、こちらで情報発信をしてまいりますので、何卒よろしくお願いいたします。</description>
+      <pubDate>Mon, 18 May 2009 19:26:38 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

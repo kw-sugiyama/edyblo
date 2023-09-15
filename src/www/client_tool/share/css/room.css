@@ -1,0 +1,88 @@
+@import url(./base.css);
+
+#title {
+	width: 840px;
+	background-color: #20B2AA;
+	color: #FFFFFF;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+#room{
+	width:840px;
+}
+
+#room table {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	width: 100%;
+}
+
+#room td {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: none;
+	border-right: none;
+	padding: 10px;
+	font-size:13px;
+}
+
+#room td em{
+	font-weight:normal;
+	font-size:12px;
+	color:#FF0000;
+	padding:5px;
+}
+
+#room th {
+	border-top: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 6px solid #CCCCCC;
+	border-right: none;
+	background-color: #20B2AA;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding: 10px;	
+	width: 150px;
+	font-size:13px;
+}
+
+#room th.must{
+	border-left-color: #FF0000;
+}
+
+.btn_nosize{
+	color:#FFFFFF;
+	background-color:#20B2AA;
+}
+
+.comment{
+	color: #FF0000;
+	font-size: 10px;
+	
+}
+
+#room td.equip {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	padding: 0px;
+	font-size:13px;
+}
+
+#room table.equip {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	font-size: 100%;
+	width: 100%;
+}
+

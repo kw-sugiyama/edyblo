@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@import "common.css";
+@import "container.css";
+@import "header.css";
+@import "globalmenu.css";
+@import "main.css";
+/*@import "mainbox.css";*/
+@import "footer.css";
+@import "parts.css";

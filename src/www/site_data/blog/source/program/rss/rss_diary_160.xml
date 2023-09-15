@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0">
+  <channel>
+    <title>Ｗｅｌｃｏｍｅ　ｔｏ　ＲＥＸ</title>
+    <link>http://jukutown.com/rex-shibusawa/</link>
+    <copyright>REX渋沢スクール</copyright>
+    <description>生徒・保護者のみなさまに支えられて2年。ＲＥＸ渋沢スクールのホームページです。神奈川県秦野市で学習塾・進学塾をお探しの方は必見。</description>
+    <item>
+      <title>3月・春期講習無料体験実施中</title>
+      <link>http://jukutown.com/rex-shibusawa/blog-297/</link>
+      <guid>http://jukutown.com/rex-shibusawa/blog-297/</guid>
+      <description>春期講習　３月２４日（火）〜４月３日（金）</description>
+      <pubDate>Sat, 07 Mar 2009 17:09:31 +0900</pubDate>
+    </item>
+    <item>
+      <title>ホームページ開設</title>
+      <link>http://jukutown.com/rex-shibusawa/blog-286/</link>
+      <guid>http://jukutown.com/rex-shibusawa/blog-286/</guid>
+      <description>開校2年が経過し、ようやくホームページが開設できました。生徒、保護者の皆様にはリアルタイムで塾の予定などをお伝えできると思います。今後ともよろしくお願いいたします。</description>
+      <pubDate>Sat, 07 Mar 2009 17:08:42 +0900</pubDate>
+    </item>
+  </channel>
+</rss>
